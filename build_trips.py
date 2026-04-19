@@ -28,15 +28,15 @@ def normalize_stop_name(name):
         return ""
     
     # Remove NW, SW, NE, SE suffixes
-    name = re.sub(r"\b(NW|SW|NE|SE)\b", "", name)
+    name = re.sub(r"\b(NW|SW|NE|SE)\b", "", name, flags=re.IGNORECASE)
     
     # Expand Av/Ave to Avenue
-    name = re.sub(r"\b(Av|Ave)\b", "Avenue", name)
+    name = re.sub(r"\b(Av|Ave)\b", "Avenue", name, flags=re.IGNORECASE)
     
     # Expand St to Street, but try to avoid Saints
     saints = ["Albert", "Anne", "Vital", "Rose", "Joachim", "Jude", "Thomas", "James", "Joseph", "Charles", "George", "Paul", "Mary"]
     saints_re = "|".join(saints)
-    name = re.sub(r"\bSt\b(?!\s+(" + saints_re + "))", "Street", name)
+    name = re.sub(r"\bSt\b(?!\s+(" + saints_re + "))", "Street", name, flags=re.IGNORECASE)
     
     # Clean up extra spaces
     name = re.sub(r"\s+", " ", name).strip()

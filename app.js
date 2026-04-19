@@ -1,9 +1,27 @@
 // ===== Stop normalization =====
+const SAINTS = ["albert", "anne", "vital", "rose", "joachim", "jude", "thomas", "james", "joseph", "charles", "george", "paul", "mary"];
+
 function normalizeStop(name) {
   if (!name) return "";
-  let s = name.replace(/\xa0/g, " ").replace(/\s+/g, " ").trim();
-  s = s.replace(/\s+Bay\s+\w+$/i, "");
-  return s.toLowerCase();
+  let s = name.replace(/\xa0/g, " ").replace(/\s+/g, " ").trim().toLowerCase();
+  
+  // Strip Bay suffix
+  s = s.replace(/\s+bay\s+\w+$/i, "");
+  
+  // Strip NW, SW, NE, SE suffixes
+  s = s.replace(/\b(nw|sw|ne|se)\b/g, "");
+  
+  // Expand Av/Ave to avenue
+  s = s.replace(/\b(av|ave)\b/g, "avenue");
+  
+  // Expand St to street, but try to avoid Saints
+  const saintsPattern = SAINTS.join("|");
+  const stRegex = new RegExp(`\\bst\\b(?!\\s+(${saintsPattern}))`, "g");
+  s = s.replace(stRegex, "street");
+  
+  // Clean up spacing and &
+  s = s.replace(/\s*&\s*/g, " & ");
+  return s.replace(/\s+/g, " ").trim();
 }
 
 // ===== CSV parsing =====
