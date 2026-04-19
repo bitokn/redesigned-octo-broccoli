@@ -67,7 +67,9 @@ def parse_trip_html(path):
     rows = soup.find("table").find("tbody").find_all("tr")
     stops = [r.find_all("td")[1].get_text(strip=True) for r in rows]
     label = soup.find("div", class_="ui basic big label").get_text(strip=True)
-    route_no, direction = label.split(maxsplit=1)
+    parts = label.split(maxsplit=1)
+    route_no = parts[0]
+    direction = parts[1] if len(parts) > 1 else "Unknown"
     return {"route_no": route_no, "dir": direction, "stops": stops}
 
 

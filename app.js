@@ -59,71 +59,99 @@ function parseArcCsv(text) {
   const { rows } = parseCsv(text);
   const taps = [];
   for (const row of rows) {
-    const desc = (row["Description"] || "").trim();
+    const desc = (row["Description"] || "").trim().toLowerCase();
+    const isMissing = desc.includes("missing");
     let tapType;
-    if (desc.toLowerCase().includes("missing")) tapType = "missing";
-    else if (desc.includes("Entry")) tapType = "entry";
-    else if (desc.includes("Exit")) tapType = "exit";
+    if (desc.includes("entry")) tapType = "entry";
+    else if (desc.includes("exit")) tapType = "exit";
     else continue;
 
     const ts = parseTimestamp(row["Date"] || "", row["Time"] || "");
     if (!ts) continue;
-    taps.push({ timestamp: ts, location: (row["Location"] || "").trim(), tap_type: tapType });
+    taps.push({
+      timestamp: ts,
+      location: (row["Location"] || "").trim(),
+      tap_type: tapType,
+      is_missing: isMissing,
+    });
   }
   return taps;
 }
 
 // ===== Trip matching =====
-function checkValidTrip(trip, entryStop, exitStop) {
-  const ne = normalizeStop(entryStop);
-  const nx = normalizeStop(exitStop);
+// Uses pre-computed `stops_norm` on trips (added once in prepareTrips).
+function checkValidTrip(trip, entryNorm, exitNorm) {
   let idx = -1;
-  for (let i = 0; i < trip.stops.length; i++) {
-    if (normalizeStop(trip.stops[i]) === ne) { idx = i; break; }
+  for (let i = 0; i < trip.stops_norm.length; i++) {
+    if (trip.stops_norm[i] === entryNorm) { idx = i; break; }
   }
   if (idx === -1) return false;
-  for (let i = idx; i < trip.stops.length; i++) {
-    if (normalizeStop(trip.stops[i]) === nx) return true;
+  for (let i = idx; i < trip.stops_norm.length; i++) {
+    if (trip.stops_norm[i] === exitNorm) return true;
   }
   return false;
 }
 
+function prepareTrips(trips) {
+  for (const t of trips) {
+    if (!t.stops_norm) t.stops_norm = t.stops.map(normalizeStop);
+  }
+  return trips;
+}
+
 function matchTrips(taps, trips) {
+  // Force reverse-chronological order (latest first) so an exit always
+  // precedes its corresponding entry — robust against pre-sorted CSVs.
+  const sorted = [...taps].sort((a, b) => b.timestamp - a.timestamp);
   const travels = [];
   let pendingExit = null;
 
-  const pushUnknown = (entryTap) => {
+  const pushUnknownExit = (entryTap, exitTap = null) => {
     travels.push({
       route_no: "Unknown Route",
       dir: "Unknown Dir",
       entry_stop: entryTap.location,
       exit_stop: "Unknown",
       start_time: entryTap.timestamp,
-      end_time: null,
+      end_time: exitTap ? exitTap.timestamp : null,
       duration_ms: null,
     });
   };
 
-  for (const tap of taps) {
-    const isExit = tap.tap_type === "exit" || tap.tap_type === "missing";
-    if (isExit) {
+  const pushUnknownEntry = (exitTap) => {
+    travels.push({
+      route_no: "Unknown Route",
+      dir: "Unknown Dir",
+      entry_stop: "Unknown",
+      exit_stop: exitTap.location,
+      start_time: exitTap.timestamp,
+      end_time: exitTap.timestamp,
+      duration_ms: null,
+    });
+  };
+
+  for (const tap of sorted) {
+    if (tap.tap_type === "exit") {
       pendingExit = tap;
       continue;
     }
     if (tap.tap_type !== "entry") continue;
 
-    if (pendingExit === null) { pushUnknown(tap); continue; }
+    if (pendingExit === null) { pushUnknownExit(tap); continue; }
 
     const entryTap = tap;
     const exitTap = pendingExit;
     pendingExit = null;
 
-    if (exitTap.tap_type === "missing") { pushUnknown(entryTap); continue; }
+    if (exitTap.is_missing) { pushUnknownExit(entryTap); continue; }
+    if (entryTap.is_missing) { pushUnknownEntry(exitTap); continue; }
 
     const entryStop = entryTap.location;
     const exitStop = exitTap.location || "Unknown";
+    const entryNorm = normalizeStop(entryStop);
+    const exitNorm = normalizeStop(exitStop);
 
-    const matched = trips.filter((t) => checkValidTrip(t, entryStop, exitStop));
+    const matched = trips.filter((t) => checkValidTrip(t, entryNorm, exitNorm));
     let chosenIdx = -1;
     if (matched.length === 1) chosenIdx = 0;
     else if (matched.length > 1) {
@@ -228,7 +256,21 @@ function fmtTime(d) {
   return d.toLocaleTimeString(undefined, { hour: "2-digit", minute: "2-digit" });
 }
 
-function renderCalendar(travels, year, month, gridEl, legendEl, titleEl) {
+// Build a colorMap once across the entire dataset so palette assignments
+// stay stable across month navigation and alternative toggling. Includes
+// all alternatives so a stripe's color doesn't shift when cycled.
+function buildColorMapForDataset(travels) {
+  const pairs = [];
+  for (const t of travels) {
+    if (t.route_no !== "Unknown Route") pairs.push([t.route_no, t.dir]);
+    if (t.alternatives) {
+      for (const a of t.alternatives) pairs.push([a.route_no, a.dir]);
+    }
+  }
+  return buildColorMap(pairs);
+}
+
+function renderCalendar(travels, year, month, colorMap, gridEl, legendEl, titleEl) {
   titleEl.textContent = `${MONTH_NAMES[month]} ${year}`;
   gridEl.innerHTML = "";
   legendEl.innerHTML = "";
@@ -236,10 +278,6 @@ function renderCalendar(travels, year, month, gridEl, legendEl, titleEl) {
   const inMonth = travels.filter((t) =>
     t.start_time.getFullYear() === year && t.start_time.getMonth() === month
   );
-  const routePairs = inMonth
-    .filter((t) => t.route_no !== "Unknown Route")
-    .map((t) => [t.route_no, t.dir]);
-  const colorMap = buildColorMap(routePairs);
 
   // Group by day
   const byDay = {};
@@ -320,10 +358,19 @@ function renderCalendar(travels, year, month, gridEl, legendEl, titleEl) {
     gridEl.appendChild(blank);
   }
 
-  // Legend (sorted by route then dir)
-  const legendItems = Object.entries(colorMap)
-    .flatMap(([route, dirs]) => Object.entries(dirs).map(([dir, color]) => ({ route, dir, color })))
-    .sort((a, b) => a.route.localeCompare(b.route) || a.dir.localeCompare(b.dir));
+  // Legend: only routes active in the current month (colors come from the
+  // dataset-wide colorMap so they stay stable across navigation).
+  const seen = new Set();
+  const legendItems = [];
+  for (const t of inMonth) {
+    if (t.route_no === "Unknown Route") continue;
+    const key = `${t.route_no}|${t.dir}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    const color = colorMap[t.route_no]?.[t.dir];
+    if (color) legendItems.push({ route: t.route_no, dir: t.dir, color });
+  }
+  legendItems.sort((a, b) => a.route.localeCompare(b.route) || a.dir.localeCompare(b.dir));
   for (const item of legendItems) {
     const wrap = document.createElement("div");
     wrap.className = "legend-item";
@@ -341,6 +388,7 @@ function renderCalendar(travels, year, month, gridEl, legendEl, titleEl) {
 const state = {
   trips: [],
   travels: [],
+  colorMap: {},
   year: null,
   month: null,
 };
@@ -358,12 +406,12 @@ function refresh() {
   const grid = document.getElementById("grid");
   const legend = document.getElementById("legend");
   const title = document.getElementById("title");
-  renderCalendar(state.travels, state.year, state.month, grid, legend, title);
+  renderCalendar(state.travels, state.year, state.month, state.colorMap, grid, legend, title);
 }
 
 async function loadTrips() {
   const res = await fetch("trips.json");
-  state.trips = await res.json();
+  state.trips = prepareTrips(await res.json());
 }
 
 function handleFile(file) {
@@ -371,6 +419,7 @@ function handleFile(file) {
   reader.onload = () => {
     const taps = parseArcCsv(String(reader.result));
     state.travels = matchTrips(taps, state.trips);
+    state.colorMap = buildColorMapForDataset(state.travels);
     const { year, month } = mostRecentMonth(state.travels);
     state.year = year;
     state.month = month;
