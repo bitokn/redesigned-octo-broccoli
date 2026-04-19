@@ -1,9 +1,46 @@
 // ===== Stop normalization =====
+const SAINTS = ["albert", "anne", "vital", "rose", "joachim", "jude", "thomas", "james", "joseph", "charles", "george", "paul", "mary", "churchill", "gabriel"];
+
 function normalizeStop(name) {
   if (!name) return "";
-  let s = name.replace(/\xa0/g, " ").replace(/\s+/g, " ").trim();
-  s = s.replace(/\s+Bay\s+\w+$/i, "");
-  return s.toLowerCase();
+  let s = name.replace(/\xa0/g, " ").replace(/\s+/g, " ").trim().toLowerCase();
+  
+  // Strip Bay suffix
+  s = s.replace(/\s+bay\s+\w+$/i, "");
+  
+  // Normalize Stop/Station (common in LRT)
+  s = s.replace(/\s+(stop|station)\b/g, "");
+  
+  // Strip NW, SW, NE, SE suffixes
+  s = s.replace(/\b(nw|sw|ne|se)\b/g, "");
+  
+  // Expand abbreviations
+  const expansions = {
+    "\\b(av|ave)\\b": "avenue",
+    "\\brd\\b": "road",
+    "\\bdr\\b": "drive",
+    "\\bblvd\\b": "boulevard",
+    "\\bcres\\b": "crescent",
+    "\\bct\\b": "court",
+    "\\bpl\\b": "place",
+    "\\bway\\b": "way",
+    "\\btr\\b": "trail",
+  };
+  for (const [abbr, full] of Object.entries(expansions)) {
+    s = s.replace(new RegExp(abbr, "g"), full);
+  }
+  
+  // Expand St to street, but try to avoid Saints
+  const saintsPattern = SAINTS.join("|");
+  const stRegex = new RegExp("\\bst\\b(?!\\.?\\s+(" + saintsPattern + "))", "g");
+  s = s.replace(stRegex, "street");
+  
+  // Strip A/B/C suffixes from street/avenue numbers (e.g., 105A St -> 105 St)
+  s = s.replace(/\b(\d+)[a-z]\b/g, "$1");
+  
+  // Clean up spacing and &
+  s = s.replace(/\s*&\s*/g, " & ");
+  return s.replace(/\s+/g, " ").trim();
 }
 
 // ===== CSV parsing =====
@@ -115,6 +152,7 @@ function matchTrips(taps, trips) {
       start_time: entryTap.timestamp,
       end_time: exitTap ? exitTap.timestamp : null,
       duration_ms: null,
+      unknown_reason: "missing_tap",
     });
   };
 
@@ -127,6 +165,7 @@ function matchTrips(taps, trips) {
       start_time: exitTap.timestamp,
       end_time: exitTap.timestamp,
       duration_ms: null,
+      unknown_reason: "missing_tap",
     });
   };
 
@@ -151,7 +190,19 @@ function matchTrips(taps, trips) {
     const entryNorm = normalizeStop(entryStop);
     const exitNorm = normalizeStop(exitStop);
 
-    const matched = trips.filter((t) => checkValidTrip(t, entryNorm, exitNorm));
+    const matchedAll = trips.filter((t) => checkValidTrip(t, entryNorm, exitNorm));
+    
+    // Deduplicate by route_no and dir
+    const matched = [];
+    const seen = new Set();
+    for (const t of matchedAll) {
+      const key = `${t.route_no}|${t.dir}`;
+      if (!seen.has(key)) {
+        matched.push(t);
+        seen.add(key);
+      }
+    }
+
     let chosenIdx = -1;
     if (matched.length === 1) chosenIdx = 0;
     else if (matched.length > 1) {
@@ -181,6 +232,7 @@ function matchTrips(taps, trips) {
         start_time: entryTap.timestamp,
         end_time: exitTap.timestamp,
         duration_ms: exitTap.timestamp - entryTap.timestamp,
+        unknown_reason: "no_matching_trip",
       });
     }
   }
@@ -324,9 +376,17 @@ function renderCalendar(travels, year, month, colorMap, gridEl, legendEl, titleE
         const stripe = document.createElement("div");
         stripe.className = "stripe";
         const known = t.route_no !== "Unknown Route" && colorMap[t.route_no]?.[t.dir];
-        stripe.style.background = known || "#d0d0d0";
+        if (known) {
+          stripe.style.background = known;
+        } else {
+          stripe.classList.add(t.unknown_reason === "missing_tap" ? "missing" : "unmatched");
+        }
         const dur = t.duration_ms != null ? `${Math.round(t.duration_ms / 60000)}m` : "?";
         let title = `${t.route_no} ${t.dir}\n${t.entry_stop} → ${t.exit_stop}\n${fmtTime(t.start_time)}–${fmtTime(t.end_time)} (${dur})`;
+        
+        if (t.unknown_reason === "missing_tap") title += "\n[Missing Tap]";
+        else if (t.unknown_reason === "no_matching_trip") title += "\n[No matching trip in trips.json]";
+        
         if (t.alternatives) {
           stripe.classList.add("ambiguous");
           const altList = t.alternatives.map((a, i) => `${i === t.alt_index ? "● " : "○ "}${a.route_no} ${a.dir}`).join("\n");
