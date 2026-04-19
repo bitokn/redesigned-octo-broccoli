@@ -177,7 +177,19 @@ function matchTrips(taps, trips) {
     const entryNorm = normalizeStop(entryStop);
     const exitNorm = normalizeStop(exitStop);
 
-    const matched = trips.filter((t) => checkValidTrip(t, entryNorm, exitNorm));
+    const matchedAll = trips.filter((t) => checkValidTrip(t, entryNorm, exitNorm));
+    
+    // Deduplicate by route_no and dir
+    const matched = [];
+    const seen = new Set();
+    for (const t of matchedAll) {
+      const key = `${t.route_no}|${t.dir}`;
+      if (!seen.has(key)) {
+        matched.push(t);
+        seen.add(key);
+      }
+    }
+
     let chosenIdx = -1;
     if (matched.length === 1) chosenIdx = 0;
     else if (matched.length > 1) {

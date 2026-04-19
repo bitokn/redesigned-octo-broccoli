@@ -1,132 +1,6 @@
 [
   {
     "route_no": "1",
-    "dir": "1 Century Park (Am)",
-    "stops": [
-      "Alexandra Arena",
-      "50 Street & Athapaskan Drive",
-      "44 Street & Rollyview Road",
-      "42 Street & Rollyview Road",
-      "Black Gold Drive & Rollyview Road",
-      "Leduc Recreation Centre",
-      "44 Street and Black Gold Drive",
-      "Black Gold Drive & 48 Street",
-      "Alexandra Arena",
-      "50 Street & 52 Avenue",
-      "50 Street & 57 Avenue",
-      "50 Street & 61 Avenue",
-      "50 Street & 64 Avenue",
-      "Century Park Transit Centre"
-    ]
-  },
-  {
-    "route_no": "1",
-    "dir": "1 Century Park (Pm)",
-    "stops": [
-      "Alexandra Arena",
-      "50 Street & 52 Avenue",
-      "50 Street & 57 Avenue",
-      "50 Street & 61 Avenue",
-      "50 Street & 64 Avenue",
-      "45 Street & 66 Avenue",
-      "45 Street & 66 Avenue",
-      "45 Street & 70 Avenue",
-      "43 Street & Allard Avenue",
-      "43 Street & 77 Avenue",
-      "43 Street & 81 Avenue",
-      "42 Street & 82 Avenue",
-      "7 Street & 12 Avenue",
-      "Leduc County Centre",
-      "5 Street & 12 Avenue",
-      "5 Street & 14 Avenue",
-      "5 Street & 15 Avenue",
-      "5 Street & 17 Avenue",
-      "5 Street & 18 Avenue",
-      "5 Street & 19 Avenue",
-      "5 Street & 20 Avenue",
-      "5 Street & 22 Avenue",
-      "5 Street & 23 Avenue",
-      "5 Street & 24 Avenue",
-      "5 Street & 27 Avenue",
-      "5 Street & 30 Avenue",
-      "8 Street & 30 Avenue",
-      "8 Street & 32 Avenue",
-      "8 Street & 34 Avenue",
-      "36 Avenue & 8 Street",
-      "36 Avenue & 9 Street",
-      "36 Avenue & 11 Street",
-      "11 Street & 37 Avenue",
-      "13 Street & Spine Road",
-      "13 Street & 39 Avenue",
-      "13 Street & 38 Avenue",
-      "39 Avenue & Spine Road",
-      "Century Park Transit Centre"
-    ]
-  },
-  {
-    "route_no": "1",
-    "dir": "1 Leduc (Am)",
-    "stops": [
-      "Century Park Transit Centre",
-      "Amazon YEG1",
-      "13 Street & 38 Avenue",
-      "13 Street & 39 Avenue",
-      "37 Avenue & Spine Road",
-      "11 Street & 37 Avenue",
-      "36 Avenue & 11 Street",
-      "36 Avenue & 9 Street",
-      "36 Avenue & 8 Street",
-      "8 Street & 34 Avenue",
-      "8 Street & 30 Avenue",
-      "5 Street & 30 Avenue",
-      "5 Street & 27 Avenue",
-      "5 Street & 25 Avenue",
-      "5 Street & 24 Avenue",
-      "5 Street & 23 Avenue",
-      "5 Street & 22 Avenue",
-      "5 Street & 20 Avenue",
-      "5 Street & 20 Avenue",
-      "5 Street & 18 Avenue",
-      "5 Street & 17 Avenue",
-      "5 Street & 15 Avenue",
-      "5 Street & 14 Avenue",
-      "Leduc County Centre",
-      "42 Street & 82 Avenue",
-      "43 Street & 81 Street",
-      "43 Street & 77 Avenue",
-      "46 Street & Allard Way",
-      "45 Street & 70 Avenue",
-      "45 Street & 66 Avenue",
-      "45 Street & 66 Avenue",
-      "50 Street & 65 Avenue",
-      "50 Street & 61 Avenue",
-      "50 Street & 57 Avenue",
-      "50 Street & 52 Avenue",
-      "Alexandra Arena"
-    ]
-  },
-  {
-    "route_no": "1",
-    "dir": "1 Leduc (Pm)",
-    "stops": [
-      "Century Park Transit Centre",
-      "50 Street & 65 Avenue",
-      "50 Street & 61 Avenue",
-      "50 Street & 57 Avenue",
-      "50 Street & 52 Avenue",
-      "Alexandra Arena",
-      "50 Street & Athapaskan Drive",
-      "44 Street & Rollyview Road",
-      "42 Street & Rollyview Road",
-      "Black Gold Drive & Rollyview Road",
-      "Leduc Recreation Centre",
-      "44 Street and Black Gold Drive",
-      "Black Gold Drive & 48 Street",
-      "Alexandra Arena"
-    ]
-  },
-  {
-    "route_no": "1",
     "dir": "1A Capilano Via 106 Ave",
     "stops": [
       "102 Street & MacDonald Drive",
@@ -300,8 +174,134 @@
     ]
   },
   {
+    "route_no": "1",
+    "dir": "Century Park (Am)",
+    "stops": [
+      "Alexandra Arena",
+      "50 Street & Athapaskan Drive",
+      "44 Street & Rollyview Road",
+      "42 Street & Rollyview Road",
+      "Black Gold Drive & Rollyview Road",
+      "Leduc Recreation Centre",
+      "44 Street and Black Gold Drive",
+      "Black Gold Drive & 48 Street",
+      "Alexandra Arena",
+      "50 Street & 52 Avenue",
+      "50 Street & 57 Avenue",
+      "50 Street & 61 Avenue",
+      "50 Street & 64 Avenue",
+      "Century Park Transit Centre"
+    ]
+  },
+  {
+    "route_no": "1",
+    "dir": "Century Park (Pm)",
+    "stops": [
+      "Alexandra Arena",
+      "50 Street & 52 Avenue",
+      "50 Street & 57 Avenue",
+      "50 Street & 61 Avenue",
+      "50 Street & 64 Avenue",
+      "45 Street & 66 Avenue",
+      "45 Street & 66 Avenue",
+      "45 Street & 70 Avenue",
+      "43 Street & Allard Avenue",
+      "43 Street & 77 Avenue",
+      "43 Street & 81 Avenue",
+      "42 Street & 82 Avenue",
+      "7 Street & 12 Avenue",
+      "Leduc County Centre",
+      "5 Street & 12 Avenue",
+      "5 Street & 14 Avenue",
+      "5 Street & 15 Avenue",
+      "5 Street & 17 Avenue",
+      "5 Street & 18 Avenue",
+      "5 Street & 19 Avenue",
+      "5 Street & 20 Avenue",
+      "5 Street & 22 Avenue",
+      "5 Street & 23 Avenue",
+      "5 Street & 24 Avenue",
+      "5 Street & 27 Avenue",
+      "5 Street & 30 Avenue",
+      "8 Street & 30 Avenue",
+      "8 Street & 32 Avenue",
+      "8 Street & 34 Avenue",
+      "36 Avenue & 8 Street",
+      "36 Avenue & 9 Street",
+      "36 Avenue & 11 Street",
+      "11 Street & 37 Avenue",
+      "13 Street & Spine Road",
+      "13 Street & 39 Avenue",
+      "13 Street & 38 Avenue",
+      "39 Avenue & Spine Road",
+      "Century Park Transit Centre"
+    ]
+  },
+  {
+    "route_no": "1",
+    "dir": "Leduc (Am)",
+    "stops": [
+      "Century Park Transit Centre",
+      "Amazon YEG1",
+      "13 Street & 38 Avenue",
+      "13 Street & 39 Avenue",
+      "37 Avenue & Spine Road",
+      "11 Street & 37 Avenue",
+      "36 Avenue & 11 Street",
+      "36 Avenue & 9 Street",
+      "36 Avenue & 8 Street",
+      "8 Street & 34 Avenue",
+      "8 Street & 30 Avenue",
+      "5 Street & 30 Avenue",
+      "5 Street & 27 Avenue",
+      "5 Street & 25 Avenue",
+      "5 Street & 24 Avenue",
+      "5 Street & 23 Avenue",
+      "5 Street & 22 Avenue",
+      "5 Street & 20 Avenue",
+      "5 Street & 20 Avenue",
+      "5 Street & 18 Avenue",
+      "5 Street & 17 Avenue",
+      "5 Street & 15 Avenue",
+      "5 Street & 14 Avenue",
+      "Leduc County Centre",
+      "42 Street & 82 Avenue",
+      "43 Street & 81 Street",
+      "43 Street & 77 Avenue",
+      "46 Street & Allard Way",
+      "45 Street & 70 Avenue",
+      "45 Street & 66 Avenue",
+      "45 Street & 66 Avenue",
+      "50 Street & 65 Avenue",
+      "50 Street & 61 Avenue",
+      "50 Street & 57 Avenue",
+      "50 Street & 52 Avenue",
+      "Alexandra Arena"
+    ]
+  },
+  {
+    "route_no": "1",
+    "dir": "Leduc (Pm)",
+    "stops": [
+      "Century Park Transit Centre",
+      "50 Street & 65 Avenue",
+      "50 Street & 61 Avenue",
+      "50 Street & 57 Avenue",
+      "50 Street & 52 Avenue",
+      "Alexandra Arena",
+      "50 Street & Athapaskan Drive",
+      "44 Street & Rollyview Road",
+      "42 Street & Rollyview Road",
+      "Black Gold Drive & Rollyview Road",
+      "Leduc Recreation Centre",
+      "44 Street and Black Gold Drive",
+      "Black Gold Drive & 48 Street",
+      "Alexandra Arena"
+    ]
+  },
+  {
     "route_no": "10",
-    "dir": "10 Leduc To Leduc Cmn Via Prem Outlet",
+    "dir": "Leduc To Leduc Cmn Via Prem Outlet",
     "stops": [
       "Outlet Mall",
       "Costco",
@@ -333,7 +333,7 @@
   },
   {
     "route_no": "10",
-    "dir": "10 Nisku/Airport Leduc",
+    "dir": "Nisku/Airport Leduc",
     "stops": [
       "Alexandra Arena",
       "50 Street & 52 Avenue",
@@ -353,7 +353,7 @@
   },
   {
     "route_no": "10",
-    "dir": "10 Nisku/Airport Leduc",
+    "dir": "Nisku/Airport Leduc",
     "stops": [
       "Alexandra Arena",
       "50 Street & 52 Avenue",
@@ -381,7 +381,7 @@
   },
   {
     "route_no": "101",
-    "dir": "101 Abbottsfield",
+    "dir": "Abbottsfield",
     "stops": [
       "Stadium TC on 111 Avenue",
       "84 Street & 110 Avenue",
@@ -419,7 +419,7 @@
   },
   {
     "route_no": "101",
-    "dir": "101 Stadium",
+    "dir": "Stadium",
     "stops": [
       "Abbottsfield Transit Centre",
       "34 Street & 119 Avenue",
@@ -459,7 +459,7 @@
   },
   {
     "route_no": "102",
-    "dir": "102 Abbottsfield",
+    "dir": "Abbottsfield",
     "stops": [
       "Kingsway RAH Transit Centre",
       "106 Street & 113 Avenue",
@@ -512,7 +512,7 @@
   },
   {
     "route_no": "102",
-    "dir": "102 Kingsway Rah",
+    "dir": "Kingsway Rah",
     "stops": [
       "Abbottsfield Transit Centre",
       "34 Street & 119 Avenue",
@@ -571,7 +571,7 @@
   },
   {
     "route_no": "103",
-    "dir": "103 Castle Downs",
+    "dir": "Castle Downs",
     "stops": [
       "Kingsway RAH Transit Centre",
       "102 Street & 111 Avenue",
@@ -623,7 +623,7 @@
   },
   {
     "route_no": "103",
-    "dir": "103 Eaux Claires",
+    "dir": "Eaux Claires",
     "stops": [
       "Kingsway RAH Transit Centre",
       "102 Street & 111 Avenue",
@@ -692,7 +692,7 @@
   },
   {
     "route_no": "103",
-    "dir": "103 Eaux Claires",
+    "dir": "Eaux Claires",
     "stops": [
       "Kingsway RAH Transit Centre",
       "102 Street & 111 Avenue",
@@ -760,7 +760,7 @@
   },
   {
     "route_no": "103",
-    "dir": "103 Eaux Claires",
+    "dir": "Eaux Claires",
     "stops": [
       "Kingsway RAH Transit Centre",
       "102 Street & 111 Avenue",
@@ -826,7 +826,7 @@
   },
   {
     "route_no": "103",
-    "dir": "103 Kingsway Rah",
+    "dir": "Kingsway Rah",
     "stops": [
       "Castle Downs Transit Centre",
       "Castle Downs Road & 153 Avenue",
@@ -879,7 +879,7 @@
   },
   {
     "route_no": "103",
-    "dir": "103 Kingsway Rah",
+    "dir": "Kingsway Rah",
     "stops": [
       "Eaux Claires Transit Centre",
       "97 Street & 160 Avenue",
@@ -949,7 +949,7 @@
   },
   {
     "route_no": "104",
-    "dir": "104 Clareview",
+    "dir": "Clareview",
     "stops": [
       "Coliseum Transit Centre",
       "76 Street & 118 Avenue",
@@ -982,7 +982,7 @@
   },
   {
     "route_no": "104",
-    "dir": "104 Coliseum",
+    "dir": "Coliseum",
     "stops": [
       "East Clareview Transit Centre",
       "42 Street & 139 Avenue",
@@ -1015,7 +1015,7 @@
   },
   {
     "route_no": "106",
-    "dir": "106 Belvedere",
+    "dir": "Belvedere",
     "stops": [
       "95 Street & 132 Avenue Nearside",
       "95 Street & 132 Avenue",
@@ -1037,7 +1037,7 @@
   },
   {
     "route_no": "106",
-    "dir": "106 Belvedere",
+    "dir": "Belvedere",
     "stops": [
       "95 Street & 132 Avenue Nearside",
       "95 Street & 132 Avenue",
@@ -1062,7 +1062,7 @@
   },
   {
     "route_no": "106",
-    "dir": "106 Belvedere",
+    "dir": "Belvedere",
     "stops": [
       "Dunvegan Road Loop",
       "Dunvegan Road & 131 Avenue",
@@ -1106,7 +1106,7 @@
   },
   {
     "route_no": "106",
-    "dir": "106 Belvedere",
+    "dir": "Belvedere",
     "stops": [
       "Dunvegan Road Loop",
       "Dunvegan Road & 131 Avenue",
@@ -1150,7 +1150,7 @@
   },
   {
     "route_no": "106",
-    "dir": "106 Belvedere",
+    "dir": "Belvedere",
     "stops": [
       "Northgate Transit Centre",
       "93 Street & 137 Avenue",
@@ -1173,7 +1173,7 @@
   },
   {
     "route_no": "106",
-    "dir": "106 Belvedere",
+    "dir": "Belvedere",
     "stops": [
       "Northgate Transit Centre",
       "93 Street & 137 Avenue",
@@ -1196,7 +1196,7 @@
   },
   {
     "route_no": "106",
-    "dir": "106 Dunvegan",
+    "dir": "Dunvegan",
     "stops": [
       "Belvedere Transit Centre",
       "Fort Road & 131 Avenue",
@@ -1240,7 +1240,7 @@
   },
   {
     "route_no": "106",
-    "dir": "106 Dunvegan",
+    "dir": "Dunvegan",
     "stops": [
       "Belvedere Transit Centre",
       "Fort Road & 131 Avenue",
@@ -1284,7 +1284,7 @@
   },
   {
     "route_no": "106",
-    "dir": "106 Northgate",
+    "dir": "Northgate",
     "stops": [
       "88 Street & 132 Avenue",
       "90 Street & 132 Avenue",
@@ -1297,7 +1297,7 @@
   },
   {
     "route_no": "106",
-    "dir": "106 Northgate",
+    "dir": "Northgate",
     "stops": [
       "90 Street & 132 Avenue",
       "90 Street & 134 Avenue",
@@ -1309,7 +1309,7 @@
   },
   {
     "route_no": "106",
-    "dir": "106 Northgate",
+    "dir": "Northgate",
     "stops": [
       "Belvedere Transit Centre",
       "Fort Road & 131 Avenue",
@@ -1333,7 +1333,7 @@
   },
   {
     "route_no": "106",
-    "dir": "106 Northgate",
+    "dir": "Northgate",
     "stops": [
       "Belvedere Transit Centre",
       "Fort Road & 131 Avenue",
@@ -1357,7 +1357,7 @@
   },
   {
     "route_no": "106",
-    "dir": "106 Northgate",
+    "dir": "Northgate",
     "stops": [
       "Dunvegan Road Loop",
       "Dunvegan Road & 131 Avenue",
@@ -1385,7 +1385,7 @@
   },
   {
     "route_no": "106",
-    "dir": "106 Northgate",
+    "dir": "Northgate",
     "stops": [
       "Dunvegan Road Loop",
       "Dunvegan Road & 131 Avenue",
@@ -1413,7 +1413,7 @@
   },
   {
     "route_no": "107",
-    "dir": "107 Belvedere",
+    "dir": "Belvedere",
     "stops": [
       "West Clareview Transit Centre",
       "Clareview Drive & 143 Avenue",
@@ -1466,7 +1466,7 @@
   },
   {
     "route_no": "107",
-    "dir": "107 Clareview",
+    "dir": "Clareview",
     "stops": [
       "Belvedere Transit Centre",
       "64 Street & 129 Avenue",
@@ -1521,7 +1521,7 @@
   },
   {
     "route_no": "108",
-    "dir": "108 Belvedere",
+    "dir": "Belvedere",
     "stops": [
       "East Clareview Transit Centre",
       "42 Street & 139 Avenue",
@@ -1569,7 +1569,7 @@
   },
   {
     "route_no": "108",
-    "dir": "108 Clareview",
+    "dir": "Clareview",
     "stops": [
       "Belvedere Transit Centre",
       "58 Street & 129 Avenue",
@@ -1764,7 +1764,7 @@
   },
   {
     "route_no": "110X",
-    "dir": "110X Downtown Express",
+    "dir": "Downtown Express",
     "stops": [
       "Eaux Claires Transit Centre",
       "Northgate Transit Centre",
@@ -1789,7 +1789,7 @@
   },
   {
     "route_no": "110X",
-    "dir": "110X Eaux Claires Express",
+    "dir": "Eaux Claires Express",
     "stops": [
       "102 Street & MacDonald Drive",
       "101 Street & 101 Avenue",
@@ -1816,7 +1816,7 @@
   },
   {
     "route_no": "110X",
-    "dir": "110X Eaux Claires Express",
+    "dir": "Eaux Claires Express",
     "stops": [
       "102 Street & MacDonald Drive",
       "101 Street & 101 Avenue",
@@ -1842,7 +1842,7 @@
   },
   {
     "route_no": "111",
-    "dir": "111 Concordia Univ",
+    "dir": "Concordia Univ",
     "stops": [
       "Westmount Transit Centre",
       "135 Street & 114 Avenue",
@@ -1908,7 +1908,7 @@
   },
   {
     "route_no": "111",
-    "dir": "111 Mcqueen",
+    "dir": "Mcqueen",
     "stops": [
       "Concordia University",
       "73 Street & 111 Avenue",
@@ -1990,7 +1990,7 @@
   },
   {
     "route_no": "111",
-    "dir": "111 Stadium",
+    "dir": "Stadium",
     "stops": [
       "Westmount Transit Centre",
       "135 Street & 114 Avenue",
@@ -2050,7 +2050,7 @@
   },
   {
     "route_no": "111",
-    "dir": "111 Westmount",
+    "dir": "Westmount",
     "stops": [
       "Stadium Transit Centre",
       "86 Street & 112 Avenue",
@@ -2125,7 +2125,7 @@
   },
   {
     "route_no": "112",
-    "dir": "112 Castle Downs",
+    "dir": "Castle Downs",
     "stops": [
       "Eaux Claires Transit Centre",
       "97 Street & 160 Avenue",
@@ -2159,7 +2159,7 @@
   },
   {
     "route_no": "112",
-    "dir": "112 Eaux Claires",
+    "dir": "Eaux Claires",
     "stops": [
       "Castle Downs Transit Centre",
       "Castle Downs Road & 153 Avenue",
@@ -2195,7 +2195,7 @@
   },
   {
     "route_no": "113",
-    "dir": "113 Clareview",
+    "dir": "Clareview",
     "stops": [
       "Northgate Transit Centre",
       "93 Street & 137 Avenue",
@@ -2238,7 +2238,7 @@
   },
   {
     "route_no": "113",
-    "dir": "113 Northgate",
+    "dir": "Northgate",
     "stops": [
       "West Clareview Transit Centre",
       "50 Street & 140 Avenue",
@@ -2278,7 +2278,7 @@
   },
   {
     "route_no": "114",
-    "dir": "114 Clareview",
+    "dir": "Clareview",
     "stops": [
       "Coliseum Transit Centre",
       "80 Street & 118 Avenue",
@@ -2323,7 +2323,7 @@
   },
   {
     "route_no": "114",
-    "dir": "114 Clareview",
+    "dir": "Clareview",
     "stops": [
       "Northgate Transit Centre",
       "97 Street & 144 Avenue",
@@ -2350,7 +2350,7 @@
   },
   {
     "route_no": "114",
-    "dir": "114 Coliseum",
+    "dir": "Coliseum",
     "stops": [
       "West Clareview Transit Centre",
       "50 Street & 140 Avenue",
@@ -2393,7 +2393,7 @@
   },
   {
     "route_no": "114",
-    "dir": "114 Northgate",
+    "dir": "Northgate",
     "stops": [
       "West Clareview Transit Centre",
       "50 Street & 140 Avenue",
@@ -2419,7 +2419,7 @@
   },
   {
     "route_no": "116",
-    "dir": "116 Abbottsfield",
+    "dir": "Abbottsfield",
     "stops": [
       "East Clareview Transit Centre",
       "42 Street & 139 Avenue",
@@ -2454,7 +2454,7 @@
   },
   {
     "route_no": "116",
-    "dir": "116 Clareview",
+    "dir": "Clareview",
     "stops": [
       "37 Street & 134 Avenue",
       "40 Street & 134 Avenue",
@@ -2468,7 +2468,7 @@
   },
   {
     "route_no": "116",
-    "dir": "116 Clareview",
+    "dir": "Clareview",
     "stops": [
       "Abbottsfield Transit Centre",
       "Victoria Trail & Hermitage Road",
@@ -2502,7 +2502,7 @@
   },
   {
     "route_no": "117",
-    "dir": "117 Clareview",
+    "dir": "Clareview",
     "stops": [
       "Eaux Claires Transit Centre",
       "96 Street & 153 Avenue",
@@ -2543,7 +2543,7 @@
   },
   {
     "route_no": "117",
-    "dir": "117 Eaux Claires",
+    "dir": "Eaux Claires",
     "stops": [
       "West Clareview Transit Centre",
       "Clareview Drive & 143 Avenue",
@@ -2587,7 +2587,7 @@
   },
   {
     "route_no": "118",
-    "dir": "118 Clareview",
+    "dir": "Clareview",
     "stops": [
       "Eaux Claires Transit Centre",
       "97 Street & 160 Avenue",
@@ -2643,7 +2643,7 @@
   },
   {
     "route_no": "118",
-    "dir": "118 Eaux Claires",
+    "dir": "Eaux Claires",
     "stops": [
       "West Clareview Transit Centre",
       "Manning Drive & Miller Boulevard",
@@ -2701,7 +2701,7 @@
   },
   {
     "route_no": "119",
-    "dir": "119 Clareview",
+    "dir": "Clareview",
     "stops": [
       "Eaux Claires Transit Centre",
       "97 Street & 160 Avenue",
@@ -2753,7 +2753,7 @@
   },
   {
     "route_no": "119",
-    "dir": "119 Eaux Claires",
+    "dir": "Eaux Claires",
     "stops": [
       "West Clareview Transit Centre",
       "50 Street & 140 Avenue",
@@ -2801,7 +2801,7 @@
   },
   {
     "route_no": "120X",
-    "dir": "120X Eaux Claires Express",
+    "dir": "Eaux Claires Express",
     "stops": [
       "Government Transit Centre",
       "107 Street & 99 Avenue",
@@ -2826,7 +2826,7 @@
   },
   {
     "route_no": "120X",
-    "dir": "120X Gov'T Centre Express",
+    "dir": "Gov'T Centre Express",
     "stops": [
       "Eaux Claires Transit Centre",
       "Northgate Transit Centre",
@@ -2850,7 +2850,7 @@
   },
   {
     "route_no": "121",
-    "dir": "121 Clareview",
+    "dir": "Clareview",
     "stops": [
       "25 Street & 151 Avenue",
       "21 Street & 151 Avenue",
@@ -2881,7 +2881,7 @@
   },
   {
     "route_no": "121",
-    "dir": "121 Clareview",
+    "dir": "Clareview",
     "stops": [
       "Evergreen Mobile Park Loop",
       "10 Street & 167 Avenue",
@@ -2915,7 +2915,7 @@
   },
   {
     "route_no": "121",
-    "dir": "121 Clareview",
+    "dir": "Clareview",
     "stops": [
       "Evergreen Mobile Park Loop",
       "17 Street & Fraser Way",
@@ -2945,7 +2945,7 @@
   },
   {
     "route_no": "121",
-    "dir": "121 Evergreen",
+    "dir": "Evergreen",
     "stops": [
       "East Clareview Transit Centre",
       "42 Street & 139 Avenue",
@@ -2978,7 +2978,7 @@
   },
   {
     "route_no": "121",
-    "dir": "121 Evergreen",
+    "dir": "Evergreen",
     "stops": [
       "East Clareview Transit Centre",
       "42 Street & 139 Avenue",
@@ -3013,7 +3013,7 @@
   },
   {
     "route_no": "121",
-    "dir": "121 Fraser",
+    "dir": "Fraser",
     "stops": [
       "East Clareview Transit Centre",
       "42 Street & 139 Avenue",
@@ -3045,7 +3045,7 @@
   },
   {
     "route_no": "122",
-    "dir": "122 Lago Lindo",
+    "dir": "Lago Lindo",
     "stops": [
       "Eaux Claires Transit Centre",
       "97 Street & 160 Avenue",
@@ -3084,7 +3084,7 @@
   },
   {
     "route_no": "124",
-    "dir": "124 Eaux Claires",
+    "dir": "Eaux Claires",
     "stops": [
       "Westmount Transit Centre",
       "135 Street & 114 Avenue",
@@ -3147,7 +3147,7 @@
   },
   {
     "route_no": "124",
-    "dir": "124 Eaux Claires",
+    "dir": "Eaux Claires",
     "stops": [
       "Westmount Transit Centre",
       "135 Street & 114 Avenue",
@@ -3211,7 +3211,7 @@
   },
   {
     "route_no": "124",
-    "dir": "124 Westmount",
+    "dir": "Westmount",
     "stops": [
       "Castle Downs Transit Centre",
       "Castle Downs Road & 156 Avenue",
@@ -3262,7 +3262,7 @@
   },
   {
     "route_no": "124",
-    "dir": "124 Westmount",
+    "dir": "Westmount",
     "stops": [
       "Castle Downs Transit Centre",
       "Castle Downs Road & 156 Avenue",
@@ -3312,7 +3312,7 @@
   },
   {
     "route_no": "124",
-    "dir": "124 Westmount",
+    "dir": "Westmount",
     "stops": [
       "Eaux Claires Transit Centre",
       "97 Street & 160 Avenue",
@@ -3375,7 +3375,7 @@
   },
   {
     "route_no": "124",
-    "dir": "124 Westmount",
+    "dir": "Westmount",
     "stops": [
       "Eaux Claires Transit Centre",
       "97 Street & 160 Avenue",
@@ -3437,7 +3437,7 @@
   },
   {
     "route_no": "127",
-    "dir": "127 Castle Downs",
+    "dir": "Castle Downs",
     "stops": [
       "Northgate Transit Centre",
       "Northgate Mall Entrance",
@@ -3486,7 +3486,7 @@
   },
   {
     "route_no": "127",
-    "dir": "127 Northgate",
+    "dir": "Northgate",
     "stops": [
       "Castle Downs Transit Centre",
       "Castle Downs Road & 153 Avenue",
@@ -3536,7 +3536,7 @@
   },
   {
     "route_no": "127",
-    "dir": "127 Northgate",
+    "dir": "Northgate",
     "stops": [
       "White Oaks Square",
       "123 Street & 140 Avenue",
@@ -3574,7 +3574,7 @@
   },
   {
     "route_no": "127",
-    "dir": "127 White Oaks Square",
+    "dir": "White Oaks Square",
     "stops": [
       "Northgate Transit Centre",
       "Northgate Mall Entrance",
@@ -3604,7 +3604,7 @@
   },
   {
     "route_no": "128",
-    "dir": "128 Londonderry",
+    "dir": "Londonderry",
     "stops": [
       "Northgate Transit Centre",
       "93 Street & 137 Avenue",
@@ -3632,7 +3632,7 @@
   },
   {
     "route_no": "128",
-    "dir": "128 Northgate",
+    "dir": "Northgate",
     "stops": [
       "Northgate Lion Centre",
       "75 Street & 139 Avenue",
@@ -3650,7 +3650,7 @@
   },
   {
     "route_no": "130X",
-    "dir": "130X Baturyn Express",
+    "dir": "Baturyn Express",
     "stops": [
       "Government Transit Centre",
       "107 Street & 99 Avenue",
@@ -3687,7 +3687,7 @@
   },
   {
     "route_no": "130X",
-    "dir": "130X Gov'T Centre Express",
+    "dir": "Gov'T Centre Express",
     "stops": [
       "109 Street & Castle Downs Road",
       "109 Street & 168 Avenue",
@@ -3723,7 +3723,7 @@
   },
   {
     "route_no": "140X",
-    "dir": "140X Kingsway Rah Express",
+    "dir": "Kingsway Rah Express",
     "stops": [
       "127 Street & 167 Avenue",
       "128 Street & 167 Avenue WB",
@@ -3773,7 +3773,7 @@
   },
   {
     "route_no": "140X",
-    "dir": "140X Palisades Express",
+    "dir": "Palisades Express",
     "stops": [
       "Kingsway RAH Transit Centre",
       "109 Street & Kingsway",
@@ -3822,7 +3822,7 @@
   },
   {
     "route_no": "150X",
-    "dir": "150X Dunluce Express",
+    "dir": "Dunluce Express",
     "stops": [
       "Government Transit Centre",
       "107 Street & 99 Avenue",
@@ -3866,7 +3866,7 @@
   },
   {
     "route_no": "150X",
-    "dir": "150X Gov'T Centre Express",
+    "dir": "Gov'T Centre Express",
     "stops": [
       "Dunluce Road & 161 Avenue",
       "430 Dunluce Road",
@@ -3909,7 +3909,7 @@
   },
   {
     "route_no": "1A",
-    "dir": "1A Capilano Via 106 Ave",
+    "dir": "Capilano Via 106 Ave",
     "stops": [
       "102 Street & MacDonald Drive",
       "101 Street & 101 Avenue",
@@ -3944,7 +3944,7 @@
   },
   {
     "route_no": "1A",
-    "dir": "1A Capilano Via 106 Ave",
+    "dir": "Capilano Via 106 Ave",
     "stops": [
       "83 Street & 106 Avenue",
       "81 Street & 106 Avenue",
@@ -3968,7 +3968,7 @@
   },
   {
     "route_no": "1A",
-    "dir": "1A Downtown Via 106 Ave",
+    "dir": "Downtown Via 106 Ave",
     "stops": [
       "Capilano Transit Centre",
       "50 Street & 98 Avenue",
@@ -4001,7 +4001,7 @@
   },
   {
     "route_no": "1B",
-    "dir": "1B Capilano Via 101 Ave",
+    "dir": "Capilano Via 101 Ave",
     "stops": [
       "102 Street & MacDonald Drive",
       "101 Street & 101 Avenue",
@@ -4034,7 +4034,7 @@
   },
   {
     "route_no": "1B",
-    "dir": "1B Downtown Via 101 Ave",
+    "dir": "Downtown Via 101 Ave",
     "stops": [
       "79 Street & 106 Avenue",
       "81 Street & 106 Avenue",
@@ -4053,7 +4053,7 @@
   },
   {
     "route_no": "1B",
-    "dir": "1B Downtown Via 101 Ave",
+    "dir": "Downtown Via 101 Ave",
     "stops": [
       "Capilano Transit Centre",
       "57 Street & 98 Avenue",
@@ -4079,237 +4079,6 @@
       "101 Street & 103 Avenue",
       "101 Street & 102 Avenue",
       "102 Street & MacDonald Drive"
-    ]
-  },
-  {
-    "route_no": "2",
-    "dir": "2 Downtown",
-    "stops": [
-      "West Edmonton Mall Transit Centre",
-      "169 Street & 87 Avenue",
-      "165 Street & 87 Avenue",
-      "164 Street & 87 Avenue",
-      "161 Street & 87 Avenue",
-      "159 Street & 87 Avenue",
-      "156 Street & 87 Avenue",
-      "153 Street & 87 Avenue",
-      "152 Street & 87 Avenue",
-      "150 Street & 87 Avenue",
-      "149 Street & 87 Avenue",
-      "147 Street & 87 Avenue",
-      "145 Street & 87 Avenue",
-      "142 Street & Buena Vista Road",
-      "142 Street & 89 Avenue",
-      "142 Street & 91 Avenue",
-      "142 Street & Valleyview Drive",
-      "142 Street & 95 Avenue",
-      "142 Street & 97 Avenue",
-      "142 Street & 98 Avenue",
-      "142 Street & 100 Avenue",
-      "142 Street & 101 Avenue",
-      "142 Street & Stony Plain Road",
-      "142 Street & 104 Avenue",
-      "142 Street & 104 Avenue",
-      "142 Street & 106 Avenue",
-      "142 Street & 107 Avenue",
-      "139 Street & 107 Avenue",
-      "134 Street & 107 Avenue",
-      "Groat Road & 107 Avenue",
-      "130 Street & 107 Avenue",
-      "128 Street & 107 Avenue",
-      "125 Street & 107 Avenue",
-      "124 Street & 107 Avenue",
-      "124 Street & 106 Avenue",
-      "124 Street & Stony Plain Road",
-      "124 Street & 103 Avenue",
-      "124 Street & 102 Avenue",
-      "123 Street & Jasper Avenue",
-      "121 Street & Jasper Avenue",
-      "119 Street & Jasper Avenue",
-      "115 Street & Jasper Avenue",
-      "112 Street & Jasper Avenue",
-      "109 Street & Jasper Avenue",
-      "107 Street & Jasper Avenue",
-      "105 Street & Jasper Avenue",
-      "103 Street & Jasper Avenue",
-      "101 Street & Jasper Avenue"
-    ]
-  },
-  {
-    "route_no": "2",
-    "dir": "2 Stadium",
-    "stops": [
-      "West Edmonton Mall Transit Centre",
-      "169 Street & 87 Avenue",
-      "165 Street & 87 Avenue",
-      "164 Street & 87 Avenue",
-      "161 Street & 87 Avenue",
-      "159 Street & 87 Avenue",
-      "156 Street & 87 Avenue",
-      "153 Street & 87 Avenue",
-      "152 Street & 87 Avenue",
-      "150 Street & 87 Avenue",
-      "149 Street & 87 Avenue",
-      "147 Street & 87 Avenue",
-      "145 Street & 87 Avenue",
-      "142 Street & Buena Vista Road",
-      "142 Street & 89 Avenue",
-      "142 Street & 91 Avenue",
-      "142 Street & Valleyview Drive",
-      "142 Street & 95 Avenue",
-      "142 Street & 97 Avenue",
-      "142 Street & 98 Avenue",
-      "142 Street & 100 Avenue",
-      "142 Street & 101 Avenue",
-      "142 Street & Stony Plain Road",
-      "142 Street & 104 Avenue",
-      "142 Street & 104 Avenue",
-      "142 Street & 106 Avenue",
-      "142 Street & 107 Avenue",
-      "139 Street & 107 Avenue",
-      "134 Street & 107 Avenue",
-      "Groat Road & 107 Avenue",
-      "130 Street & 107 Avenue",
-      "128 Street & 107 Avenue",
-      "125 Street & 107 Avenue",
-      "124 Street & 107 Avenue",
-      "124 Street & 106 Avenue",
-      "124 Street & Stony Plain Road",
-      "124 Street & 103 Avenue",
-      "124 Street & 102 Avenue",
-      "123 Street & Jasper Avenue",
-      "121 Street & Jasper Avenue",
-      "119 Street & Jasper Avenue",
-      "115 Street & Jasper Avenue",
-      "112 Street & Jasper Avenue",
-      "109 Street & Jasper Avenue",
-      "107 Street & Jasper Avenue",
-      "105 Street & Jasper Avenue",
-      "103 Street & Jasper Avenue",
-      "101 Street & Jasper Avenue",
-      "Thornton Court & Jasper Avenue",
-      "97 Street & Jasper Avenue",
-      "96 Street & Jasper Avenue",
-      "95 Street & Jasper Avenue",
-      "Alex Taylor Road & Jasper Avenue",
-      "92 Street & Jasper Avenue",
-      "90 Street & Jasper Avenue",
-      "87 Street & Jasper Avenue",
-      "84 Street & Jasper Avenue",
-      "82 Street & Jasper Avenue",
-      "82 Street & 111 Avenue",
-      "Stadium TC on 111 Avenue"
-    ]
-  },
-  {
-    "route_no": "2",
-    "dir": "2 West Edm Mall",
-    "stops": [
-      "101 Street & Jasper Avenue",
-      "103 Street & Jasper Avenue",
-      "104 Street & Jasper Avenue",
-      "106 Street & Jasper Avenue",
-      "108 Street & Jasper Avenue Nearside",
-      "109 Street & Jasper Avenue",
-      "112 Street & Jasper Avenue",
-      "115 Street & Jasper Avenue",
-      "118 Street & Jasper Avenue",
-      "120 Street & Jasper Avenue",
-      "122 Street & Jasper Avenue",
-      "124 Street & 102 Avenue",
-      "124 Street & 104 Avenue",
-      "124 Street & 107 Avenue",
-      "126 Street & 107 Avenue",
-      "127 Street & 107 Avenue",
-      "129 Street & 107 Avenue",
-      "Groat Road & 107 Avenue",
-      "135 Street & 107 Avenue",
-      "139 Street & 107 Avenue",
-      "142 Street & 107 Avenue",
-      "142 Street & 106 Avenue",
-      "142 Street & 104 Avenue",
-      "142 Street & 101 Avenue",
-      "142 Street & 100 Avenue",
-      "142 Street & 98 Avenue",
-      "142 Street & 96 Avenue",
-      "142 Street & 95 Avenue",
-      "142 Street & 92 Avenue",
-      "142 Street & 91 Avenue",
-      "142 Street & 89 Avenue",
-      "145 Street & 87 Avenue",
-      "150 Street & 87 Avenue",
-      "152 Street & 87 Avenue",
-      "154 Street & 87 Avenue",
-      "155 Street & 87 Avenue",
-      "156 Street & 87 Avenue",
-      "Meadowlark Road & 87 Avenue",
-      "Meadowlark Road & 87 Avenue",
-      "161 Street & 87 Avenue",
-      "163 Street & 87 Avenue",
-      "165 Street & 87 Avenue",
-      "169 Street & 87 Avenue",
-      "West Edmonton Mall Transit Centre"
-    ]
-  },
-  {
-    "route_no": "2",
-    "dir": "2 West Edm Mall",
-    "stops": [
-      "Stadium TC on 111 Avenue",
-      "84 Street & 110 Avenue",
-      "84 Street & Jasper Avenue",
-      "87 Street & Jasper Avenue",
-      "90 Street & Jasper Avenue",
-      "92 Street & Jasper Avenue",
-      "93 Street & Jasper Avenue",
-      "95 Street & Jasper Avenue",
-      "96 Street & Jasper Avenue",
-      "99 Street & Jasper Avenue",
-      "100 Street & Jasper Avenue",
-      "101 Street & Jasper Avenue",
-      "103 Street & Jasper Avenue",
-      "104 Street & Jasper Avenue",
-      "106 Street & Jasper Avenue",
-      "108 Street & Jasper Avenue Nearside",
-      "109 Street & Jasper Avenue",
-      "112 Street & Jasper Avenue",
-      "115 Street & Jasper Avenue",
-      "118 Street & Jasper Avenue",
-      "120 Street & Jasper Avenue",
-      "122 Street & Jasper Avenue",
-      "124 Street & 102 Avenue",
-      "124 Street & 104 Avenue",
-      "124 Street & 107 Avenue",
-      "126 Street & 107 Avenue",
-      "127 Street & 107 Avenue",
-      "129 Street & 107 Avenue",
-      "Groat Road & 107 Avenue",
-      "135 Street & 107 Avenue",
-      "139 Street & 107 Avenue",
-      "142 Street & 107 Avenue",
-      "142 Street & 106 Avenue",
-      "142 Street & 104 Avenue",
-      "142 Street & 101 Avenue",
-      "142 Street & 100 Avenue",
-      "142 Street & 98 Avenue",
-      "142 Street & 96 Avenue",
-      "142 Street & 95 Avenue",
-      "142 Street & 92 Avenue",
-      "142 Street & 91 Avenue",
-      "142 Street & 89 Avenue",
-      "145 Street & 87 Avenue",
-      "150 Street & 87 Avenue",
-      "152 Street & 87 Avenue",
-      "154 Street & 87 Avenue",
-      "155 Street & 87 Avenue",
-      "156 Street & 87 Avenue",
-      "Meadowlark Road & 87 Avenue",
-      "Meadowlark Road & 87 Avenue",
-      "161 Street & 87 Avenue",
-      "163 Street & 87 Avenue",
-      "165 Street & 87 Avenue",
-      "169 Street & 87 Avenue",
-      "West Edmonton Mall Transit Centre"
     ]
   },
   {
@@ -4419,6 +4188,237 @@
       "82 Street & 114 Avenue",
       "82 Street & 112 Avenue",
       "82 Street & 111 Avenue",
+      "Stadium TC on 111 Avenue",
+      "84 Street & 110 Avenue",
+      "84 Street & Jasper Avenue",
+      "87 Street & Jasper Avenue",
+      "90 Street & Jasper Avenue",
+      "92 Street & Jasper Avenue",
+      "93 Street & Jasper Avenue",
+      "95 Street & Jasper Avenue",
+      "96 Street & Jasper Avenue",
+      "99 Street & Jasper Avenue",
+      "100 Street & Jasper Avenue",
+      "101 Street & Jasper Avenue",
+      "103 Street & Jasper Avenue",
+      "104 Street & Jasper Avenue",
+      "106 Street & Jasper Avenue",
+      "108 Street & Jasper Avenue Nearside",
+      "109 Street & Jasper Avenue",
+      "112 Street & Jasper Avenue",
+      "115 Street & Jasper Avenue",
+      "118 Street & Jasper Avenue",
+      "120 Street & Jasper Avenue",
+      "122 Street & Jasper Avenue",
+      "124 Street & 102 Avenue",
+      "124 Street & 104 Avenue",
+      "124 Street & 107 Avenue",
+      "126 Street & 107 Avenue",
+      "127 Street & 107 Avenue",
+      "129 Street & 107 Avenue",
+      "Groat Road & 107 Avenue",
+      "135 Street & 107 Avenue",
+      "139 Street & 107 Avenue",
+      "142 Street & 107 Avenue",
+      "142 Street & 106 Avenue",
+      "142 Street & 104 Avenue",
+      "142 Street & 101 Avenue",
+      "142 Street & 100 Avenue",
+      "142 Street & 98 Avenue",
+      "142 Street & 96 Avenue",
+      "142 Street & 95 Avenue",
+      "142 Street & 92 Avenue",
+      "142 Street & 91 Avenue",
+      "142 Street & 89 Avenue",
+      "145 Street & 87 Avenue",
+      "150 Street & 87 Avenue",
+      "152 Street & 87 Avenue",
+      "154 Street & 87 Avenue",
+      "155 Street & 87 Avenue",
+      "156 Street & 87 Avenue",
+      "Meadowlark Road & 87 Avenue",
+      "Meadowlark Road & 87 Avenue",
+      "161 Street & 87 Avenue",
+      "163 Street & 87 Avenue",
+      "165 Street & 87 Avenue",
+      "169 Street & 87 Avenue",
+      "West Edmonton Mall Transit Centre"
+    ]
+  },
+  {
+    "route_no": "2",
+    "dir": "Downtown",
+    "stops": [
+      "West Edmonton Mall Transit Centre",
+      "169 Street & 87 Avenue",
+      "165 Street & 87 Avenue",
+      "164 Street & 87 Avenue",
+      "161 Street & 87 Avenue",
+      "159 Street & 87 Avenue",
+      "156 Street & 87 Avenue",
+      "153 Street & 87 Avenue",
+      "152 Street & 87 Avenue",
+      "150 Street & 87 Avenue",
+      "149 Street & 87 Avenue",
+      "147 Street & 87 Avenue",
+      "145 Street & 87 Avenue",
+      "142 Street & Buena Vista Road",
+      "142 Street & 89 Avenue",
+      "142 Street & 91 Avenue",
+      "142 Street & Valleyview Drive",
+      "142 Street & 95 Avenue",
+      "142 Street & 97 Avenue",
+      "142 Street & 98 Avenue",
+      "142 Street & 100 Avenue",
+      "142 Street & 101 Avenue",
+      "142 Street & Stony Plain Road",
+      "142 Street & 104 Avenue",
+      "142 Street & 104 Avenue",
+      "142 Street & 106 Avenue",
+      "142 Street & 107 Avenue",
+      "139 Street & 107 Avenue",
+      "134 Street & 107 Avenue",
+      "Groat Road & 107 Avenue",
+      "130 Street & 107 Avenue",
+      "128 Street & 107 Avenue",
+      "125 Street & 107 Avenue",
+      "124 Street & 107 Avenue",
+      "124 Street & 106 Avenue",
+      "124 Street & Stony Plain Road",
+      "124 Street & 103 Avenue",
+      "124 Street & 102 Avenue",
+      "123 Street & Jasper Avenue",
+      "121 Street & Jasper Avenue",
+      "119 Street & Jasper Avenue",
+      "115 Street & Jasper Avenue",
+      "112 Street & Jasper Avenue",
+      "109 Street & Jasper Avenue",
+      "107 Street & Jasper Avenue",
+      "105 Street & Jasper Avenue",
+      "103 Street & Jasper Avenue",
+      "101 Street & Jasper Avenue"
+    ]
+  },
+  {
+    "route_no": "2",
+    "dir": "Stadium",
+    "stops": [
+      "West Edmonton Mall Transit Centre",
+      "169 Street & 87 Avenue",
+      "165 Street & 87 Avenue",
+      "164 Street & 87 Avenue",
+      "161 Street & 87 Avenue",
+      "159 Street & 87 Avenue",
+      "156 Street & 87 Avenue",
+      "153 Street & 87 Avenue",
+      "152 Street & 87 Avenue",
+      "150 Street & 87 Avenue",
+      "149 Street & 87 Avenue",
+      "147 Street & 87 Avenue",
+      "145 Street & 87 Avenue",
+      "142 Street & Buena Vista Road",
+      "142 Street & 89 Avenue",
+      "142 Street & 91 Avenue",
+      "142 Street & Valleyview Drive",
+      "142 Street & 95 Avenue",
+      "142 Street & 97 Avenue",
+      "142 Street & 98 Avenue",
+      "142 Street & 100 Avenue",
+      "142 Street & 101 Avenue",
+      "142 Street & Stony Plain Road",
+      "142 Street & 104 Avenue",
+      "142 Street & 104 Avenue",
+      "142 Street & 106 Avenue",
+      "142 Street & 107 Avenue",
+      "139 Street & 107 Avenue",
+      "134 Street & 107 Avenue",
+      "Groat Road & 107 Avenue",
+      "130 Street & 107 Avenue",
+      "128 Street & 107 Avenue",
+      "125 Street & 107 Avenue",
+      "124 Street & 107 Avenue",
+      "124 Street & 106 Avenue",
+      "124 Street & Stony Plain Road",
+      "124 Street & 103 Avenue",
+      "124 Street & 102 Avenue",
+      "123 Street & Jasper Avenue",
+      "121 Street & Jasper Avenue",
+      "119 Street & Jasper Avenue",
+      "115 Street & Jasper Avenue",
+      "112 Street & Jasper Avenue",
+      "109 Street & Jasper Avenue",
+      "107 Street & Jasper Avenue",
+      "105 Street & Jasper Avenue",
+      "103 Street & Jasper Avenue",
+      "101 Street & Jasper Avenue",
+      "Thornton Court & Jasper Avenue",
+      "97 Street & Jasper Avenue",
+      "96 Street & Jasper Avenue",
+      "95 Street & Jasper Avenue",
+      "Alex Taylor Road & Jasper Avenue",
+      "92 Street & Jasper Avenue",
+      "90 Street & Jasper Avenue",
+      "87 Street & Jasper Avenue",
+      "84 Street & Jasper Avenue",
+      "82 Street & Jasper Avenue",
+      "82 Street & 111 Avenue",
+      "Stadium TC on 111 Avenue"
+    ]
+  },
+  {
+    "route_no": "2",
+    "dir": "West Edm Mall",
+    "stops": [
+      "101 Street & Jasper Avenue",
+      "103 Street & Jasper Avenue",
+      "104 Street & Jasper Avenue",
+      "106 Street & Jasper Avenue",
+      "108 Street & Jasper Avenue Nearside",
+      "109 Street & Jasper Avenue",
+      "112 Street & Jasper Avenue",
+      "115 Street & Jasper Avenue",
+      "118 Street & Jasper Avenue",
+      "120 Street & Jasper Avenue",
+      "122 Street & Jasper Avenue",
+      "124 Street & 102 Avenue",
+      "124 Street & 104 Avenue",
+      "124 Street & 107 Avenue",
+      "126 Street & 107 Avenue",
+      "127 Street & 107 Avenue",
+      "129 Street & 107 Avenue",
+      "Groat Road & 107 Avenue",
+      "135 Street & 107 Avenue",
+      "139 Street & 107 Avenue",
+      "142 Street & 107 Avenue",
+      "142 Street & 106 Avenue",
+      "142 Street & 104 Avenue",
+      "142 Street & 101 Avenue",
+      "142 Street & 100 Avenue",
+      "142 Street & 98 Avenue",
+      "142 Street & 96 Avenue",
+      "142 Street & 95 Avenue",
+      "142 Street & 92 Avenue",
+      "142 Street & 91 Avenue",
+      "142 Street & 89 Avenue",
+      "145 Street & 87 Avenue",
+      "150 Street & 87 Avenue",
+      "152 Street & 87 Avenue",
+      "154 Street & 87 Avenue",
+      "155 Street & 87 Avenue",
+      "156 Street & 87 Avenue",
+      "Meadowlark Road & 87 Avenue",
+      "Meadowlark Road & 87 Avenue",
+      "161 Street & 87 Avenue",
+      "163 Street & 87 Avenue",
+      "165 Street & 87 Avenue",
+      "169 Street & 87 Avenue",
+      "West Edmonton Mall Transit Centre"
+    ]
+  },
+  {
+    "route_no": "2",
+    "dir": "West Edm Mall",
+    "stops": [
       "Stadium TC on 111 Avenue",
       "84 Street & 110 Avenue",
       "84 Street & Jasper Avenue",
@@ -4994,7 +4994,7 @@
   },
   {
     "route_no": "3",
-    "dir": "3 Stadium",
+    "dir": "Stadium",
     "stops": [
       "Westmount Transit Centre",
       "135 Street & 111 Avenue",
@@ -5024,7 +5024,7 @@
   },
   {
     "route_no": "3",
-    "dir": "3 Westmount",
+    "dir": "Westmount",
     "stops": [
       "Stadium Transit Centre",
       "86 Street & 112 Avenue",
@@ -5053,7 +5053,7 @@
   },
   {
     "route_no": "31",
-    "dir": "31 Leger Super Express",
+    "dir": "Leger Super Express",
     "stops": [
       "114 Street & 89 Avenue",
       "University Transit Centre",
@@ -5071,7 +5071,7 @@
   },
   {
     "route_no": "31",
-    "dir": "31 Leger Super Express",
+    "dir": "Leger Super Express",
     "stops": [
       "University Transit Centre",
       "112 Street & 86 Avenue",
@@ -5088,7 +5088,7 @@
   },
   {
     "route_no": "31",
-    "dir": "31 University Super Express",
+    "dir": "University Super Express",
     "stops": [
       "Leger Transit Centre",
       "Terwillegar Drive & 23 Avenue",
@@ -5107,7 +5107,7 @@
   },
   {
     "route_no": "4",
-    "dir": "4 Bonnie Doon",
+    "dir": "Bonnie Doon",
     "stops": [
       "114 Street & 89 Avenue",
       "University Transit Centre",
@@ -5135,7 +5135,7 @@
   },
   {
     "route_no": "4",
-    "dir": "4 Bonnie Doon",
+    "dir": "Bonnie Doon",
     "stops": [
       "University Transit Centre",
       "112 Street & 86 Avenue",
@@ -5162,7 +5162,7 @@
   },
   {
     "route_no": "4",
-    "dir": "4 Capilano",
+    "dir": "Capilano",
     "stops": [
       "114 Street & 89 Avenue",
       "University Transit Centre",
@@ -5205,7 +5205,7 @@
   },
   {
     "route_no": "4",
-    "dir": "4 Capilano",
+    "dir": "Capilano",
     "stops": [
       "Lewis Farms Transit Centre",
       "187 Street & 87 Avenue",
@@ -5283,7 +5283,7 @@
   },
   {
     "route_no": "4",
-    "dir": "4 Lewis Farms Via Wem",
+    "dir": "Lewis Farms Via Wem",
     "stops": [
       "Capilano Transit Centre",
       "50 Street & 98 Avenue",
@@ -5362,7 +5362,7 @@
   },
   {
     "route_no": "4",
-    "dir": "4 University",
+    "dir": "University",
     "stops": [
       "83 Street & 82 Avenue",
       "85 Street & 82 Avenue",
@@ -5392,7 +5392,7 @@
   },
   {
     "route_no": "4",
-    "dir": "4 University",
+    "dir": "University",
     "stops": [
       "West Edmonton Mall Transit Centre",
       "169 Street & 87 Avenue",
@@ -5427,7 +5427,7 @@
   },
   {
     "route_no": "4",
-    "dir": "4 University",
+    "dir": "University",
     "stops": [
       "West Edmonton Mall Transit Centre",
       "169 Street & 87 Avenue",
@@ -5463,7 +5463,7 @@
   },
   {
     "route_no": "4",
-    "dir": "4 West Edm Mall",
+    "dir": "West Edm Mall",
     "stops": [
       "114 Street & 89 Avenue",
       "University Transit Centre",
@@ -5499,7 +5499,7 @@
   },
   {
     "route_no": "4",
-    "dir": "4 West Edm Mall",
+    "dir": "West Edm Mall",
     "stops": [
       "University Transit Centre",
       "112 Street & 86 Avenue",
@@ -6109,7 +6109,7 @@
   },
   {
     "route_no": "433A",
-    "dir": "433A  School Special",
+    "dir": "School Special",
     "stops": [
       "Emerald Dr & ABJ",
       "Emerald Dr & Ellesmere Ln",
@@ -6147,7 +6147,7 @@
   },
   {
     "route_no": "433A",
-    "dir": "433A  School Special",
+    "dir": "School Special",
     "stops": [
       "Jim Common Dr & Crystal Ln",
       "Jim Common Dr & Cranford Dr",
@@ -6414,7 +6414,7 @@
   },
   {
     "route_no": "441A",
-    "dir": "441A  School Special",
+    "dir": "School Special",
     "stops": [
       "Emerald Dr & ABJ",
       "Clover Bar Rd & Baseline Rd",
@@ -6754,36 +6754,6 @@
   },
   {
     "route_no": "451",
-    "dir": "451  School Special",
-    "stops": [
-      "Emerald Dr & ABJ",
-      "Sherwood Dr & Baseline Rd",
-      "Sherwood Dr & Main Blvd",
-      "Main Blvd & Mardale Cr",
-      "Main Blvd & Millers Rd",
-      "Main Blvd & Marion Dr",
-      "Main Blvd & Mission Street",
-      "Main Blvd & Malvern Dr",
-      "Broadmoor Blvd & Main Blvd",
-      "Kaska Rd Chippewa Rd",
-      "Chippewa Rd & Athabascan Avenue",
-      "Broadmoor Blvd & Sioux Rd",
-      "Woodbridge Wy & Wells Point Ln",
-      "Parker Dr & Woodbridge Wy",
-      "Haythorne Rd & Parker Dr",
-      "Haythorne Rd & Haythorne Pl",
-      "Strathcona Dr & Haythorne Rd",
-      "Strathcona Dr & Parker Dr",
-      "Strathcona Dr & Moyer Dr",
-      "Keith Rd & Village Dr",
-      "Village Dr & Village Ln",
-      "Village Dr & Village Dr",
-      "Fir Street",
-      "Ordze Transit Centre"
-    ]
-  },
-  {
-    "route_no": "451",
     "dir": "Bethel Via Mills Haven",
     "stops": [
       "Ordze Transit Centre",
@@ -6928,8 +6898,38 @@
     ]
   },
   {
+    "route_no": "451",
+    "dir": "School Special",
+    "stops": [
+      "Emerald Dr & ABJ",
+      "Sherwood Dr & Baseline Rd",
+      "Sherwood Dr & Main Blvd",
+      "Main Blvd & Mardale Cr",
+      "Main Blvd & Millers Rd",
+      "Main Blvd & Marion Dr",
+      "Main Blvd & Mission Street",
+      "Main Blvd & Malvern Dr",
+      "Broadmoor Blvd & Main Blvd",
+      "Kaska Rd Chippewa Rd",
+      "Chippewa Rd & Athabascan Avenue",
+      "Broadmoor Blvd & Sioux Rd",
+      "Woodbridge Wy & Wells Point Ln",
+      "Parker Dr & Woodbridge Wy",
+      "Haythorne Rd & Parker Dr",
+      "Haythorne Rd & Haythorne Pl",
+      "Strathcona Dr & Haythorne Rd",
+      "Strathcona Dr & Parker Dr",
+      "Strathcona Dr & Moyer Dr",
+      "Keith Rd & Village Dr",
+      "Village Dr & Village Ln",
+      "Village Dr & Village Dr",
+      "Fir Street",
+      "Ordze Transit Centre"
+    ]
+  },
+  {
     "route_no": "5",
-    "dir": "5 Coliseum",
+    "dir": "Coliseum",
     "stops": [
       "Westmount Transit Centre",
       "135 Street & 114 Avenue",
@@ -6987,7 +6987,7 @@
   },
   {
     "route_no": "5",
-    "dir": "5 Downtown",
+    "dir": "Downtown",
     "stops": [
       "Westmount Transit Centre",
       "135 Street & 114 Avenue",
@@ -7021,7 +7021,7 @@
   },
   {
     "route_no": "5",
-    "dir": "5 Westmount",
+    "dir": "Westmount",
     "stops": [
       "96 Street & Jasper Avenue",
       "99 Street & Jasper Avenue",
@@ -7058,7 +7058,7 @@
   },
   {
     "route_no": "5",
-    "dir": "5 Westmount",
+    "dir": "Westmount",
     "stops": [
       "Coliseum Transit Centre",
       "80 Street & 118 Avenue",
@@ -7121,7 +7121,7 @@
   },
   {
     "route_no": "500X",
-    "dir": "500X Downtown Express",
+    "dir": "Downtown Express",
     "stops": [
       "Meadows Transit Centre",
       "17 Street & 66 Avenue",
@@ -7138,7 +7138,7 @@
   },
   {
     "route_no": "500X",
-    "dir": "500X Downtown Express",
+    "dir": "Downtown Express",
     "stops": [
       "Meadows Transit Centre",
       "17 Street & 66 Avenue",
@@ -7156,7 +7156,7 @@
   },
   {
     "route_no": "500X",
-    "dir": "500X Meadows Express",
+    "dir": "Meadows Express",
     "stops": [
       "105 Street & 104 Avenue",
       "103 Street & 103 Avenue",
@@ -7172,7 +7172,7 @@
   },
   {
     "route_no": "500X",
-    "dir": "500X Meadows Express",
+    "dir": "Meadows Express",
     "stops": [
       "105 Street & 104 Avenue",
       "106 Street & 103 Avenue",
@@ -7194,7 +7194,7 @@
   },
   {
     "route_no": "501",
-    "dir": "501 Capilano",
+    "dir": "Capilano",
     "stops": [
       "Davies Transit Centre",
       "80 Street & Wagner Road",
@@ -7241,7 +7241,7 @@
   },
   {
     "route_no": "501",
-    "dir": "501 Davies",
+    "dir": "Davies",
     "stops": [
       "Capilano Transit Centre",
       "50 Street & 98 Avenue",
@@ -7288,7 +7288,7 @@
   },
   {
     "route_no": "502",
-    "dir": "502 Davies",
+    "dir": "Davies",
     "stops": [
       "South Campus Fort Edmonton Transit Centre",
       "113 Street & 65 Avenue",
@@ -7305,7 +7305,7 @@
   },
   {
     "route_no": "502",
-    "dir": "502 South Campus",
+    "dir": "South Campus",
     "stops": [
       "Davies Transit Centre",
       "80 Street & Wagner Road",
@@ -7323,7 +7323,7 @@
   },
   {
     "route_no": "503",
-    "dir": "503 Davies",
+    "dir": "Davies",
     "stops": [
       "Millbourne Road E & 38 Avenue",
       "68 Street & 38 Avenue",
@@ -7356,7 +7356,7 @@
   },
   {
     "route_no": "503",
-    "dir": "503 Millbourne",
+    "dir": "Millbourne",
     "stops": [
       "Davies Transit Centre",
       "80 Street & Wagner Road",
@@ -7383,7 +7383,7 @@
   },
   {
     "route_no": "504",
-    "dir": "504 Davies",
+    "dir": "Davies",
     "stops": [
       "Meadows Transit Centre",
       "17 Street & Whitemud Drive",
@@ -7416,7 +7416,7 @@
   },
   {
     "route_no": "504",
-    "dir": "504 Meadows",
+    "dir": "Meadows",
     "stops": [
       "Davies Transit Centre",
       "75 Street & Wagner Road",
@@ -7448,7 +7448,7 @@
   },
   {
     "route_no": "505",
-    "dir": "505 Pylypow",
+    "dir": "Pylypow",
     "stops": [
       "Davies Transit Centre",
       "75 Street & McIntyre Road",
@@ -7481,7 +7481,7 @@
   },
   {
     "route_no": "506",
-    "dir": "506 Davies",
+    "dir": "Davies",
     "stops": [
       "Maple Road & Maple Way",
       "Maple Way & Maple Road",
@@ -7494,7 +7494,7 @@
   },
   {
     "route_no": "506",
-    "dir": "506 Davies",
+    "dir": "Davies",
     "stops": [
       "Maple Way & Maple Road",
       "12 Street & Maple Road",
@@ -7537,7 +7537,7 @@
   },
   {
     "route_no": "506",
-    "dir": "506 Maple",
+    "dir": "Maple",
     "stops": [
       "28 Street & 43 Avenue",
       "24 Street & 43 Avenue",
@@ -7557,7 +7557,7 @@
   },
   {
     "route_no": "506",
-    "dir": "506 Maple",
+    "dir": "Maple",
     "stops": [
       "Davies Transit Centre",
       "75 Street & McIntyre Road",
@@ -7598,7 +7598,7 @@
   },
   {
     "route_no": "506",
-    "dir": "506 Meadows",
+    "dir": "Meadows",
     "stops": [
       "Maple Way & Maple Road",
       "12 Street & Maple Road",
@@ -7608,7 +7608,7 @@
   },
   {
     "route_no": "507",
-    "dir": "507 Meadows",
+    "dir": "Meadows",
     "stops": [
       "23 Street & 37 Avenue",
       "21 Street & 37 Avenue",
@@ -7619,7 +7619,7 @@
   },
   {
     "route_no": "507",
-    "dir": "507 Meadows",
+    "dir": "Meadows",
     "stops": [
       "Tamarack Green & 35 Avenue",
       "12 Street & Tamarack Green",
@@ -7632,7 +7632,7 @@
   },
   {
     "route_no": "507",
-    "dir": "507 Southgate",
+    "dir": "Southgate",
     "stops": [
       "Tamarack Green & 35 Avenue",
       "12 Street & Tamarack Green",
@@ -7695,7 +7695,7 @@
   },
   {
     "route_no": "507",
-    "dir": "507 Tamarack",
+    "dir": "Tamarack",
     "stops": [
       "Southgate Transit Centre",
       "110 Street & 51 Avenue",
@@ -7757,7 +7757,7 @@
   },
   {
     "route_no": "508",
-    "dir": "508 Meadows",
+    "dir": "Meadows",
     "stops": [
       "Mill Woods Transit Centre",
       "Hewes Way & 27 Avenue",
@@ -7793,7 +7793,7 @@
   },
   {
     "route_no": "508",
-    "dir": "508 Mill Woods",
+    "dir": "Mill Woods",
     "stops": [
       "Meadows Transit Centre",
       "Tamarack Road & Maple Road",
@@ -8050,7 +8050,7 @@
   },
   {
     "route_no": "51",
-    "dir": "51 Castle Downs",
+    "dir": "Castle Downs",
     "stops": [
       "114 Street & 89 Avenue",
       "University Transit Centre",
@@ -8100,7 +8100,7 @@
   },
   {
     "route_no": "51",
-    "dir": "51 Castle Downs",
+    "dir": "Castle Downs",
     "stops": [
       "114 Street & 89 Avenue",
       "University Transit Centre",
@@ -8153,7 +8153,7 @@
   },
   {
     "route_no": "51",
-    "dir": "51 Castle Downs",
+    "dir": "Castle Downs",
     "stops": [
       "University Transit Centre",
       "112 Street & 86 Avenue",
@@ -8202,7 +8202,7 @@
   },
   {
     "route_no": "51",
-    "dir": "51 Castle Downs",
+    "dir": "Castle Downs",
     "stops": [
       "University Transit Centre",
       "112 Street & 86 Avenue",
@@ -8254,7 +8254,7 @@
   },
   {
     "route_no": "51",
-    "dir": "51 Castle Downs",
+    "dir": "Castle Downs",
     "stops": [
       "Westmount Transit Centre",
       "135 Street & 114 Avenue",
@@ -8287,7 +8287,7 @@
   },
   {
     "route_no": "51",
-    "dir": "51 Castle Downs",
+    "dir": "Castle Downs",
     "stops": [
       "Westmount Transit Centre",
       "135 Street & 114 Avenue",
@@ -8323,7 +8323,7 @@
   },
   {
     "route_no": "51",
-    "dir": "51 University",
+    "dir": "University",
     "stops": [
       "Castle Downs Transit Centre",
       "Castle Downs Road & 153 Avenue",
@@ -8370,7 +8370,7 @@
   },
   {
     "route_no": "51",
-    "dir": "51 University",
+    "dir": "University",
     "stops": [
       "Castle Downs Transit Centre",
       "Castle Downs Road & 153 Avenue",
@@ -8419,7 +8419,39 @@
   },
   {
     "route_no": "511",
-    "dir": "511 Owl-Mill Woods",
+    "dir": "511-Owl Downtown",
+    "stops": [
+      "Mill Woods Transit Centre",
+      "66 Street & 28 Avenue",
+      "66 Street & 31 Avenue",
+      "66 Street & 34 Avenue",
+      "66 Street & 36 Avenue",
+      "66 Street & 38 Avenue",
+      "66 Street & 41 Avenue",
+      "75 Street & 51 Avenue",
+      "75 Street & McIntyre Road",
+      "Davies Transit Centre",
+      "86 Street & Davies Road",
+      "86 Street & Wagner Road",
+      "86 Street & Coronet Road",
+      "83 Street & Argyll Road",
+      "83 Street & 71 Avenue",
+      "83 Street & 73 Avenue",
+      "83 Street & 76 Avenue",
+      "83 Street & 84 Avenue",
+      "83 Street & 86 Avenue",
+      "85 Street & 93 Avenue",
+      "90 Street & 95 Avenue",
+      "Low Level Bridge & 98 Avenue",
+      "McDougall Hill & Grierson Hill",
+      "100 Street & Jasper Avenue",
+      "100 Street & 102 Avenue",
+      "100 Street & 102 Avenue"
+    ]
+  },
+  {
+    "route_no": "511",
+    "dir": "Owl-Mill Woods",
     "stops": [
       "100 Street & 102 Avenue",
       "101 Street & 103 Avenue",
@@ -8452,40 +8484,8 @@
     ]
   },
   {
-    "route_no": "511",
-    "dir": "511-Owl Downtown",
-    "stops": [
-      "Mill Woods Transit Centre",
-      "66 Street & 28 Avenue",
-      "66 Street & 31 Avenue",
-      "66 Street & 34 Avenue",
-      "66 Street & 36 Avenue",
-      "66 Street & 38 Avenue",
-      "66 Street & 41 Avenue",
-      "75 Street & 51 Avenue",
-      "75 Street & McIntyre Road",
-      "Davies Transit Centre",
-      "86 Street & Davies Road",
-      "86 Street & Wagner Road",
-      "86 Street & Coronet Road",
-      "83 Street & Argyll Road",
-      "83 Street & 71 Avenue",
-      "83 Street & 73 Avenue",
-      "83 Street & 76 Avenue",
-      "83 Street & 84 Avenue",
-      "83 Street & 86 Avenue",
-      "85 Street & 93 Avenue",
-      "90 Street & 95 Avenue",
-      "Low Level Bridge & 98 Avenue",
-      "McDougall Hill & Grierson Hill",
-      "100 Street & Jasper Avenue",
-      "100 Street & 102 Avenue",
-      "100 Street & 102 Avenue"
-    ]
-  },
-  {
     "route_no": "512",
-    "dir": "512 South Edm Common",
+    "dir": "South Edm Common",
     "stops": [
       "Mill Woods Transit Centre",
       "Hewes Way & 27 Avenue",
@@ -8530,7 +8530,7 @@
   },
   {
     "route_no": "513",
-    "dir": "513 Knottwood",
+    "dir": "Knottwood",
     "stops": [
       "Mill Woods Transit Centre",
       "67 Street & 28 Avenue",
@@ -8565,7 +8565,7 @@
   },
   {
     "route_no": "513",
-    "dir": "513 Knottwood",
+    "dir": "Knottwood",
     "stops": [
       "Mill Woods Transit Centre",
       "Hewes Way & 27 Avenue",
@@ -8600,7 +8600,7 @@
   },
   {
     "route_no": "514",
-    "dir": "514 Millhurst",
+    "dir": "Millhurst",
     "stops": [
       "Mill Woods Transit Centre",
       "Hewes Way & 23 Avenue",
@@ -8628,7 +8628,7 @@
   },
   {
     "route_no": "515",
-    "dir": "515 Meadows",
+    "dir": "Meadows",
     "stops": [
       "Mill Woods Transit Centre",
       "66 Street & 27 Avenue",
@@ -8664,7 +8664,7 @@
   },
   {
     "route_no": "515",
-    "dir": "515 Mill Woods",
+    "dir": "Mill Woods",
     "stops": [
       "Meadows Transit Centre",
       "17 Street & Tamarack Way",
@@ -8701,7 +8701,7 @@
   },
   {
     "route_no": "516",
-    "dir": "516 Laurel",
+    "dir": "Laurel",
     "stops": [
       "Mill Woods Transit Centre",
       "66 Street & 23 Avenue",
@@ -8730,7 +8730,7 @@
   },
   {
     "route_no": "516",
-    "dir": "516 Laurel",
+    "dir": "Laurel",
     "stops": [
       "Mill Woods Transit Centre",
       "Hewes Way & 23 Avenue",
@@ -8757,7 +8757,7 @@
   },
   {
     "route_no": "516",
-    "dir": "516 Meadows",
+    "dir": "Meadows",
     "stops": [
       "Mill Woods Transit Centre",
       "66 Street & 23 Avenue",
@@ -8795,7 +8795,7 @@
   },
   {
     "route_no": "516",
-    "dir": "516 Meadows",
+    "dir": "Meadows",
     "stops": [
       "Mill Woods Transit Centre",
       "Hewes Way & 23 Avenue",
@@ -8831,7 +8831,7 @@
   },
   {
     "route_no": "516",
-    "dir": "516 Mill Woods",
+    "dir": "Mill Woods",
     "stops": [
       "24 Street & 23 Avenue",
       "24 Street & 20 Avenue",
@@ -8860,7 +8860,7 @@
   },
   {
     "route_no": "516",
-    "dir": "516 Mill Woods",
+    "dir": "Mill Woods",
     "stops": [
       "24 Street & 23 Avenue",
       "24 Street & 20 Avenue",
@@ -8887,7 +8887,7 @@
   },
   {
     "route_no": "516",
-    "dir": "516 Mill Woods",
+    "dir": "Mill Woods",
     "stops": [
       "Meadows Transit Centre",
       "17 Street & Tamarack Way",
@@ -8924,7 +8924,7 @@
   },
   {
     "route_no": "516",
-    "dir": "516 Mill Woods",
+    "dir": "Mill Woods",
     "stops": [
       "Meadows Transit Centre",
       "17 Street & Tamarack Way",
@@ -8959,7 +8959,7 @@
   },
   {
     "route_no": "517",
-    "dir": "517 Southwood",
+    "dir": "Southwood",
     "stops": [
       "Mill Woods Transit Centre",
       "66 Street & 23 Avenue",
@@ -8993,7 +8993,7 @@
   },
   {
     "route_no": "518",
-    "dir": "518 Century Park",
+    "dir": "Century Park",
     "stops": [
       "Mill Woods Transit Centre",
       "66 Street & 23 Avenue",
@@ -9048,7 +9048,7 @@
   },
   {
     "route_no": "518",
-    "dir": "518 Mill Woods",
+    "dir": "Mill Woods",
     "stops": [
       "Century Park Transit Centre",
       "111 Street & 29 Avenue",
@@ -9101,7 +9101,7 @@
   },
   {
     "route_no": "519",
-    "dir": "519 Century Park",
+    "dir": "Century Park",
     "stops": [
       "Mill Woods Transit Centre",
       "66 Street & 23 Avenue",
@@ -9151,7 +9151,7 @@
   },
   {
     "route_no": "519",
-    "dir": "519 Mill Woods",
+    "dir": "Mill Woods",
     "stops": [
       "Century Park Transit Centre",
       "111 Street & 29 Avenue",
@@ -9208,7 +9208,7 @@
   },
   {
     "route_no": "52",
-    "dir": "52 Northgate",
+    "dir": "Northgate",
     "stops": [
       "West Edmonton Mall Transit Centre",
       "169 Street & 87 Avenue",
@@ -9271,7 +9271,7 @@
   },
   {
     "route_no": "52",
-    "dir": "52 Northgate",
+    "dir": "Northgate",
     "stops": [
       "Westmount Transit Centre",
       "135 Street & 114 Avenue",
@@ -9307,7 +9307,7 @@
   },
   {
     "route_no": "52",
-    "dir": "52 West Edm Mall",
+    "dir": "West Edm Mall",
     "stops": [
       "Northgate Transit Centre",
       "97 Street & 137 Avenue",
@@ -9379,7 +9379,7 @@
   },
   {
     "route_no": "52",
-    "dir": "52 West Edm Mall",
+    "dir": "West Edm Mall",
     "stops": [
       "Westmount Transit Centre",
       "136 Street & 111 Avenue",
@@ -9418,7 +9418,7 @@
   },
   {
     "route_no": "52",
-    "dir": "52 Westmount",
+    "dir": "Westmount",
     "stops": [
       "Northgate Transit Centre",
       "97 Street & 137 Avenue",
@@ -9458,7 +9458,7 @@
   },
   {
     "route_no": "521",
-    "dir": "521 Century Park",
+    "dir": "Century Park",
     "stops": [
       "Mill Woods Transit Centre",
       "66 Street & 23 Avenue",
@@ -9512,7 +9512,7 @@
   },
   {
     "route_no": "521",
-    "dir": "521 Mill Woods",
+    "dir": "Mill Woods",
     "stops": [
       "Century Park Transit Centre",
       "111 Street & Saddleback Road S Ent",
@@ -9561,7 +9561,7 @@
   },
   {
     "route_no": "522",
-    "dir": "522 Bonnie Doon",
+    "dir": "Bonnie Doon",
     "stops": [
       "Capilano Transit Centre",
       "50 Street & 98 Avenue",
@@ -9603,7 +9603,7 @@
   },
   {
     "route_no": "522",
-    "dir": "522 Capilano",
+    "dir": "Capilano",
     "stops": [
       "83 Street & 82 Avenue",
       "81 Street & 90 Avenue",
@@ -9644,7 +9644,7 @@
   },
   {
     "route_no": "523",
-    "dir": "523 Downtown",
+    "dir": "Downtown",
     "stops": [
       "Mill Woods Transit Centre",
       "66 Street & 27 Avenue",
@@ -9701,7 +9701,7 @@
   },
   {
     "route_no": "523",
-    "dir": "523 Mill Woods",
+    "dir": "Mill Woods",
     "stops": [
       "100 Street & 102 Avenue",
       "101 Street & 103 Avenue",
@@ -9761,7 +9761,7 @@
   },
   {
     "route_no": "524",
-    "dir": "524 Bonnie Doon",
+    "dir": "Bonnie Doon",
     "stops": [
       "Donnell Road & 95 Avenue",
       "92 Street & 95 Avenue",
@@ -9780,7 +9780,7 @@
   },
   {
     "route_no": "524",
-    "dir": "524 Holyrood",
+    "dir": "Holyrood",
     "stops": [
       "Bonnie Doon Mall South Entrance",
       "85 Street & 82 Avenue",
@@ -9799,7 +9799,7 @@
   },
   {
     "route_no": "525",
-    "dir": "525 Bonnie Doon",
+    "dir": "Bonnie Doon",
     "stops": [
       "97 Street & 71 Avenue",
       "96 Street & 71 Avenue",
@@ -9820,7 +9820,7 @@
   },
   {
     "route_no": "525",
-    "dir": "525 Ritchie",
+    "dir": "Ritchie",
     "stops": [
       "Bonnie Doon Mall South Entrance",
       "85 Street & 82 Avenue",
@@ -9843,7 +9843,7 @@
   },
   {
     "route_no": "526",
-    "dir": "526 Mill Woods",
+    "dir": "Mill Woods",
     "stops": [
       "68 Street & 38 Avenue",
       "66 Street & 38 Avenue",
@@ -9878,7 +9878,7 @@
   },
   {
     "route_no": "526",
-    "dir": "526 Millbourne Woodvale",
+    "dir": "Millbourne Woodvale",
     "stops": [
       "Mill Woods Transit Centre",
       "66 Street & 27 Avenue",
@@ -9908,7 +9908,7 @@
   },
   {
     "route_no": "527",
-    "dir": "527 Mill Woods",
+    "dir": "Mill Woods",
     "stops": [
       "62 Street & 38 Avenue",
       "66 Street & 38 Avenue",
@@ -9938,7 +9938,7 @@
   },
   {
     "route_no": "527",
-    "dir": "527 Mill Woods",
+    "dir": "Mill Woods",
     "stops": [
       "66 Street & 38 Avenue",
       "Millbourne Road E & 38 Avenue",
@@ -9966,7 +9966,7 @@
   },
   {
     "route_no": "527",
-    "dir": "527 Mill Woods",
+    "dir": "Mill Woods",
     "stops": [
       "66 Street & 38 Avenue",
       "Woodvale Road W & 38 Avenue",
@@ -9991,7 +9991,7 @@
   },
   {
     "route_no": "527",
-    "dir": "527 Millbourne",
+    "dir": "Millbourne",
     "stops": [
       "Mill Woods Transit Centre",
       "Hewes Way & 27 Avenue",
@@ -10034,7 +10034,7 @@
   },
   {
     "route_no": "53",
-    "dir": "53 Clareview",
+    "dir": "Clareview",
     "stops": [
       "Mill Woods Transit Centre",
       "66 Street & 27 Avenue",
@@ -10090,7 +10090,7 @@
   },
   {
     "route_no": "53",
-    "dir": "53 Mill Woods",
+    "dir": "Mill Woods",
     "stops": [
       "West Clareview Transit Centre",
       "Fort Road & 136 Avenue",
@@ -10145,7 +10145,7 @@
   },
   {
     "route_no": "54",
-    "dir": "54 Clareview",
+    "dir": "Clareview",
     "stops": [
       "West Edmonton Mall Transit Centre",
       "178 Street & 93 Avenue",
@@ -10214,7 +10214,7 @@
   },
   {
     "route_no": "54",
-    "dir": "54 West Edm Mall",
+    "dir": "West Edm Mall",
     "stops": [
       "West Clareview Transit Centre",
       "Manning Drive & 137 Avenue",
@@ -10281,7 +10281,7 @@
   },
   {
     "route_no": "540",
-    "dir": "540 Beaumont To Ken Nichol Rec Centre",
+    "dir": "Beaumont To Ken Nichol Rec Centre",
     "stops": [
       "Mill Woods Transit Centre",
       "50 Street & Ellerslie Road",
@@ -10290,7 +10290,7 @@
   },
   {
     "route_no": "540",
-    "dir": "540 Edmonton To Mill Woods Tc",
+    "dir": "Edmonton To Mill Woods Tc",
     "stops": [
       "Ken Nichol Recreation Centre",
       "50 Street & Ellerslie Road",
@@ -10299,7 +10299,7 @@
   },
   {
     "route_no": "55",
-    "dir": "55 Meadows",
+    "dir": "Meadows",
     "stops": [
       "West Edmonton Mall Transit Centre",
       "169 Street & 87 Avenue",
@@ -10332,7 +10332,7 @@
   },
   {
     "route_no": "55",
-    "dir": "55 West Edm Mall",
+    "dir": "West Edm Mall",
     "stops": [
       "Meadows Transit Centre",
       "50 Street & Whitemud Drive",
@@ -10362,7 +10362,7 @@
   },
   {
     "route_no": "56",
-    "dir": "56 Century Park",
+    "dir": "Century Park",
     "stops": [
       "Leger Transit Centre",
       "Tegler Gate & 23 Avenue",
@@ -10377,7 +10377,7 @@
   },
   {
     "route_no": "56",
-    "dir": "56 Leger",
+    "dir": "Leger",
     "stops": [
       "Meadows Transit Centre",
       "17 Street & Tamarack Way",
@@ -10423,7 +10423,7 @@
   },
   {
     "route_no": "56",
-    "dir": "56 Leger",
+    "dir": "Leger",
     "stops": [
       "Whitemud Drive SB & 53 Avenue",
       "Riverbend Road & 53 Avenue",
@@ -10444,7 +10444,7 @@
   },
   {
     "route_no": "56",
-    "dir": "56 Meadows",
+    "dir": "Meadows",
     "stops": [
       "Leger Transit Centre",
       "Tegler Gate & 23 Avenue",
@@ -10493,7 +10493,7 @@
   },
   {
     "route_no": "56",
-    "dir": "56 Meadows",
+    "dir": "Meadows",
     "stops": [
       "West Edmonton Mall Transit Centre",
       "169 Street & 87 Avenue",
@@ -10566,7 +10566,7 @@
   },
   {
     "route_no": "56",
-    "dir": "56 Mill Woods",
+    "dir": "Mill Woods",
     "stops": [
       "Leger Transit Centre",
       "Tegler Gate & 23 Avenue",
@@ -10600,7 +10600,7 @@
   },
   {
     "route_no": "56",
-    "dir": "56 Riverbend",
+    "dir": "Riverbend",
     "stops": [
       "Leger Transit Centre",
       "Leger Road & 23 Avenue",
@@ -10623,7 +10623,7 @@
   },
   {
     "route_no": "56",
-    "dir": "56 Riverbend",
+    "dir": "Riverbend",
     "stops": [
       "Leger Transit Centre",
       "Riverbend Road & Haddow Close",
@@ -10645,7 +10645,7 @@
   },
   {
     "route_no": "56",
-    "dir": "56 West Edm Mall",
+    "dir": "West Edm Mall",
     "stops": [
       "Meadows Transit Centre",
       "17 Street & Tamarack Way",
@@ -10717,7 +10717,7 @@
   },
   {
     "route_no": "56",
-    "dir": "56 West Edm Mall",
+    "dir": "West Edm Mall",
     "stops": [
       "Meadows Transit Centre",
       "17 Street & Tamarack Way",
@@ -10788,7 +10788,7 @@
   },
   {
     "route_no": "560",
-    "dir": "560 Edmonton Via 158 St/118 Ave",
+    "dir": "Edmonton Via 158 St/118 Ave",
     "stops": [
       "Spruce Grove Transit Centre",
       "Westwind Drive & Kenton Way",
@@ -10797,7 +10797,7 @@
   },
   {
     "route_no": "560",
-    "dir": "560 Edmonton Via Kingsway/Downtown",
+    "dir": "Edmonton Via Kingsway/Downtown",
     "stops": [
       "Kingsway RAH Transit Centre",
       "102 Street & 111 Avenue",
@@ -10818,7 +10818,7 @@
   },
   {
     "route_no": "560",
-    "dir": "560 Spruce Grove",
+    "dir": "Spruce Grove",
     "stops": [
       "154 Street & 118 Avenue",
       "Westwind Drive & McDonald's",
@@ -10862,7 +10862,7 @@
   },
   {
     "route_no": "560",
-    "dir": "560 Spruce Grove",
+    "dir": "Spruce Grove",
     "stops": [
       "Kingsway RAH Transit Centre",
       "102 Street & 111 Avenue",
@@ -10889,7 +10889,7 @@
   },
   {
     "route_no": "560",
-    "dir": "560 Spruce Grove",
+    "dir": "Spruce Grove",
     "stops": [
       "Spruce Grove Transit Centre",
       "Westwind Drive & Kenton Way",
@@ -10927,7 +10927,7 @@
   },
   {
     "route_no": "560",
-    "dir": "560 Spruce Grove",
+    "dir": "Spruce Grove",
     "stops": [
       "Spruce Grove Transit Centre",
       "Westwind Drive & Kenton Way",
@@ -10970,7 +10970,7 @@
   },
   {
     "route_no": "589",
-    "dir": "589 Coliseum",
+    "dir": "Coliseum",
     "stops": [
       "Edmonton Waste Management Centre IPTF",
       "Coliseum Transit Centre"
@@ -10978,7 +10978,7 @@
   },
   {
     "route_no": "589",
-    "dir": "589 Edm Waste Mgmt",
+    "dir": "Edm Waste Mgmt",
     "stops": [
       "Coliseum Transit Centre",
       "Edmonton Waste Management Centre IPTF"
@@ -10986,7 +10986,7 @@
   },
   {
     "route_no": "6",
-    "dir": "6 Davies",
+    "dir": "Davies",
     "stops": [
       "Southgate Transit Centre",
       "110 Street & 51 Avenue",
@@ -11013,7 +11013,7 @@
   },
   {
     "route_no": "6",
-    "dir": "6 Southgate",
+    "dir": "Southgate",
     "stops": [
       "Davies Transit Centre",
       "80 Street & Wagner Road",
@@ -11094,7 +11094,7 @@
   },
   {
     "route_no": "610",
-    "dir": "610 Lago Lindo",
+    "dir": "Lago Lindo",
     "stops": [
       "95 Street & 132 Avenue Nearside",
       "95 Street & 132 Avenue",
@@ -11141,7 +11141,7 @@
   },
   {
     "route_no": "610",
-    "dir": "610 Lago Lindo",
+    "dir": "Lago Lindo",
     "stops": [
       "95 Street & 132 Avenue Nearside",
       "95 Street & 132 Avenue",
@@ -11189,7 +11189,7 @@
   },
   {
     "route_no": "610",
-    "dir": "610 Queen E",
+    "dir": "Queen E",
     "stops": [
       "91 Street & 167 Avenue",
       "90 Street & Klarvatten Road",
@@ -11235,7 +11235,7 @@
   },
   {
     "route_no": "610",
-    "dir": "610 Queen E",
+    "dir": "Queen E",
     "stops": [
       "91 Street & 167 Avenue",
       "90 Street & Klarvatten Road",
@@ -11320,7 +11320,7 @@
   },
   {
     "route_no": "611",
-    "dir": "611 Cardinal Leger",
+    "dir": "Cardinal Leger",
     "stops": [
       "91 Street & 167 Avenue",
       "90 Street & Klarvatten Road",
@@ -11352,41 +11352,6 @@
       "94 Street & 144 Avenue",
       "88 Street & 144 Avenue",
       "87 Street & 144 Avenue"
-    ]
-  },
-  {
-    "route_no": "611",
-    "dir": "611 Lago Lindo",
-    "stops": [
-      "88 Street & 144 Avenue",
-      "92 Street & 144 Avenue",
-      "97 Street & 144 Avenue",
-      "97 Street & 153 Avenue",
-      "Eaux Claires Transit Centre",
-      "97 Street & 160 Avenue",
-      "97 Street & 165 Avenue",
-      "97 Street & 167 Avenue",
-      "95 Street & 167 Avenue",
-      "91 Street & 167 Avenue",
-      "90 Street & Klarvatten Road",
-      "Klarvatten Road & Klarvatten Bay",
-      "Klarvatten Road & Klarvatten Cove",
-      "Klarvatten Road & Klarvatten Court",
-      "87 Street & 175 Avenue",
-      "87 Street & 177 Avenue",
-      "87 Street & 179 Avenue",
-      "87 Street & 180 Avenue",
-      "89 Street & 180 Avenue",
-      "91 Street & 179 Avenue",
-      "92 Street & 179 Avenue",
-      "94 Street & 179 Avenue",
-      "95 Street & 178 Avenue",
-      "95 Street & 176 Avenue",
-      "95 Street & 174 Avenue",
-      "95 Street & 171 Avenue",
-      "Lago Lindo Crescent & 168 Avenue",
-      "93 Street & 168 Avenue",
-      "91 Street & 168 Avenue"
     ]
   },
   {
@@ -11432,8 +11397,43 @@
     ]
   },
   {
+    "route_no": "611",
+    "dir": "Lago Lindo",
+    "stops": [
+      "88 Street & 144 Avenue",
+      "92 Street & 144 Avenue",
+      "97 Street & 144 Avenue",
+      "97 Street & 153 Avenue",
+      "Eaux Claires Transit Centre",
+      "97 Street & 160 Avenue",
+      "97 Street & 165 Avenue",
+      "97 Street & 167 Avenue",
+      "95 Street & 167 Avenue",
+      "91 Street & 167 Avenue",
+      "90 Street & Klarvatten Road",
+      "Klarvatten Road & Klarvatten Bay",
+      "Klarvatten Road & Klarvatten Cove",
+      "Klarvatten Road & Klarvatten Court",
+      "87 Street & 175 Avenue",
+      "87 Street & 177 Avenue",
+      "87 Street & 179 Avenue",
+      "87 Street & 180 Avenue",
+      "89 Street & 180 Avenue",
+      "91 Street & 179 Avenue",
+      "92 Street & 179 Avenue",
+      "94 Street & 179 Avenue",
+      "95 Street & 178 Avenue",
+      "95 Street & 176 Avenue",
+      "95 Street & 174 Avenue",
+      "95 Street & 171 Avenue",
+      "Lago Lindo Crescent & 168 Avenue",
+      "93 Street & 168 Avenue",
+      "91 Street & 168 Avenue"
+    ]
+  },
+  {
     "route_no": "612",
-    "dir": "612 Brintnell",
+    "dir": "Brintnell",
     "stops": [
       "88 Street & 132 Avenue",
       "85 Street & 132 Avenue",
@@ -11490,7 +11490,7 @@
   },
   {
     "route_no": "612",
-    "dir": "612 Brintnell",
+    "dir": "Brintnell",
     "stops": [
       "90 Street & 132 Avenue",
       "90 Street & 134 Avenue",
@@ -11549,7 +11549,7 @@
   },
   {
     "route_no": "612",
-    "dir": "612 O'Leary",
+    "dir": "O'Leary",
     "stops": [
       "Brintnell Boulevard & 167 Avenue",
       "42 Street & Brintnell Boulevard",
@@ -11610,7 +11610,7 @@
   },
   {
     "route_no": "612",
-    "dir": "612 O'Leary",
+    "dir": "O'Leary",
     "stops": [
       "Brintnell Boulevard & 167 Avenue",
       "42 Street & Brintnell Boulevard",
@@ -11673,7 +11673,7 @@
   },
   {
     "route_no": "613",
-    "dir": "613 Arch O'Leary",
+    "dir": "Arch O'Leary",
     "stops": [
       "121 Street & 157 Avenue",
       "121 Street & 159 Avenue",
@@ -11709,7 +11709,7 @@
   },
   {
     "route_no": "613",
-    "dir": "613 Arch O'Leary",
+    "dir": "Arch O'Leary",
     "stops": [
       "121 Street & 161 Avenue",
       "121 Street & 161 Avenue",
@@ -11743,7 +11743,7 @@
   },
   {
     "route_no": "613",
-    "dir": "613 Dunluce",
+    "dir": "Dunluce",
     "stops": [
       "88 Street & 132 Avenue",
       "90 Street & 132 Avenue",
@@ -11779,7 +11779,7 @@
   },
   {
     "route_no": "613",
-    "dir": "613 Dunluce",
+    "dir": "Dunluce",
     "stops": [
       "90 Street & 132 Avenue",
       "90 Street & 132 Avenue",
@@ -11813,7 +11813,7 @@
   },
   {
     "route_no": "614",
-    "dir": "614 Arch O'Leary",
+    "dir": "Arch O'Leary",
     "stops": [
       "100 Street & Castle Downs Road",
       "100 Street & 169 Avenue",
@@ -11845,7 +11845,7 @@
   },
   {
     "route_no": "614",
-    "dir": "614 Arch O'Leary",
+    "dir": "Arch O'Leary",
     "stops": [
       "100 Street & Castle Downs Road",
       "100 Street & 169 Avenue",
@@ -11881,7 +11881,7 @@
   },
   {
     "route_no": "614",
-    "dir": "614 Baturyn",
+    "dir": "Baturyn",
     "stops": [
       "88 Street & 132 Avenue",
       "90 Street & 132 Avenue",
@@ -11915,7 +11915,7 @@
   },
   {
     "route_no": "614",
-    "dir": "614 Baturyn Via Eaux Claires",
+    "dir": "Baturyn Via Eaux Claires",
     "stops": [
       "90 Street & 132 Avenue",
       "90 Street & 134 Avenue",
@@ -11947,7 +11947,7 @@
   },
   {
     "route_no": "616",
-    "dir": "616 Lago Lindo",
+    "dir": "Lago Lindo",
     "stops": [
       "109 Street & 163 Avenue",
       "109 Street & Castle Downs Road",
@@ -11984,7 +11984,7 @@
   },
   {
     "route_no": "616",
-    "dir": "616 M Butterworth",
+    "dir": "M Butterworth",
     "stops": [
       "91 Street & 167 Avenue",
       "90 Street & Klarvatten Road",
@@ -12021,7 +12021,7 @@
   },
   {
     "route_no": "617",
-    "dir": "617 Eaux Claires",
+    "dir": "Eaux Claires",
     "stops": [
       "109 Street & 164 Avenue",
       "109 Street & Beaumaris Road",
@@ -12038,7 +12038,7 @@
   },
   {
     "route_no": "617",
-    "dir": "617 M Butterworth",
+    "dir": "M Butterworth",
     "stops": [
       "Eaux Claires Transit Centre",
       "97 Street & 153 Avenue",
@@ -12055,7 +12055,7 @@
   },
   {
     "route_no": "618",
-    "dir": "618 Rapperswill",
+    "dir": "Rapperswill",
     "stops": [
       "137 Street & 132 Avenue",
       "135 Street & 132 Avenue",
@@ -12105,7 +12105,7 @@
   },
   {
     "route_no": "618",
-    "dir": "618 Rapperswill",
+    "dir": "Rapperswill",
     "stops": [
       "137 Street & 132 Avenue",
       "135 Street & 132 Avenue",
@@ -12159,7 +12159,7 @@
   },
   {
     "route_no": "618",
-    "dir": "618 Sjt Hs",
+    "dir": "Sjt Hs",
     "stops": [
       "125 Street & Rapperswill Drive",
       "123 Street & Rapperswill Drive",
@@ -12213,7 +12213,7 @@
   },
   {
     "route_no": "618",
-    "dir": "618 Sjt Hs",
+    "dir": "Sjt Hs",
     "stops": [
       "125 Street & Rapperswill Drive",
       "123 Street & Rapperswill Drive",
@@ -12263,7 +12263,7 @@
   },
   {
     "route_no": "620",
-    "dir": "620 Brintnell",
+    "dir": "Brintnell",
     "stops": [
       "62 Street & 144 Avenue",
       "66 Street & 144 Avenue",
@@ -12301,7 +12301,7 @@
   },
   {
     "route_no": "620",
-    "dir": "620 Jj Bowlen",
+    "dir": "Jj Bowlen",
     "stops": [
       "Brintnell Boulevard & 167 Avenue",
       "42 Street & Brintnell Boulevard",
@@ -12342,7 +12342,7 @@
   },
   {
     "route_no": "621",
-    "dir": "621 Crystallina Nera",
+    "dir": "Crystallina Nera",
     "stops": [
       "62 Street & 144 Avenue",
       "66 Street & 144 Avenue",
@@ -12382,7 +12382,7 @@
   },
   {
     "route_no": "621",
-    "dir": "621 Jj Bowlen",
+    "dir": "Jj Bowlen",
     "stops": [
       "66 Street & 178 Avenue",
       "70 Street & 178 Avenue",
@@ -12421,7 +12421,7 @@
   },
   {
     "route_no": "622",
-    "dir": "622 Concordia Univ",
+    "dir": "Concordia Univ",
     "stops": [
       "Stadium Transit Centre",
       "82 Street & 112 Avenue",
@@ -12434,7 +12434,7 @@
   },
   {
     "route_no": "622",
-    "dir": "622 Stadium",
+    "dir": "Stadium",
     "stops": [
       "Concordia University",
       "73 Street & 111 Avenue",
@@ -12448,7 +12448,7 @@
   },
   {
     "route_no": "624",
-    "dir": "624 Arch O'Leary",
+    "dir": "Arch O'Leary",
     "stops": [
       "125 Street & Rapperswill Drive",
       "123 Street & Rapperswill Drive",
@@ -12486,7 +12486,7 @@
   },
   {
     "route_no": "624",
-    "dir": "624 Arch O'Leary",
+    "dir": "Arch O'Leary",
     "stops": [
       "125 Street & Rapperswill Drive",
       "123 Street & Rapperswill Drive",
@@ -12525,7 +12525,7 @@
   },
   {
     "route_no": "624",
-    "dir": "624 Rapperswill",
+    "dir": "Rapperswill",
     "stops": [
       "88 Street & 132 Avenue",
       "90 Street & 132 Avenue",
@@ -12562,7 +12562,7 @@
   },
   {
     "route_no": "624",
-    "dir": "624 Rapperswill",
+    "dir": "Rapperswill",
     "stops": [
       "90 Street & 132 Avenue",
       "91 Street & 132 Avenue",
@@ -12598,7 +12598,7 @@
   },
   {
     "route_no": "625",
-    "dir": "625 Arch O'Leary",
+    "dir": "Arch O'Leary",
     "stops": [
       "128 Street & 167 Avenue WB",
       "Albany Drive & 167 Avenue",
@@ -12652,7 +12652,7 @@
   },
   {
     "route_no": "625",
-    "dir": "625 Arch O'Leary",
+    "dir": "Arch O'Leary",
     "stops": [
       "128 Street & 167 Avenue WB",
       "Albany Drive & 167 Avenue",
@@ -12706,7 +12706,7 @@
   },
   {
     "route_no": "625",
-    "dir": "625 Palisades",
+    "dir": "Palisades",
     "stops": [
       "88 Street & 132 Avenue",
       "90 Street & 132 Avenue",
@@ -12761,7 +12761,7 @@
   },
   {
     "route_no": "625",
-    "dir": "625 Palisades",
+    "dir": "Palisades",
     "stops": [
       "90 Street & 132 Avenue",
       "91 Street & 132 Avenue",
@@ -12815,7 +12815,7 @@
   },
   {
     "route_no": "626",
-    "dir": "626 Arch O'Leary",
+    "dir": "Arch O'Leary",
     "stops": [
       "82 Street & Crystallina Nera Way",
       "77 Street & Crystallina Nera Way",
@@ -12867,7 +12867,7 @@
   },
   {
     "route_no": "626",
-    "dir": "626 Arch O'Leary",
+    "dir": "Arch O'Leary",
     "stops": [
       "82 Street & Crystallina Nera Way",
       "77 Street & Crystallina Nera Way",
@@ -12915,7 +12915,7 @@
   },
   {
     "route_no": "626",
-    "dir": "626 Crystallina Nera",
+    "dir": "Crystallina Nera",
     "stops": [
       "88 Street & 132 Avenue",
       "85 Street & 132 Avenue",
@@ -12963,7 +12963,7 @@
   },
   {
     "route_no": "626",
-    "dir": "626 Crystallina Nera",
+    "dir": "Crystallina Nera",
     "stops": [
       "90 Street & 132 Avenue",
       "90 Street & 134 Avenue",
@@ -13015,7 +13015,7 @@
   },
   {
     "route_no": "627",
-    "dir": "627 Bannerman",
+    "dir": "Bannerman",
     "stops": [
       "70 Street & 118 Avenue",
       "68 Street & 118 Avenue",
@@ -13072,7 +13072,7 @@
   },
   {
     "route_no": "627",
-    "dir": "627 Eastglen Hs",
+    "dir": "Eastglen Hs",
     "stops": [
       "24 Street & 137 Avenue",
       "24 Street & 139 Avenue",
@@ -13128,7 +13128,7 @@
   },
   {
     "route_no": "628",
-    "dir": "628 Cy Becker",
+    "dir": "Cy Becker",
     "stops": [
       "59 Street & 149 Avenue",
       "61 Street & 149 Avenue",
@@ -13161,7 +13161,7 @@
   },
   {
     "route_no": "628",
-    "dir": "628 Steele Heights",
+    "dir": "Steele Heights",
     "stops": [
       "Cy Becker Boulevard & 167 Avenue NB",
       "Cy Becker Boulevard & Zaychuck Road",
@@ -13193,7 +13193,7 @@
   },
   {
     "route_no": "630",
-    "dir": "630 Austin O'Brien",
+    "dir": "Austin O'Brien",
     "stops": [
       "21 Street & Silver Berry Road",
       "23 Street & Silver Berry Road",
@@ -13248,7 +13248,7 @@
   },
   {
     "route_no": "630",
-    "dir": "630 Silver Berry",
+    "dir": "Silver Berry",
     "stops": [
       "61 Street & 95 Avenue",
       "61 Street & 94 Avenue",
@@ -13299,7 +13299,7 @@
   },
   {
     "route_no": "630",
-    "dir": "630 Silver Berry",
+    "dir": "Silver Berry",
     "stops": [
       "Ottewell Road & 94 Avenue",
       "Ottewell Road & 92 Avenue",
@@ -13347,7 +13347,7 @@
   },
   {
     "route_no": "631",
-    "dir": "631 Austin O'Brien",
+    "dir": "Austin O'Brien",
     "stops": [
       "Maple Road & Maple Way",
       "Maple Way & Maple Road",
@@ -13396,7 +13396,7 @@
   },
   {
     "route_no": "631",
-    "dir": "631 Austin O'Brien",
+    "dir": "Austin O'Brien",
     "stops": [
       "Ottewell Road & 94 Avenue",
       "Ottewell Road & 92 Avenue",
@@ -13430,7 +13430,7 @@
   },
   {
     "route_no": "631",
-    "dir": "631 Maple",
+    "dir": "Maple",
     "stops": [
       "61 Street & 95 Avenue",
       "61 Street & 94 Avenue",
@@ -13475,7 +13475,7 @@
   },
   {
     "route_no": "631",
-    "dir": "631 Maple",
+    "dir": "Maple",
     "stops": [
       "Ottewell Road & 94 Avenue",
       "Ottewell Road & 92 Avenue",
@@ -13509,7 +13509,7 @@
   },
   {
     "route_no": "632",
-    "dir": "632 Austin O'Brien",
+    "dir": "Austin O'Brien",
     "stops": [
       "Davies Transit Centre",
       "75 Street & 76 Avenue",
@@ -13525,7 +13525,7 @@
   },
   {
     "route_no": "633",
-    "dir": "633 Austin O'Brien",
+    "dir": "Austin O'Brien",
     "stops": [
       "West Clareview Transit Centre",
       "Fort Road & 136 Avenue",
@@ -13557,7 +13557,7 @@
   },
   {
     "route_no": "633",
-    "dir": "633 Clareview",
+    "dir": "Clareview",
     "stops": [
       "61 Street & 95 Avenue",
       "61 Street & 94 Avenue",
@@ -13593,7 +13593,7 @@
   },
   {
     "route_no": "634",
-    "dir": "634 Mcnally",
+    "dir": "Mcnally",
     "stops": [
       "Tamarack Green & 35 Avenue",
       "12 Street & Tamarack Green",
@@ -13642,7 +13642,7 @@
   },
   {
     "route_no": "634",
-    "dir": "634 Tamarack",
+    "dir": "Tamarack",
     "stops": [
       "84 Street & 105 Avenue",
       "82 Street & 98 Avenue",
@@ -13676,7 +13676,7 @@
   },
   {
     "route_no": "635",
-    "dir": "635 Mcnally",
+    "dir": "Mcnally",
     "stops": [
       "21 Street & Silver Berry Road",
       "23 Street & Silver Berry Road",
@@ -13741,7 +13741,7 @@
   },
   {
     "route_no": "635",
-    "dir": "635 Silver Berry",
+    "dir": "Silver Berry",
     "stops": [
       "84 Street & 105 Avenue",
       "79 Street & 101 Avenue",
@@ -13802,7 +13802,7 @@
   },
   {
     "route_no": "636",
-    "dir": "636 Davies",
+    "dir": "Davies",
     "stops": [
       "84 Street & 105 Avenue",
       "85 Street & Strathearn Drive",
@@ -13820,7 +13820,7 @@
   },
   {
     "route_no": "636",
-    "dir": "636 Mcnally",
+    "dir": "Mcnally",
     "stops": [
       "Davies Transit Centre",
       "86 Street & Coronet Road",
@@ -13846,7 +13846,7 @@
   },
   {
     "route_no": "637",
-    "dir": "637 Braemar",
+    "dir": "Braemar",
     "stops": [
       "University Transit Centre",
       "112 Street & 86 Avenue",
@@ -13882,7 +13882,7 @@
   },
   {
     "route_no": "637",
-    "dir": "637 University",
+    "dir": "University",
     "stops": [
       "Ottewell Road & 94 Avenue",
       "Ottewell Road & 90 Avenue",
@@ -13921,7 +13921,7 @@
   },
   {
     "route_no": "638",
-    "dir": "638 Lakewood",
+    "dir": "Lakewood",
     "stops": [
       "66 Street & Shaw Way",
       "66 Street & 25 Avenue",
@@ -13960,7 +13960,7 @@
   },
   {
     "route_no": "638",
-    "dir": "638 Orchards",
+    "dir": "Orchards",
     "stops": [
       "Lakewood 3002",
       "79 Street & 28 Avenue",
@@ -13996,7 +13996,7 @@
   },
   {
     "route_no": "642",
-    "dir": "642 Lakewood",
+    "dir": "Lakewood",
     "stops": [
       "Mill Woods Transit Centre",
       "Lakewood 3002"
@@ -14004,7 +14004,7 @@
   },
   {
     "route_no": "642",
-    "dir": "642 Mill Woods",
+    "dir": "Mill Woods",
     "stops": [
       "Lakewood 3002",
       "Mill Woods Transit Centre"
@@ -14012,7 +14012,7 @@
   },
   {
     "route_no": "643",
-    "dir": "643 Mill Woods",
+    "dir": "Mill Woods",
     "stops": [
       "Mill Woods Road E & 17 Avenue",
       "37 Street & 16 Avenue",
@@ -14031,7 +14031,7 @@
   },
   {
     "route_no": "644",
-    "dir": "644 Whiskeyjack Hs",
+    "dir": "Whiskeyjack Hs",
     "stops": [
       "19 Street & 34 Avenue",
       "21 Street & 34 Avenue",
@@ -14059,7 +14059,7 @@
   },
   {
     "route_no": "644",
-    "dir": "644 Wildrose",
+    "dir": "Wildrose",
     "stops": [
       "Meadows Recreation Centre",
       "17 Street & 28 Avenue",
@@ -14087,7 +14087,7 @@
   },
   {
     "route_no": "645",
-    "dir": "645 Meadows",
+    "dir": "Meadows",
     "stops": [
       "Meadows Recreation Centre",
       "17 Street & Silver Berry Road",
@@ -14099,7 +14099,7 @@
   },
   {
     "route_no": "645",
-    "dir": "645 Whiskeyjack Hs",
+    "dir": "Whiskeyjack Hs",
     "stops": [
       "Meadows Transit Centre",
       "17 Street & Tamarack Way",
@@ -14112,7 +14112,7 @@
   },
   {
     "route_no": "646",
-    "dir": "646 Mill Woods",
+    "dir": "Mill Woods",
     "stops": [
       "17 Street & 25 Avenue",
       "17 Street & 23 Avenue",
@@ -14129,7 +14129,7 @@
   },
   {
     "route_no": "646",
-    "dir": "646 Whiskeyjack Hs",
+    "dir": "Whiskeyjack Hs",
     "stops": [
       "Mill Woods Transit Centre",
       "Hewes Way & 23 Avenue",
@@ -14146,7 +14146,7 @@
   },
   {
     "route_no": "647",
-    "dir": "647 Laurel",
+    "dir": "Laurel",
     "stops": [
       "17 Street & 25 Avenue",
       "17 Street & 23 Avenue",
@@ -14167,7 +14167,7 @@
   },
   {
     "route_no": "647",
-    "dir": "647 Whiskeyjack Hs",
+    "dir": "Whiskeyjack Hs",
     "stops": [
       "32 Street & 22 Avenue",
       "32 Street & 21 Avenue",
@@ -14189,7 +14189,7 @@
   },
   {
     "route_no": "650",
-    "dir": "650 Leger",
+    "dir": "Leger",
     "stops": [
       "Whitemud Drive SB & 53 Avenue",
       "Riverbend Road & 53 Avenue",
@@ -14231,7 +14231,7 @@
   },
   {
     "route_no": "650",
-    "dir": "650 Riverbend",
+    "dir": "Riverbend",
     "stops": [
       "Leger Transit Centre",
       "2019 Leger Road",
@@ -14276,7 +14276,7 @@
   },
   {
     "route_no": "651",
-    "dir": "651 Avalon",
+    "dir": "Avalon",
     "stops": [
       "Southgate Transit Centre",
       "112 Street & 51 Avenue",
@@ -14285,7 +14285,7 @@
   },
   {
     "route_no": "651",
-    "dir": "651 Southgate",
+    "dir": "Southgate",
     "stops": [
       "114 Street & 54 Avenue",
       "114 Street & 53 Avenue",
@@ -14295,7 +14295,7 @@
   },
   {
     "route_no": "652",
-    "dir": "652 Southgate",
+    "dir": "Southgate",
     "stops": [
       "104 Street & 73 Avenue",
       "Calgary Trail SB & 51 Avenue",
@@ -14309,7 +14309,7 @@
   },
   {
     "route_no": "652",
-    "dir": "652 Strathcona Hs",
+    "dir": "Strathcona Hs",
     "stops": [
       "Southgate Transit Centre",
       "110 Street & 51 Avenue",
@@ -14330,7 +14330,7 @@
   },
   {
     "route_no": "653",
-    "dir": "653 Davies",
+    "dir": "Davies",
     "stops": [
       "104 Street & 73 Avenue",
       "Davies Transit Centre"
@@ -14338,7 +14338,7 @@
   },
   {
     "route_no": "653",
-    "dir": "653 Strathcona Hs",
+    "dir": "Strathcona Hs",
     "stops": [
       "Davies Transit Centre",
       "104 Street & 73 Avenue"
@@ -14346,7 +14346,7 @@
   },
   {
     "route_no": "654",
-    "dir": "654 Strathcona Hs",
+    "dir": "Strathcona Hs",
     "stops": [
       "116 Street & 87 Avenue",
       "118 Street & 87 Avenue",
@@ -14372,7 +14372,7 @@
   },
   {
     "route_no": "654",
-    "dir": "654 Windsor Park",
+    "dir": "Windsor Park",
     "stops": [
       "104 Street & 73 Avenue",
       "109 Street & 76 Avenue",
@@ -14394,7 +14394,7 @@
   },
   {
     "route_no": "655",
-    "dir": "655 South Campus",
+    "dir": "South Campus",
     "stops": [
       "104 Street & 73 Avenue",
       "South Campus Fort Edmonton Transit Centre"
@@ -14402,7 +14402,7 @@
   },
   {
     "route_no": "655",
-    "dir": "655 Strathcona Hs",
+    "dir": "Strathcona Hs",
     "stops": [
       "South Campus Fort Edmonton Transit Centre",
       "104 Street & 73 Avenue"
@@ -14410,7 +14410,7 @@
   },
   {
     "route_no": "656",
-    "dir": "656 Davies",
+    "dir": "Davies",
     "stops": [
       "106 Street & 63 Avenue",
       "106 Street & 66 Avenue",
@@ -14442,7 +14442,7 @@
   },
   {
     "route_no": "656",
-    "dir": "656 Strathcona Hs",
+    "dir": "Strathcona Hs",
     "stops": [
       "99 Street & 82 Avenue",
       "97 Street & 82 Avenue",
@@ -14475,7 +14475,7 @@
   },
   {
     "route_no": "657",
-    "dir": "657 Leger",
+    "dir": "Leger",
     "stops": [
       "104 Street & 73 Avenue",
       "Terwillegar Drive & 40 Avenue",
@@ -14485,7 +14485,7 @@
   },
   {
     "route_no": "657",
-    "dir": "657 Strathcona Hs",
+    "dir": "Strathcona Hs",
     "stops": [
       "Leger Transit Centre",
       "Terwillegar Drive & Rabbit Hill Road",
@@ -14495,7 +14495,7 @@
   },
   {
     "route_no": "658",
-    "dir": "658 Mccaffery Hs",
+    "dir": "Mccaffery Hs",
     "stops": [
       "James Mowatt Trl & Rutherford Road",
       "113 Street & Rutherford Road",
@@ -14524,7 +14524,7 @@
   },
   {
     "route_no": "658",
-    "dir": "658 Rutherford",
+    "dir": "Rutherford",
     "stops": [
       "Heritage Valley Trail & 32 Avenue",
       "James Mowatt Trail & 32 Avenue",
@@ -14555,7 +14555,7 @@
   },
   {
     "route_no": "659",
-    "dir": "659 Macewan",
+    "dir": "Macewan",
     "stops": [
       "Heritage Valley Trail & 32 Avenue",
       "119 Street & 30 Avenue",
@@ -14580,7 +14580,7 @@
   },
   {
     "route_no": "659",
-    "dir": "659 Mccaffery Hs",
+    "dir": "Mccaffery Hs",
     "stops": [
       "111 Street & MacEwan Road",
       "MacEwan Close & MacEwan Road",
@@ -14603,7 +14603,7 @@
   },
   {
     "route_no": "660",
-    "dir": "660 Harry Ainlay",
+    "dir": "Harry Ainlay",
     "stops": [
       "Century Park Transit Centre",
       "111 Street & 29 Avenue",
@@ -14631,7 +14631,7 @@
   },
   {
     "route_no": "661",
-    "dir": "661 Harry Ainlay",
+    "dir": "Harry Ainlay",
     "stops": [
       "Mill Woods Transit Centre",
       "Lakewood 3012",
@@ -14647,7 +14647,7 @@
   },
   {
     "route_no": "661",
-    "dir": "661 Mill Woods",
+    "dir": "Mill Woods",
     "stops": [
       "111 Street & 43 Avenue",
       "91 Street & 34 Avenue",
@@ -14659,7 +14659,7 @@
   },
   {
     "route_no": "662",
-    "dir": "662 Century Park",
+    "dir": "Century Park",
     "stops": [
       "111 Street & 43 Avenue",
       "Century Park Transit Centre"
@@ -14667,7 +14667,7 @@
   },
   {
     "route_no": "662",
-    "dir": "662 Harry Ainlay",
+    "dir": "Harry Ainlay",
     "stops": [
       "Century Park Transit Centre",
       "Harry Ainlay Loop"
@@ -14675,7 +14675,7 @@
   },
   {
     "route_no": "663",
-    "dir": "663 Chappelle",
+    "dir": "Chappelle",
     "stops": [
       "120 Street & 32 Avenue",
       "Paisley Drive & 28 Avenue",
@@ -14700,7 +14700,7 @@
   },
   {
     "route_no": "663",
-    "dir": "663 Mccaffery Hs",
+    "dir": "Mccaffery Hs",
     "stops": [
       "141 Street & 28 Avenue",
       "Chappelle Boulevard & 28 Avenue",
@@ -14725,7 +14725,7 @@
   },
   {
     "route_no": "664",
-    "dir": "664 Anderson Hs",
+    "dir": "Anderson Hs",
     "stops": [
       "52 Street & 22 Avenue",
       "Watt Drive & 22 Avenue",
@@ -14770,7 +14770,7 @@
   },
   {
     "route_no": "664",
-    "dir": "664 Cavanagh",
+    "dir": "Cavanagh",
     "stops": [
       "Heritage Valley Trail & 32 Avenue",
       "James Mowatt Trail & 32 Avenue",
@@ -14794,7 +14794,7 @@
   },
   {
     "route_no": "664",
-    "dir": "664 Mccaffery Hs",
+    "dir": "Mccaffery Hs",
     "stops": [
       "103 Street & Ellerslie Road",
       "103 Street & 30 Avenue",
@@ -14817,7 +14817,7 @@
   },
   {
     "route_no": "664",
-    "dir": "664 Walker",
+    "dir": "Walker",
     "stops": [
       "James Mowatt Trail & 35 Avenue",
       "James Mowatt Trail & Allard Boulevard",
@@ -14864,7 +14864,7 @@
   },
   {
     "route_no": "665",
-    "dir": "665 Anderson Hs",
+    "dir": "Anderson Hs",
     "stops": [
       "50 Street & 4 Avenue",
       "52 Street & 4 Avenue",
@@ -14916,7 +14916,7 @@
   },
   {
     "route_no": "665",
-    "dir": "665 Charlesworth",
+    "dir": "Charlesworth",
     "stops": [
       "James Mowatt Trail & 35 Avenue",
       "James Mowatt Trail & Allard Boulevard",
@@ -14970,7 +14970,7 @@
   },
   {
     "route_no": "667",
-    "dir": "667 Anderson Hs",
+    "dir": "Anderson Hs",
     "stops": [
       "Century Park Transit Centre",
       "111 Street & Saddleback Road S Ent",
@@ -15002,7 +15002,7 @@
   },
   {
     "route_no": "667",
-    "dir": "667 Century Park",
+    "dir": "Century Park",
     "stops": [
       "Desrochers Boulevard & 35 Avenue",
       "James Mowatt Trail & 35 Avenue",
@@ -15038,7 +15038,7 @@
   },
   {
     "route_no": "668",
-    "dir": "668 Anderson Hs",
+    "dir": "Anderson Hs",
     "stops": [
       "141 Street & 28 Avenue",
       "Chappelle Boulevard & 28 Avenue",
@@ -15061,7 +15061,7 @@
   },
   {
     "route_no": "668",
-    "dir": "668 Chappelle",
+    "dir": "Chappelle",
     "stops": [
       "Desrochers Boulevard & 35 Avenue",
       "Desrochers Drive & 35 Avenue",
@@ -15088,7 +15088,7 @@
   },
   {
     "route_no": "669",
-    "dir": "669 Keswick",
+    "dir": "Keswick",
     "stops": [
       "120 Street & 32 Avenue",
       "Paisley Drive & 28 Avenue",
@@ -15117,7 +15117,7 @@
   },
   {
     "route_no": "669",
-    "dir": "669 Mccaffery Hs",
+    "dir": "Mccaffery Hs",
     "stops": [
       "182 Street & 28 Avenue",
       "182 Street & Keswick Drive",
@@ -15146,7 +15146,7 @@
   },
   {
     "route_no": "671",
-    "dir": "671 Jasper Place Hs",
+    "dir": "Jasper Place Hs",
     "stops": [
       "West Edmonton Mall Transit Centre",
       "168 Street & 100 Avenue",
@@ -15162,7 +15162,7 @@
   },
   {
     "route_no": "671",
-    "dir": "671 Jasper Place Hs",
+    "dir": "Jasper Place Hs",
     "stops": [
       "West Edmonton Mall Transit Centre",
       "170 Street & 95 Avenue",
@@ -15178,7 +15178,7 @@
   },
   {
     "route_no": "671",
-    "dir": "671 West Edm Mall",
+    "dir": "West Edm Mall",
     "stops": [
       "163 Street & 92 Avenue",
       "163 Street & 92 Avenue",
@@ -15193,7 +15193,7 @@
   },
   {
     "route_no": "673",
-    "dir": "673 Hillcrest",
+    "dir": "Hillcrest",
     "stops": [
       "West Edmonton Mall Transit Centre",
       "169 Street & 87 Avenue",
@@ -15206,7 +15206,7 @@
   },
   {
     "route_no": "673",
-    "dir": "673 West Edm Mall",
+    "dir": "West Edm Mall",
     "stops": [
       "164 Street & 80 Avenue",
       "167 Street & 80 Avenue",
@@ -15218,7 +15218,7 @@
   },
   {
     "route_no": "674",
-    "dir": "674 He Beriault",
+    "dir": "He Beriault",
     "stops": [
       "Lewis Farms Transit Centre",
       "West Edmonton Mall Transit Centre",
@@ -15231,7 +15231,7 @@
   },
   {
     "route_no": "674",
-    "dir": "674 Lewis Farms",
+    "dir": "Lewis Farms",
     "stops": [
       "167 Street & 81 Avenue",
       "169 Street & 83 Avenue",
@@ -15246,7 +15246,7 @@
   },
   {
     "route_no": "674",
-    "dir": "674 West Edm Mall",
+    "dir": "West Edm Mall",
     "stops": [
       "167 Street & 81 Avenue",
       "169 Street & 83 Avenue",
@@ -15256,7 +15256,7 @@
   },
   {
     "route_no": "676",
-    "dir": "676 Alex Janvier",
+    "dir": "Alex Janvier",
     "stops": [
       "189 Street & 87 Avenue",
       "189 Street & 89 Avenue",
@@ -15280,7 +15280,7 @@
   },
   {
     "route_no": "676",
-    "dir": "676 Alex Janvier",
+    "dir": "Alex Janvier",
     "stops": [
       "189 Street & 87 Avenue",
       "189 Street & 89 Avenue",
@@ -15305,7 +15305,7 @@
   },
   {
     "route_no": "676",
-    "dir": "676 Belmead",
+    "dir": "Belmead",
     "stops": [
       "163 Street & 96 Avenue",
       "170 Street & 95 Avenue",
@@ -15329,7 +15329,7 @@
   },
   {
     "route_no": "676",
-    "dir": "676 Belmead",
+    "dir": "Belmead",
     "stops": [
       "165 Street & 95 Avenue",
       "167 Street & 95 Avenue",
@@ -15354,7 +15354,7 @@
   },
   {
     "route_no": "678",
-    "dir": "678 Jasper Place Hs",
+    "dir": "Jasper Place Hs",
     "stops": [
       "Lewis Farms Transit Centre",
       "163 Street & 100 Avenue",
@@ -15369,7 +15369,7 @@
   },
   {
     "route_no": "678",
-    "dir": "678 Jasper Place Hs",
+    "dir": "Jasper Place Hs",
     "stops": [
       "Lewis Farms Transit Centre",
       "165 Street & 95 Avenue",
@@ -15381,7 +15381,7 @@
   },
   {
     "route_no": "678",
-    "dir": "678 Lewis Farms",
+    "dir": "Lewis Farms",
     "stops": [
       "163 Street & 93 Avenue",
       "163 Street & 92 Avenue",
@@ -15399,7 +15399,7 @@
   },
   {
     "route_no": "678",
-    "dir": "678 Lewis Farms",
+    "dir": "Lewis Farms",
     "stops": [
       "163 Street & 96 Avenue",
       "163 Street & 95 Avenue",
@@ -15419,7 +15419,7 @@
   },
   {
     "route_no": "678",
-    "dir": "678 Lewis Farms",
+    "dir": "Lewis Farms",
     "stops": [
       "165 Street & 95 Avenue",
       "163 Street & 95 Avenue",
@@ -15439,7 +15439,7 @@
   },
   {
     "route_no": "681",
-    "dir": "681 Lewis Farms",
+    "dir": "Lewis Farms",
     "stops": [
       "142 Street & 109 Avenue",
       "West Edmonton Mall Transit Centre",
@@ -15448,7 +15448,7 @@
   },
   {
     "route_no": "681",
-    "dir": "681 Ross Sheppard",
+    "dir": "Ross Sheppard",
     "stops": [
       "West Edmonton Mall Transit Centre",
       "142 Street & 109 Avenue",
@@ -15457,7 +15457,7 @@
   },
   {
     "route_no": "681",
-    "dir": "681 West Edm Mall",
+    "dir": "West Edm Mall",
     "stops": [
       "136 Street & 111 Avenue",
       "142 Street & 109 Avenue",
@@ -15466,7 +15466,7 @@
   },
   {
     "route_no": "681",
-    "dir": "681 West Edm Mall",
+    "dir": "West Edm Mall",
     "stops": [
       "142 Street & 109 Avenue",
       "West Edmonton Mall Transit Centre"
@@ -15474,7 +15474,7 @@
   },
   {
     "route_no": "682",
-    "dir": "682 Arch Macdonald",
+    "dir": "Arch Macdonald",
     "stops": [
       "Leger Transit Centre",
       "Leger Road & 23 Avenue",
@@ -15517,7 +15517,7 @@
   },
   {
     "route_no": "682",
-    "dir": "682 Arch Macdonald",
+    "dir": "Arch Macdonald",
     "stops": [
       "Leger Transit Centre",
       "Riverbend Road & Haddow Close",
@@ -15559,7 +15559,7 @@
   },
   {
     "route_no": "682",
-    "dir": "682 Leger",
+    "dir": "Leger",
     "stops": [
       "142 Street & 109 Avenue",
       "142 Street & 107 Avenue",
@@ -15596,7 +15596,7 @@
   },
   {
     "route_no": "682",
-    "dir": "682 Leger",
+    "dir": "Leger",
     "stops": [
       "145 Street & 87 Avenue",
       "149 Street & 87 Avenue",
@@ -15621,7 +15621,7 @@
   },
   {
     "route_no": "682",
-    "dir": "682 St Rose",
+    "dir": "St Rose",
     "stops": [
       "Leger Transit Centre",
       "Leger Road & 23 Avenue",
@@ -15649,7 +15649,7 @@
   },
   {
     "route_no": "682",
-    "dir": "682 St Rose",
+    "dir": "St Rose",
     "stops": [
       "Leger Transit Centre",
       "Riverbend Road & Haddow Close",
@@ -15676,7 +15676,7 @@
   },
   {
     "route_no": "683",
-    "dir": "683 Arch Macdonald",
+    "dir": "Arch Macdonald",
     "stops": [
       "Castle Downs Transit Centre",
       "Castle Downs Road & 156 Avenue",
@@ -15737,7 +15737,7 @@
   },
   {
     "route_no": "683",
-    "dir": "683 Castle Downs",
+    "dir": "Castle Downs",
     "stops": [
       "136 Street & 111 Avenue",
       "140 Street & 137 Avenue",
@@ -15792,7 +15792,7 @@
   },
   {
     "route_no": "683",
-    "dir": "683 Castle Downs",
+    "dir": "Castle Downs",
     "stops": [
       "142 Street & 107 Avenue",
       "140 Street & 137 Avenue",
@@ -15847,7 +15847,7 @@
   },
   {
     "route_no": "684",
-    "dir": "684 Arch Macdonald",
+    "dir": "Arch Macdonald",
     "stops": [
       "91 Street & 167 Avenue",
       "90 Street & Klarvatten Road",
@@ -15916,7 +15916,7 @@
   },
   {
     "route_no": "684",
-    "dir": "684 Arch Macdonald",
+    "dir": "Arch Macdonald",
     "stops": [
       "Eaux Claires Transit Centre",
       "97 Street & 153 Avenue",
@@ -15961,7 +15961,7 @@
   },
   {
     "route_no": "684",
-    "dir": "684 Eaux Claires",
+    "dir": "Eaux Claires",
     "stops": [
       "136 Street & 111 Avenue",
       "140 Street & 111 Avenue",
@@ -16004,7 +16004,7 @@
   },
   {
     "route_no": "684",
-    "dir": "684 Eaux Claires",
+    "dir": "Eaux Claires",
     "stops": [
       "142 Street & 107 Avenue",
       "142 Street & 109 Avenue",
@@ -16042,7 +16042,7 @@
   },
   {
     "route_no": "684",
-    "dir": "684 Lago Lindo",
+    "dir": "Lago Lindo",
     "stops": [
       "136 Street & 111 Avenue",
       "140 Street & 111 Avenue",
@@ -16109,7 +16109,7 @@
   },
   {
     "route_no": "684",
-    "dir": "684 Lago Lindo",
+    "dir": "Lago Lindo",
     "stops": [
       "142 Street & 107 Avenue",
       "142 Street & 109 Avenue",
@@ -16171,7 +16171,7 @@
   },
   {
     "route_no": "685",
-    "dir": "685 Ross Sheppard",
+    "dir": "Ross Sheppard",
     "stops": [
       "Lewis Farms Transit Centre",
       "142 Street & 109 Avenue",
@@ -16180,7 +16180,7 @@
   },
   {
     "route_no": "691",
-    "dir": "691 Kingsway",
+    "dir": "Kingsway",
     "stops": [
       "Amiskwaciy Parking Lot",
       "119 Street & Kingsway",
@@ -16195,7 +16195,7 @@
   },
   {
     "route_no": "692",
-    "dir": "692 Victoria",
+    "dir": "Victoria",
     "stops": [
       "West Edmonton Mall Transit Centre",
       "101 Street & Kingsway"
@@ -16203,7 +16203,7 @@
   },
   {
     "route_no": "692",
-    "dir": "692 West Edm Mall",
+    "dir": "West Edm Mall",
     "stops": [
       "101 Street & Kingsway",
       "West Edmonton Mall Transit Centre"
@@ -16211,7 +16211,7 @@
   },
   {
     "route_no": "7",
-    "dir": "7 Downtown",
+    "dir": "Downtown",
     "stops": [
       "West Edmonton Mall Transit Centre",
       "170 Street & 95 Avenue",
@@ -16255,7 +16255,7 @@
   },
   {
     "route_no": "7",
-    "dir": "7 West Edm Mall",
+    "dir": "West Edm Mall",
     "stops": [
       "100 Street & 102 Avenue",
       "102 Street & 104 Avenue",
@@ -16301,7 +16301,7 @@
   },
   {
     "route_no": "7",
-    "dir": "7 West Edm Mall",
+    "dir": "West Edm Mall",
     "stops": [
       "163 Street & 95 Avenue",
       "165 Street & 95 Avenue",
@@ -16311,7 +16311,7 @@
   },
   {
     "route_no": "700X",
-    "dir": "700X Century Park Express",
+    "dir": "Century Park Express",
     "stops": [
       "Heritage Valley Transit Centre",
       "Century Park Transit Centre"
@@ -16319,7 +16319,7 @@
   },
   {
     "route_no": "700X",
-    "dir": "700X Heritage Valley Express",
+    "dir": "Heritage Valley Express",
     "stops": [
       "Century Park Transit Centre",
       "111 Street & Ellerslie Road",
@@ -16329,7 +16329,7 @@
   },
   {
     "route_no": "701",
-    "dir": "701 Gov'T Centre",
+    "dir": "Gov'T Centre",
     "stops": [
       "Kingsway RAH Transit Centre",
       "102 Street & 111 Avenue",
@@ -16352,7 +16352,7 @@
   },
   {
     "route_no": "701",
-    "dir": "701 Kingsway Rah",
+    "dir": "Kingsway Rah",
     "stops": [
       "Government Transit Centre",
       "107 Street & 99 Avenue",
@@ -16377,7 +16377,7 @@
   },
   {
     "route_no": "701",
-    "dir": "701 Kingsway Rah",
+    "dir": "Kingsway Rah",
     "stops": [
       "Southgate Transit Centre",
       "110 Street & 51 Avenue",
@@ -16427,7 +16427,7 @@
   },
   {
     "route_no": "701",
-    "dir": "701 Southgate",
+    "dir": "Southgate",
     "stops": [
       "104 Street & 82 Avenue",
       "104 Street & 80 Avenue",
@@ -16452,7 +16452,7 @@
   },
   {
     "route_no": "701",
-    "dir": "701 Southgate",
+    "dir": "Southgate",
     "stops": [
       "Kingsway RAH Transit Centre",
       "102 Street & 111 Avenue",
@@ -16503,7 +16503,7 @@
   },
   {
     "route_no": "702",
-    "dir": "702 South Campus",
+    "dir": "South Campus",
     "stops": [
       "Southgate Transit Centre",
       "111 Street & 43 Avenue",
@@ -16526,7 +16526,7 @@
   },
   {
     "route_no": "702",
-    "dir": "702 Southgate",
+    "dir": "Southgate",
     "stops": [
       "South Campus Fort Edmonton Transit Centre",
       "116 Street & Belgravia Road",
@@ -16547,7 +16547,7 @@
   },
   {
     "route_no": "703",
-    "dir": "703 Leger",
+    "dir": "Leger",
     "stops": [
       "South Campus Fort Edmonton Transit Centre",
       "116 Street & 68 Avenue",
@@ -16581,7 +16581,7 @@
   },
   {
     "route_no": "703",
-    "dir": "703 Leger",
+    "dir": "Leger",
     "stops": [
       "Whitemud Drive SB & 53 Avenue",
       "Riverbend Road & 53 Avenue",
@@ -16611,7 +16611,7 @@
   },
   {
     "route_no": "703",
-    "dir": "703 South Campus",
+    "dir": "South Campus",
     "stops": [
       "Leger Transit Centre",
       "2019 Leger Road",
@@ -16647,7 +16647,7 @@
   },
   {
     "route_no": "704",
-    "dir": "704 South Park",
+    "dir": "South Park",
     "stops": [
       "Southgate Transit Centre",
       "110 Street & 51 Avenue",
@@ -16665,7 +16665,7 @@
   },
   {
     "route_no": "704",
-    "dir": "704 Southgate",
+    "dir": "Southgate",
     "stops": [
       "South Trail Plaza",
       "Gateway Boulevard & Whitemud Drive",
@@ -16679,7 +16679,7 @@
   },
   {
     "route_no": "705",
-    "dir": "705 Century Park",
+    "dir": "Century Park",
     "stops": [
       "Southgate Transit Centre",
       "110 Street & 51 Avenue",
@@ -16708,7 +16708,7 @@
   },
   {
     "route_no": "705",
-    "dir": "705 Southgate",
+    "dir": "Southgate",
     "stops": [
       "Century Park Transit Centre",
       "111 Street & 29 Avenue",
@@ -16732,7 +16732,7 @@
   },
   {
     "route_no": "706",
-    "dir": "706 Leger",
+    "dir": "Leger",
     "stops": [
       "Southgate Transit Centre",
       "112 Street & 51 Avenue",
@@ -16761,7 +16761,7 @@
   },
   {
     "route_no": "706",
-    "dir": "706 Southgate",
+    "dir": "Southgate",
     "stops": [
       "Leger Transit Centre",
       "Lambert Court & Leger Way",
@@ -16790,7 +16790,7 @@
   },
   {
     "route_no": "707",
-    "dir": "707 Century Park",
+    "dir": "Century Park",
     "stops": [
       "119 Street & 40 Avenue",
       "119 Street & Fairway Drive",
@@ -16807,7 +16807,7 @@
   },
   {
     "route_no": "707",
-    "dir": "707 Century Park",
+    "dir": "Century Park",
     "stops": [
       "Southgate Transit Centre",
       "111 Street & 43 Avenue",
@@ -16831,7 +16831,7 @@
   },
   {
     "route_no": "707",
-    "dir": "707 Southgate",
+    "dir": "Southgate",
     "stops": [
       "Century Park Transit Centre",
       "111 Street & 23 Avenue",
@@ -16857,7 +16857,7 @@
   },
   {
     "route_no": "707",
-    "dir": "707 Vernon Barford",
+    "dir": "Vernon Barford",
     "stops": [
       "Century Park Transit Centre",
       "111 Street & 23 Avenue",
@@ -16875,7 +16875,7 @@
   },
   {
     "route_no": "708",
-    "dir": "708 Century Park",
+    "dir": "Century Park",
     "stops": [
       "111 Street & 43 Avenue",
       "111 Street & 40 Avenue",
@@ -16900,7 +16900,7 @@
   },
   {
     "route_no": "708",
-    "dir": "708 Century Park",
+    "dir": "Century Park",
     "stops": [
       "Southgate Transit Centre",
       "111 Street & 43 Avenue",
@@ -16926,7 +16926,7 @@
   },
   {
     "route_no": "708",
-    "dir": "708 Southgate",
+    "dir": "Southgate",
     "stops": [
       "Century Park Transit Centre",
       "111 Street & 23 Avenue",
@@ -16952,7 +16952,7 @@
   },
   {
     "route_no": "709",
-    "dir": "709 Century Park",
+    "dir": "Century Park",
     "stops": [
       "106 Street & 40 Avenue",
       "106 Street & 38 Avenue",
@@ -16974,7 +16974,7 @@
   },
   {
     "route_no": "709",
-    "dir": "709 Century Park",
+    "dir": "Century Park",
     "stops": [
       "111 Street & 43 Avenue",
       "111 Street & 40 Avenue",
@@ -16999,7 +16999,7 @@
   },
   {
     "route_no": "709",
-    "dir": "709 Century Park",
+    "dir": "Century Park",
     "stops": [
       "Southgate Transit Centre",
       "111 Street & 43 Avenue",
@@ -17025,7 +17025,7 @@
   },
   {
     "route_no": "709",
-    "dir": "709 Southgate",
+    "dir": "Southgate",
     "stops": [
       "Century Park Transit Centre",
       "111 Street & 29 Avenue",
@@ -17054,7 +17054,7 @@
   },
   {
     "route_no": "712",
-    "dir": "712 Yellowbird",
+    "dir": "Yellowbird",
     "stops": [
       "Century Park Transit Centre",
       "110 Street & 21 Avenue",
@@ -17083,7 +17083,7 @@
   },
   {
     "route_no": "713",
-    "dir": "713 Century Park",
+    "dir": "Century Park",
     "stops": [
       "Twin Brooks Drive & 12 Avenue",
       "115 Street & 12 Avenue",
@@ -17109,7 +17109,7 @@
   },
   {
     "route_no": "713",
-    "dir": "713 Twin Brooks",
+    "dir": "Twin Brooks",
     "stops": [
       "Century Park Transit Centre",
       "111 Street & Saddleback Road S Ent",
@@ -17121,7 +17121,7 @@
   },
   {
     "route_no": "713",
-    "dir": "713 Twin Brooks",
+    "dir": "Twin Brooks",
     "stops": [
       "Century Park Transit Centre",
       "111 Street & Saddleback Road S Ent",
@@ -17146,7 +17146,7 @@
   },
   {
     "route_no": "715",
-    "dir": "715 Century Park",
+    "dir": "Century Park",
     "stops": [
       "Leger Transit Centre",
       "Towne Centre Boulevard & Trelle Way",
@@ -17188,7 +17188,7 @@
   },
   {
     "route_no": "715",
-    "dir": "715 Leger",
+    "dir": "Leger",
     "stops": [
       "Century Park Transit Centre",
       "111 Street & 23 Avenue",
@@ -17232,7 +17232,7 @@
   },
   {
     "route_no": "715",
-    "dir": "715 Leger",
+    "dir": "Leger",
     "stops": [
       "Mullen Place & Mullen Road",
       "South Terwillegar Drive W & Rabbit Hill Road",
@@ -17256,7 +17256,7 @@
   },
   {
     "route_no": "716",
-    "dir": "716 Century Park",
+    "dir": "Century Park",
     "stops": [
       "Leger Transit Centre",
       "Towne Centre Boulevard & Trelle Way",
@@ -17293,7 +17293,7 @@
   },
   {
     "route_no": "716",
-    "dir": "716 Leger",
+    "dir": "Leger",
     "stops": [
       "Century Park Transit Centre",
       "111 Street & 23 Avenue",
@@ -17329,7 +17329,7 @@
   },
   {
     "route_no": "717",
-    "dir": "717 Ambleside",
+    "dir": "Ambleside",
     "stops": [
       "Leger Transit Centre",
       "Haddow Drive & Riverbend Road",
@@ -17361,7 +17361,7 @@
   },
   {
     "route_no": "717",
-    "dir": "717 Ambleside",
+    "dir": "Ambleside",
     "stops": [
       "Leger Transit Centre",
       "Leger Road & 23 Avenue",
@@ -17394,7 +17394,7 @@
   },
   {
     "route_no": "717",
-    "dir": "717 Century Park",
+    "dir": "Century Park",
     "stops": [
       "Leger Transit Centre",
       "Haddow Drive & Riverbend Road",
@@ -17442,7 +17442,7 @@
   },
   {
     "route_no": "717",
-    "dir": "717 Century Park",
+    "dir": "Century Park",
     "stops": [
       "Leger Transit Centre",
       "Leger Road & 23 Avenue",
@@ -17491,7 +17491,7 @@
   },
   {
     "route_no": "717",
-    "dir": "717 Leger",
+    "dir": "Leger",
     "stops": [
       "Allan Drive & Windermere Boulevard",
       "Allan Drive & Andrews Way",
@@ -17523,7 +17523,7 @@
   },
   {
     "route_no": "717",
-    "dir": "717 Leger",
+    "dir": "Leger",
     "stops": [
       "Allan Drive & Windermere Boulevard",
       "Allan Drive & Andrews Way",
@@ -17556,7 +17556,7 @@
   },
   {
     "route_no": "717",
-    "dir": "717 Leger",
+    "dir": "Leger",
     "stops": [
       "Century Park Transit Centre",
       "111 Street & 23 Avenue",
@@ -17603,7 +17603,7 @@
   },
   {
     "route_no": "717",
-    "dir": "717 Leger",
+    "dir": "Leger",
     "stops": [
       "Century Park Transit Centre",
       "111 Street & 23 Avenue",
@@ -17651,7 +17651,7 @@
   },
   {
     "route_no": "718",
-    "dir": "718 Century Park",
+    "dir": "Century Park",
     "stops": [
       "Leger Transit Centre",
       "Leger Road & 23 Avenue",
@@ -17683,7 +17683,7 @@
   },
   {
     "route_no": "718",
-    "dir": "718 Century Park",
+    "dir": "Century Park",
     "stops": [
       "Leger Transit Centre",
       "Terwillegar Drive & Riverbend Road",
@@ -17715,7 +17715,7 @@
   },
   {
     "route_no": "718",
-    "dir": "718 Ellerslie",
+    "dir": "Ellerslie",
     "stops": [
       "Leger Transit Centre",
       "Leger Road & 23 Avenue",
@@ -17740,7 +17740,7 @@
   },
   {
     "route_no": "718",
-    "dir": "718 Ellerslie",
+    "dir": "Ellerslie",
     "stops": [
       "Leger Transit Centre",
       "Terwillegar Drive & Riverbend Road",
@@ -17765,7 +17765,7 @@
   },
   {
     "route_no": "718",
-    "dir": "718 Leger",
+    "dir": "Leger",
     "stops": [
       "Century Park Transit Centre",
       "111 Street & Saddleback Road S Ent",
@@ -17797,7 +17797,7 @@
   },
   {
     "route_no": "718",
-    "dir": "718 Leger",
+    "dir": "Leger",
     "stops": [
       "Century Park Transit Centre",
       "111 Street & Saddleback Road S Ent",
@@ -17830,7 +17830,7 @@
   },
   {
     "route_no": "718",
-    "dir": "718 Leger",
+    "dir": "Leger",
     "stops": [
       "Rabbit Hill Road & Ellerslie Road",
       "Glenridding Gate & Ellerslie Road",
@@ -17858,7 +17858,7 @@
   },
   {
     "route_no": "718",
-    "dir": "718 Leger",
+    "dir": "Leger",
     "stops": [
       "Rabbit Hill Road & Ellerslie Road",
       "Glenridding Gate & Ellerslie Road",
@@ -17887,7 +17887,7 @@
   },
   {
     "route_no": "719",
-    "dir": "719 Century Park",
+    "dir": "Century Park",
     "stops": [
       "141 Street & 28 Avenue",
       "Chappelle Boulevard & 28 Avenue",
@@ -17932,7 +17932,7 @@
   },
   {
     "route_no": "719",
-    "dir": "719 Chappelle",
+    "dir": "Chappelle",
     "stops": [
       "141 Street & 28 Avenue",
       "Chappelle Boulevard & 28 Avenue",
@@ -17955,7 +17955,7 @@
   },
   {
     "route_no": "719",
-    "dir": "719 Chappelle",
+    "dir": "Chappelle",
     "stops": [
       "Century Park Transit Centre",
       "111 Street & Saddleback Road S Ent",
@@ -17980,7 +17980,7 @@
   },
   {
     "route_no": "721",
-    "dir": "721 Anderson Hs",
+    "dir": "Anderson Hs",
     "stops": [
       "Century Park Transit Centre",
       "111 Street & Saddleback Road S Ent",
@@ -18011,7 +18011,7 @@
   },
   {
     "route_no": "721",
-    "dir": "721 Century Park",
+    "dir": "Century Park",
     "stops": [
       "Desrochers Boulevard & Desrochers Gate",
       "Davidson Green & Desrochers Boulevard",
@@ -18024,7 +18024,7 @@
   },
   {
     "route_no": "721",
-    "dir": "721 Century Park",
+    "dir": "Century Park",
     "stops": [
       "Desrochers Boulevard & Desrochers Gate",
       "Davidson Green & Desrochers Boulevard",
@@ -18064,7 +18064,7 @@
   },
   {
     "route_no": "721",
-    "dir": "721 Century Park",
+    "dir": "Century Park",
     "stops": [
       "Desrochers Boulevard & Desrochers Gate",
       "James Mowatt Trail & Allard Boulevard",
@@ -18098,7 +18098,7 @@
   },
   {
     "route_no": "721",
-    "dir": "721 Desrochers",
+    "dir": "Desrochers",
     "stops": [
       "Century Park Transit Centre",
       "111 Street & Saddleback Road S Ent",
@@ -18131,7 +18131,7 @@
   },
   {
     "route_no": "721",
-    "dir": "721 Desrochers",
+    "dir": "Desrochers",
     "stops": [
       "Century Park Transit Centre",
       "111 Street & Saddleback Road S Ent",
@@ -18170,7 +18170,7 @@
   },
   {
     "route_no": "722",
-    "dir": "722 Allard",
+    "dir": "Allard",
     "stops": [
       "Century Park Transit Centre",
       "111 Street & Saddleback Road S Ent",
@@ -18194,7 +18194,7 @@
   },
   {
     "route_no": "722",
-    "dir": "722 Callaghan",
+    "dir": "Callaghan",
     "stops": [
       "Century Park Transit Centre",
       "111 Street & Saddleback Road S Ent",
@@ -18230,7 +18230,7 @@
   },
   {
     "route_no": "722",
-    "dir": "722 Century Park",
+    "dir": "Century Park",
     "stops": [
       "Casselman Link & Casselman Crescent",
       "Alexander Crescent & Allard Boulevard",
@@ -18269,7 +18269,7 @@
   },
   {
     "route_no": "722",
-    "dir": "722 Century Park",
+    "dir": "Century Park",
     "stops": [
       "Casselman Link & Casselman Crescent",
       "Casselman Link & Cunningham Way",
@@ -18296,7 +18296,7 @@
   },
   {
     "route_no": "723",
-    "dir": "723 Parkallen",
+    "dir": "Parkallen",
     "stops": [
       "114 Street & 89 Avenue",
       "University Transit Centre",
@@ -18319,7 +18319,7 @@
   },
   {
     "route_no": "723",
-    "dir": "723 Parkallen",
+    "dir": "Parkallen",
     "stops": [
       "University Transit Centre",
       "112 Street & 86 Avenue",
@@ -18341,7 +18341,7 @@
   },
   {
     "route_no": "723",
-    "dir": "723 University",
+    "dir": "University",
     "stops": [
       "112 Street & 65 Avenue",
       "111 Street & 65 Avenue",
@@ -18364,7 +18364,7 @@
   },
   {
     "route_no": "724",
-    "dir": "724 Leger",
+    "dir": "Leger",
     "stops": [
       "South Campus Fort Edmonton Transit Centre",
       "116 Street & 68 Avenue",
@@ -18416,7 +18416,7 @@
   },
   {
     "route_no": "724",
-    "dir": "724 South Campus",
+    "dir": "South Campus",
     "stops": [
       "Leger Transit Centre",
       "2019 Leger Road",
@@ -18473,7 +18473,7 @@
   },
   {
     "route_no": "727",
-    "dir": "727 Anderson Hs",
+    "dir": "Anderson Hs",
     "stops": [
       "Desrochers Drive & 35 Avenue",
       "Desrochers Drive & Davidson Wynd",
@@ -18495,7 +18495,7 @@
   },
   {
     "route_no": "727",
-    "dir": "727 Chappelle",
+    "dir": "Chappelle",
     "stops": [
       "Heritage Valley Transit Centre",
       "122 Street & 26 Avenue",
@@ -18521,7 +18521,7 @@
   },
   {
     "route_no": "727",
-    "dir": "727 Chappelle",
+    "dir": "Chappelle",
     "stops": [
       "Heritage Valley Transit Centre",
       "122 Street & 26 Avenue",
@@ -18549,7 +18549,7 @@
   },
   {
     "route_no": "727",
-    "dir": "727 Heritage Valley",
+    "dir": "Heritage Valley",
     "stops": [
       "Chappelle Way & Colak Lane",
       "Chappelle Way & Chivers Loop",
@@ -18580,7 +18580,7 @@
   },
   {
     "route_no": "729",
-    "dir": "729 Century Park",
+    "dir": "Century Park",
     "stops": [
       "Leger Transit Centre",
       "Terwillegar Drive & Haddow Drive",
@@ -18610,7 +18610,7 @@
   },
   {
     "route_no": "729",
-    "dir": "729 Century Park",
+    "dir": "Century Park",
     "stops": [
       "Leger Transit Centre",
       "Terwillegar Drive & Riverbend Road",
@@ -18641,7 +18641,7 @@
   },
   {
     "route_no": "729",
-    "dir": "729 Leger",
+    "dir": "Leger",
     "stops": [
       "Century Park Transit Centre",
       "111 Street & Saddleback Road S Ent",
@@ -18670,7 +18670,7 @@
   },
   {
     "route_no": "747",
-    "dir": "747 Century Park",
+    "dir": "Century Park",
     "stops": [
       "Edmonton International Airport",
       "Premium Outlet Collection Mall",
@@ -18680,7 +18680,7 @@
   },
   {
     "route_no": "747",
-    "dir": "747 Edmonton Intl Airport",
+    "dir": "Edmonton Intl Airport",
     "stops": [
       "Century Park Transit Centre",
       "Edmonton International Airport"
@@ -18688,7 +18688,7 @@
   },
   {
     "route_no": "8",
-    "dir": "8 Abbottsfield",
+    "dir": "Abbottsfield",
     "stops": [
       "106 Street & 118 Avenue",
       "103 Street & 118 Avenue",
@@ -18728,7 +18728,7 @@
   },
   {
     "route_no": "8",
-    "dir": "8 Abbottsfield",
+    "dir": "Abbottsfield",
     "stops": [
       "114 Street & 89 Avenue",
       "University Transit Centre",
@@ -18805,7 +18805,7 @@
   },
   {
     "route_no": "8",
-    "dir": "8 Abbottsfield",
+    "dir": "Abbottsfield",
     "stops": [
       "University Transit Centre",
       "112 Street & 86 Avenue",
@@ -18881,7 +18881,7 @@
   },
   {
     "route_no": "8",
-    "dir": "8 University",
+    "dir": "University",
     "stops": [
       "Abbottsfield Transit Centre",
       "34 Street & 118 Avenue",
@@ -18960,260 +18960,6 @@
       "112 Street & 87 Avenue",
       "114 Street & 89 Avenue",
       "University Transit Centre"
-    ]
-  },
-  {
-    "route_no": "9",
-    "dir": "9 Downtown",
-    "stops": [
-      "Eaux Claires Transit Centre",
-      "97 Street & 153 Avenue",
-      "97 Street & 144 Avenue",
-      "Northgate Transit Centre",
-      "97 Street & 135 Avenue",
-      "97 Street & 134 Avenue",
-      "97 Street & 132 Avenue",
-      "97 Street & 129 Avenue",
-      "97 Street & 128 Avenue",
-      "97 Street & 124 Avenue",
-      "97 Street & 122 Avenue",
-      "97 Street & 120 Avenue",
-      "97 Street & 118 Avenue",
-      "101 Street & 117 Avenue",
-      "101 Street & 116 Avenue",
-      "101 Street & 114 Avenue",
-      "101 Street & 113 Avenue",
-      "101 Street & 112 Avenue",
-      "101 Street & 111 Avenue",
-      "101 Street & 110 Avenue",
-      "101 Street & Kingsway",
-      "101 Street & 107 Avenue",
-      "101 Street & 105 Avenue",
-      "101 Street & 103 Avenue",
-      "101 Street & 102 Avenue",
-      "101 Street & MacDonald Drive",
-      "102 Street & MacDonald Drive"
-    ]
-  },
-  {
-    "route_no": "9",
-    "dir": "9 Downtown",
-    "stops": [
-      "Southgate Transit Centre",
-      "111 Street & 54 Avenue",
-      "111 Street & 57 Avenue",
-      "109 Street & 57 Avenue",
-      "109 Street & 60 Avenue",
-      "109 Street & 63 Avenue",
-      "109 Street & 65 Avenue",
-      "109 Street & 67 Avenue",
-      "109 Street & 70 Avenue",
-      "109 Street & 72 Avenue",
-      "109 Street & 74 Avenue",
-      "109 Street & 76 Avenue",
-      "109 Street & 78 Avenue",
-      "109 Street & 80 Avenue",
-      "109 Street & 82 Avenue",
-      "109 Street & 84 Avenue",
-      "109 Street & 87 Avenue",
-      "Walterdale Hill & Queen Elizabeth Park Road",
-      "Rossdale Road & 96 Avenue",
-      "Bellamy Hill & 98 Avenue",
-      "Bellamy Hill & 99 Avenue",
-      "101 Street & MacDonald Drive",
-      "101 Street & 101 Avenue",
-      "101 Street & 103 Avenue"
-    ]
-  },
-  {
-    "route_no": "9",
-    "dir": "9 Eaux Claires",
-    "stops": [
-      "102 Street & MacDonald Drive",
-      "101 Street & 101 Avenue",
-      "101 Street & 103 Avenue",
-      "101 Street & 104 Avenue",
-      "101 Street & 105 Avenue",
-      "101 Street & 107 Avenue",
-      "101 Street & 108 Avenue",
-      "101 Street & 110 Avenue",
-      "101 Street & 111 Avenue",
-      "101 Street & 112 Avenue",
-      "101 Street & 113 Avenue",
-      "101 Street & 115 Avenue",
-      "101 Street & 117 Avenue",
-      "97 Street & 118 Avenue",
-      "97 Street & 120 Avenue",
-      "97 Street & 122 Avenue",
-      "97 Street & 124 Avenue",
-      "97 Street & 127 Avenue",
-      "97 Street & 129 Avenue",
-      "97 Street & 132 Avenue",
-      "97 Street & 134 Avenue",
-      "97 Street & 135 Avenue",
-      "Northgate Transit Centre",
-      "97 Street & 144 Avenue",
-      "97 Street & 153 Avenue",
-      "Eaux Claires Transit Centre"
-    ]
-  },
-  {
-    "route_no": "9",
-    "dir": "9 Eaux Claires",
-    "stops": [
-      "Southgate Transit Centre",
-      "111 Street & 54 Avenue",
-      "111 Street & 57 Avenue",
-      "109 Street & 57 Avenue",
-      "109 Street & 60 Avenue",
-      "109 Street & 63 Avenue",
-      "109 Street & 65 Avenue",
-      "109 Street & 67 Avenue",
-      "109 Street & 70 Avenue",
-      "109 Street & 72 Avenue",
-      "109 Street & 74 Avenue",
-      "109 Street & 76 Avenue",
-      "109 Street & 78 Avenue",
-      "109 Street & 80 Avenue",
-      "109 Street & 82 Avenue",
-      "109 Street & 84 Avenue",
-      "109 Street & 87 Avenue",
-      "Walterdale Hill & Queen Elizabeth Park Road",
-      "Rossdale Road & 96 Avenue",
-      "Bellamy Hill & 98 Avenue",
-      "Bellamy Hill & 99 Avenue",
-      "101 Street & MacDonald Drive",
-      "101 Street & 101 Avenue",
-      "101 Street & 103 Avenue",
-      "101 Street & 104 Avenue",
-      "101 Street & 105 Avenue",
-      "101 Street & 107 Avenue",
-      "101 Street & 108 Avenue",
-      "101 Street & 110 Avenue",
-      "101 Street & 111 Avenue",
-      "101 Street & 112 Avenue",
-      "101 Street & 113 Avenue",
-      "101 Street & 115 Avenue",
-      "101 Street & 117 Avenue",
-      "97 Street & 118 Avenue",
-      "97 Street & 120 Avenue",
-      "97 Street & 122 Avenue",
-      "97 Street & 124 Avenue",
-      "97 Street & 127 Avenue",
-      "97 Street & 129 Avenue",
-      "97 Street & 132 Avenue",
-      "97 Street & 134 Avenue",
-      "97 Street & 135 Avenue",
-      "Northgate Transit Centre",
-      "97 Street & 144 Avenue",
-      "97 Street & 153 Avenue",
-      "Eaux Claires Transit Centre"
-    ]
-  },
-  {
-    "route_no": "9",
-    "dir": "9 Northgate",
-    "stops": [
-      "Southgate Transit Centre",
-      "111 Street & 54 Avenue",
-      "111 Street & 57 Avenue",
-      "109 Street & 57 Avenue",
-      "109 Street & 60 Avenue",
-      "109 Street & 63 Avenue",
-      "109 Street & 65 Avenue",
-      "109 Street & 67 Avenue",
-      "109 Street & 70 Avenue",
-      "109 Street & 72 Avenue",
-      "109 Street & 74 Avenue",
-      "109 Street & 76 Avenue",
-      "109 Street & 78 Avenue",
-      "109 Street & 80 Avenue",
-      "109 Street & 82 Avenue",
-      "109 Street & 84 Avenue",
-      "109 Street & 87 Avenue",
-      "Walterdale Hill & Queen Elizabeth Park Road",
-      "Rossdale Road & 96 Avenue",
-      "Bellamy Hill & 98 Avenue",
-      "Bellamy Hill & 99 Avenue",
-      "101 Street & MacDonald Drive",
-      "101 Street & 101 Avenue",
-      "101 Street & 103 Avenue",
-      "101 Street & 104 Avenue",
-      "101 Street & 105 Avenue",
-      "101 Street & 107 Avenue",
-      "101 Street & 108 Avenue",
-      "101 Street & 110 Avenue",
-      "101 Street & 111 Avenue",
-      "101 Street & 112 Avenue",
-      "101 Street & 113 Avenue",
-      "101 Street & 115 Avenue",
-      "101 Street & 117 Avenue",
-      "97 Street & 118 Avenue",
-      "97 Street & 120 Avenue",
-      "97 Street & 122 Avenue",
-      "97 Street & 124 Avenue",
-      "97 Street & 127 Avenue",
-      "97 Street & 129 Avenue",
-      "97 Street & 132 Avenue",
-      "97 Street & 134 Avenue",
-      "97 Street & 135 Avenue",
-      "Northgate Transit Centre"
-    ]
-  },
-  {
-    "route_no": "9",
-    "dir": "9 Southgate",
-    "stops": [
-      "Eaux Claires Transit Centre",
-      "97 Street & 153 Avenue",
-      "97 Street & 144 Avenue",
-      "Northgate Transit Centre",
-      "97 Street & 135 Avenue",
-      "97 Street & 134 Avenue",
-      "97 Street & 132 Avenue",
-      "97 Street & 129 Avenue",
-      "97 Street & 128 Avenue",
-      "97 Street & 124 Avenue",
-      "97 Street & 122 Avenue",
-      "97 Street & 120 Avenue",
-      "97 Street & 118 Avenue",
-      "101 Street & 117 Avenue",
-      "101 Street & 116 Avenue",
-      "101 Street & 114 Avenue",
-      "101 Street & 113 Avenue",
-      "101 Street & 112 Avenue",
-      "101 Street & 111 Avenue",
-      "101 Street & 110 Avenue",
-      "101 Street & Kingsway",
-      "101 Street & 107 Avenue",
-      "101 Street & 105 Avenue",
-      "101 Street & 103 Avenue",
-      "101 Street & 102 Avenue",
-      "101 Street & MacDonald Drive",
-      "Bellamy Hill & 99 Avenue",
-      "Bellamy Hill & 98 Avenue",
-      "104 Street & 97 Avenue",
-      "106 Street & 97 Avenue",
-      "109 Street & 97 Avenue",
-      "109 Street & 88 Avenue",
-      "109 Street & 86 Avenue",
-      "109 Street & 84 Avenue",
-      "109 Street & 82 Avenue",
-      "109 Street & 80 Avenue",
-      "109 Street & University Avenue",
-      "109 Street & 76 Avenue",
-      "109 Street & 74 Avenue",
-      "109 Street & 72 Avenue",
-      "109 Street & 70 Avenue",
-      "109 Street & 68 Avenue",
-      "109 Street & 65 Avenue",
-      "109 Street & 62 Avenue",
-      "109 Street & 60 Avenue",
-      "109 Street & 57 Avenue",
-      "110 Street & 57 Avenue",
-      "111 Street & 57 Avenue",
-      "111 Street & 54 Avenue",
-      "Southgate Transit Centre"
     ]
   },
   {
@@ -19332,8 +19078,262 @@
     ]
   },
   {
+    "route_no": "9",
+    "dir": "Downtown",
+    "stops": [
+      "Eaux Claires Transit Centre",
+      "97 Street & 153 Avenue",
+      "97 Street & 144 Avenue",
+      "Northgate Transit Centre",
+      "97 Street & 135 Avenue",
+      "97 Street & 134 Avenue",
+      "97 Street & 132 Avenue",
+      "97 Street & 129 Avenue",
+      "97 Street & 128 Avenue",
+      "97 Street & 124 Avenue",
+      "97 Street & 122 Avenue",
+      "97 Street & 120 Avenue",
+      "97 Street & 118 Avenue",
+      "101 Street & 117 Avenue",
+      "101 Street & 116 Avenue",
+      "101 Street & 114 Avenue",
+      "101 Street & 113 Avenue",
+      "101 Street & 112 Avenue",
+      "101 Street & 111 Avenue",
+      "101 Street & 110 Avenue",
+      "101 Street & Kingsway",
+      "101 Street & 107 Avenue",
+      "101 Street & 105 Avenue",
+      "101 Street & 103 Avenue",
+      "101 Street & 102 Avenue",
+      "101 Street & MacDonald Drive",
+      "102 Street & MacDonald Drive"
+    ]
+  },
+  {
+    "route_no": "9",
+    "dir": "Downtown",
+    "stops": [
+      "Southgate Transit Centre",
+      "111 Street & 54 Avenue",
+      "111 Street & 57 Avenue",
+      "109 Street & 57 Avenue",
+      "109 Street & 60 Avenue",
+      "109 Street & 63 Avenue",
+      "109 Street & 65 Avenue",
+      "109 Street & 67 Avenue",
+      "109 Street & 70 Avenue",
+      "109 Street & 72 Avenue",
+      "109 Street & 74 Avenue",
+      "109 Street & 76 Avenue",
+      "109 Street & 78 Avenue",
+      "109 Street & 80 Avenue",
+      "109 Street & 82 Avenue",
+      "109 Street & 84 Avenue",
+      "109 Street & 87 Avenue",
+      "Walterdale Hill & Queen Elizabeth Park Road",
+      "Rossdale Road & 96 Avenue",
+      "Bellamy Hill & 98 Avenue",
+      "Bellamy Hill & 99 Avenue",
+      "101 Street & MacDonald Drive",
+      "101 Street & 101 Avenue",
+      "101 Street & 103 Avenue"
+    ]
+  },
+  {
+    "route_no": "9",
+    "dir": "Eaux Claires",
+    "stops": [
+      "102 Street & MacDonald Drive",
+      "101 Street & 101 Avenue",
+      "101 Street & 103 Avenue",
+      "101 Street & 104 Avenue",
+      "101 Street & 105 Avenue",
+      "101 Street & 107 Avenue",
+      "101 Street & 108 Avenue",
+      "101 Street & 110 Avenue",
+      "101 Street & 111 Avenue",
+      "101 Street & 112 Avenue",
+      "101 Street & 113 Avenue",
+      "101 Street & 115 Avenue",
+      "101 Street & 117 Avenue",
+      "97 Street & 118 Avenue",
+      "97 Street & 120 Avenue",
+      "97 Street & 122 Avenue",
+      "97 Street & 124 Avenue",
+      "97 Street & 127 Avenue",
+      "97 Street & 129 Avenue",
+      "97 Street & 132 Avenue",
+      "97 Street & 134 Avenue",
+      "97 Street & 135 Avenue",
+      "Northgate Transit Centre",
+      "97 Street & 144 Avenue",
+      "97 Street & 153 Avenue",
+      "Eaux Claires Transit Centre"
+    ]
+  },
+  {
+    "route_no": "9",
+    "dir": "Eaux Claires",
+    "stops": [
+      "Southgate Transit Centre",
+      "111 Street & 54 Avenue",
+      "111 Street & 57 Avenue",
+      "109 Street & 57 Avenue",
+      "109 Street & 60 Avenue",
+      "109 Street & 63 Avenue",
+      "109 Street & 65 Avenue",
+      "109 Street & 67 Avenue",
+      "109 Street & 70 Avenue",
+      "109 Street & 72 Avenue",
+      "109 Street & 74 Avenue",
+      "109 Street & 76 Avenue",
+      "109 Street & 78 Avenue",
+      "109 Street & 80 Avenue",
+      "109 Street & 82 Avenue",
+      "109 Street & 84 Avenue",
+      "109 Street & 87 Avenue",
+      "Walterdale Hill & Queen Elizabeth Park Road",
+      "Rossdale Road & 96 Avenue",
+      "Bellamy Hill & 98 Avenue",
+      "Bellamy Hill & 99 Avenue",
+      "101 Street & MacDonald Drive",
+      "101 Street & 101 Avenue",
+      "101 Street & 103 Avenue",
+      "101 Street & 104 Avenue",
+      "101 Street & 105 Avenue",
+      "101 Street & 107 Avenue",
+      "101 Street & 108 Avenue",
+      "101 Street & 110 Avenue",
+      "101 Street & 111 Avenue",
+      "101 Street & 112 Avenue",
+      "101 Street & 113 Avenue",
+      "101 Street & 115 Avenue",
+      "101 Street & 117 Avenue",
+      "97 Street & 118 Avenue",
+      "97 Street & 120 Avenue",
+      "97 Street & 122 Avenue",
+      "97 Street & 124 Avenue",
+      "97 Street & 127 Avenue",
+      "97 Street & 129 Avenue",
+      "97 Street & 132 Avenue",
+      "97 Street & 134 Avenue",
+      "97 Street & 135 Avenue",
+      "Northgate Transit Centre",
+      "97 Street & 144 Avenue",
+      "97 Street & 153 Avenue",
+      "Eaux Claires Transit Centre"
+    ]
+  },
+  {
+    "route_no": "9",
+    "dir": "Northgate",
+    "stops": [
+      "Southgate Transit Centre",
+      "111 Street & 54 Avenue",
+      "111 Street & 57 Avenue",
+      "109 Street & 57 Avenue",
+      "109 Street & 60 Avenue",
+      "109 Street & 63 Avenue",
+      "109 Street & 65 Avenue",
+      "109 Street & 67 Avenue",
+      "109 Street & 70 Avenue",
+      "109 Street & 72 Avenue",
+      "109 Street & 74 Avenue",
+      "109 Street & 76 Avenue",
+      "109 Street & 78 Avenue",
+      "109 Street & 80 Avenue",
+      "109 Street & 82 Avenue",
+      "109 Street & 84 Avenue",
+      "109 Street & 87 Avenue",
+      "Walterdale Hill & Queen Elizabeth Park Road",
+      "Rossdale Road & 96 Avenue",
+      "Bellamy Hill & 98 Avenue",
+      "Bellamy Hill & 99 Avenue",
+      "101 Street & MacDonald Drive",
+      "101 Street & 101 Avenue",
+      "101 Street & 103 Avenue",
+      "101 Street & 104 Avenue",
+      "101 Street & 105 Avenue",
+      "101 Street & 107 Avenue",
+      "101 Street & 108 Avenue",
+      "101 Street & 110 Avenue",
+      "101 Street & 111 Avenue",
+      "101 Street & 112 Avenue",
+      "101 Street & 113 Avenue",
+      "101 Street & 115 Avenue",
+      "101 Street & 117 Avenue",
+      "97 Street & 118 Avenue",
+      "97 Street & 120 Avenue",
+      "97 Street & 122 Avenue",
+      "97 Street & 124 Avenue",
+      "97 Street & 127 Avenue",
+      "97 Street & 129 Avenue",
+      "97 Street & 132 Avenue",
+      "97 Street & 134 Avenue",
+      "97 Street & 135 Avenue",
+      "Northgate Transit Centre"
+    ]
+  },
+  {
+    "route_no": "9",
+    "dir": "Southgate",
+    "stops": [
+      "Eaux Claires Transit Centre",
+      "97 Street & 153 Avenue",
+      "97 Street & 144 Avenue",
+      "Northgate Transit Centre",
+      "97 Street & 135 Avenue",
+      "97 Street & 134 Avenue",
+      "97 Street & 132 Avenue",
+      "97 Street & 129 Avenue",
+      "97 Street & 128 Avenue",
+      "97 Street & 124 Avenue",
+      "97 Street & 122 Avenue",
+      "97 Street & 120 Avenue",
+      "97 Street & 118 Avenue",
+      "101 Street & 117 Avenue",
+      "101 Street & 116 Avenue",
+      "101 Street & 114 Avenue",
+      "101 Street & 113 Avenue",
+      "101 Street & 112 Avenue",
+      "101 Street & 111 Avenue",
+      "101 Street & 110 Avenue",
+      "101 Street & Kingsway",
+      "101 Street & 107 Avenue",
+      "101 Street & 105 Avenue",
+      "101 Street & 103 Avenue",
+      "101 Street & 102 Avenue",
+      "101 Street & MacDonald Drive",
+      "Bellamy Hill & 99 Avenue",
+      "Bellamy Hill & 98 Avenue",
+      "104 Street & 97 Avenue",
+      "106 Street & 97 Avenue",
+      "109 Street & 97 Avenue",
+      "109 Street & 88 Avenue",
+      "109 Street & 86 Avenue",
+      "109 Street & 84 Avenue",
+      "109 Street & 82 Avenue",
+      "109 Street & 80 Avenue",
+      "109 Street & University Avenue",
+      "109 Street & 76 Avenue",
+      "109 Street & 74 Avenue",
+      "109 Street & 72 Avenue",
+      "109 Street & 70 Avenue",
+      "109 Street & 68 Avenue",
+      "109 Street & 65 Avenue",
+      "109 Street & 62 Avenue",
+      "109 Street & 60 Avenue",
+      "109 Street & 57 Avenue",
+      "110 Street & 57 Avenue",
+      "111 Street & 57 Avenue",
+      "111 Street & 54 Avenue",
+      "Southgate Transit Centre"
+    ]
+  },
+  {
     "route_no": "900X",
-    "dir": "900X Downtown Super Express",
+    "dir": "Downtown Super Express",
     "stops": [
       "Lewis Farms Transit Centre",
       "West Edmonton Mall Transit Centre",
@@ -19349,7 +19349,7 @@
   },
   {
     "route_no": "900X",
-    "dir": "900X Downtown Super Express",
+    "dir": "Downtown Super Express",
     "stops": [
       "Lewis Farms Transit Centre",
       "West Edmonton Mall Transit Centre",
@@ -19366,7 +19366,7 @@
   },
   {
     "route_no": "900X",
-    "dir": "900X Downtown Super Express",
+    "dir": "Downtown Super Express",
     "stops": [
       "Lewis Farms Transit Centre",
       "West Edmonton Mall Transit Centre",
@@ -19387,7 +19387,7 @@
   },
   {
     "route_no": "900X",
-    "dir": "900X Lewis Farms Super Express",
+    "dir": "Lewis Farms Super Express",
     "stops": [
       "101 Street & Jasper Avenue",
       "Thornton Court & Jasper Avenue",
@@ -19410,7 +19410,7 @@
   },
   {
     "route_no": "900X",
-    "dir": "900X Lewis Farms Super Express",
+    "dir": "Lewis Farms Super Express",
     "stops": [
       "Thornton Court & Jasper Avenue",
       "97 Street & Jasper Avenue",
@@ -19432,7 +19432,7 @@
   },
   {
     "route_no": "901",
-    "dir": "901 Downtown",
+    "dir": "Downtown",
     "stops": [
       "144 Street & 107 Avenue",
       "139 Street & 107 Avenue",
@@ -19461,7 +19461,7 @@
   },
   {
     "route_no": "901",
-    "dir": "901 Downtown",
+    "dir": "Downtown",
     "stops": [
       "Jasper Place Transit Centre",
       "156 Street & 102 Avenue",
@@ -19499,7 +19499,7 @@
   },
   {
     "route_no": "901",
-    "dir": "901 Jasper Place",
+    "dir": "Jasper Place",
     "stops": [
       "102 Street & MacDonald Drive",
       "101 Street & 101 Avenue",
@@ -19539,7 +19539,7 @@
   },
   {
     "route_no": "902",
-    "dir": "902 Nait",
+    "dir": "Nait",
     "stops": [
       "114 Street & 89 Avenue",
       "University Transit Centre",
@@ -19570,7 +19570,7 @@
   },
   {
     "route_no": "902",
-    "dir": "902 Nait",
+    "dir": "Nait",
     "stops": [
       "University Transit Centre",
       "112 Street & 87 Avenue",
@@ -19600,7 +19600,7 @@
   },
   {
     "route_no": "902",
-    "dir": "902 University",
+    "dir": "University",
     "stops": [
       "106 Street & 118 Avenue Loop",
       "106 Street & 117 Avenue",
@@ -19632,7 +19632,7 @@
   },
   {
     "route_no": "903",
-    "dir": "903 Jasper Place",
+    "dir": "Jasper Place",
     "stops": [
       "Kingsway RAH Transit Centre",
       "108 Street & Kingsway",
@@ -19674,7 +19674,7 @@
   },
   {
     "route_no": "903",
-    "dir": "903 Kingsway Rah",
+    "dir": "Kingsway Rah",
     "stops": [
       "123 Street & 118 Avenue",
       "121 Street & Kingsway",
@@ -19690,7 +19690,7 @@
   },
   {
     "route_no": "903",
-    "dir": "903 Kingsway Rah",
+    "dir": "Kingsway Rah",
     "stops": [
       "Jasper Place Transit Centre",
       "156 Street & 102 Avenue",
@@ -19729,7 +19729,7 @@
   },
   {
     "route_no": "904",
-    "dir": "904 West Edm Mall",
+    "dir": "West Edm Mall",
     "stops": [
       "Westmount Transit Centre",
       "136 Street & 111 Avenue",
@@ -19778,7 +19778,7 @@
   },
   {
     "route_no": "904",
-    "dir": "904 Westmount",
+    "dir": "Westmount",
     "stops": [
       "142 Street & 107 Avenue",
       "142 Street & 109 Avenue",
@@ -19790,7 +19790,7 @@
   },
   {
     "route_no": "904",
-    "dir": "904 Westmount",
+    "dir": "Westmount",
     "stops": [
       "West Edmonton Mall Transit Centre",
       "169 Street & 87 Avenue",
@@ -19844,7 +19844,7 @@
   },
   {
     "route_no": "905",
-    "dir": "905 Northgate",
+    "dir": "Northgate",
     "stops": [
       "Westmount Transit Centre",
       "136 Street & 111 Avenue",
@@ -19894,7 +19894,7 @@
   },
   {
     "route_no": "905",
-    "dir": "905 Westmount",
+    "dir": "Westmount",
     "stops": [
       "Northgate Transit Centre",
       "97 Street & 137 Avenue",
@@ -19946,7 +19946,7 @@
   },
   {
     "route_no": "906",
-    "dir": "906 West Edm Mall",
+    "dir": "West Edm Mall",
     "stops": [
       "Westmount Transit Centre",
       "136 Street & 111 Avenue",
@@ -19994,7 +19994,7 @@
   },
   {
     "route_no": "906",
-    "dir": "906 Westmount",
+    "dir": "Westmount",
     "stops": [
       "West Edmonton Mall Transit Centre",
       "178 Street & 93 Avenue",
@@ -20045,7 +20045,7 @@
   },
   {
     "route_no": "907",
-    "dir": "907 West Edm Mall",
+    "dir": "West Edm Mall",
     "stops": [
       "Westmount Transit Centre",
       "135 Street & 114 Avenue",
@@ -20097,7 +20097,7 @@
   },
   {
     "route_no": "907",
-    "dir": "907 Westmount",
+    "dir": "Westmount",
     "stops": [
       "West Edmonton Mall Transit Centre",
       "178 Street & 93 Avenue",
@@ -20151,7 +20151,7 @@
   },
   {
     "route_no": "908",
-    "dir": "908 Jasper Place",
+    "dir": "Jasper Place",
     "stops": [
       "Westmount Transit Centre",
       "136 Street & 111 Avenue",
@@ -20190,7 +20190,7 @@
   },
   {
     "route_no": "908",
-    "dir": "908 Westmount",
+    "dir": "Westmount",
     "stops": [
       "Jasper Place TC on 100 Avenue",
       "159 Street & Stony Plain Road",
@@ -20226,7 +20226,7 @@
   },
   {
     "route_no": "909",
-    "dir": "909 Jasper Place",
+    "dir": "Jasper Place",
     "stops": [
       "Westmount Transit Centre",
       "135 Street & 111 Avenue",
@@ -20255,7 +20255,7 @@
   },
   {
     "route_no": "909",
-    "dir": "909 Westmount",
+    "dir": "Westmount",
     "stops": [
       "Jasper Place TC on 100 Avenue",
       "160 Street & 100 Avenue",
@@ -20285,7 +20285,7 @@
   },
   {
     "route_no": "910X",
-    "dir": "910X Callingwood Express",
+    "dir": "Callingwood Express",
     "stops": [
       "South Campus Fort Edmonton Transit Centre",
       "116 Street & 68 Avenue",
@@ -20323,7 +20323,7 @@
   },
   {
     "route_no": "910X",
-    "dir": "910X South Campus Express",
+    "dir": "South Campus Express",
     "stops": [
       "178 Street & 69 Avenue",
       "180 Street & 69 Avenue",
@@ -20360,7 +20360,7 @@
   },
   {
     "route_no": "912",
-    "dir": "912 Jasper Place",
+    "dir": "Jasper Place",
     "stops": [
       "Lewis Farms Transit Centre",
       "184 Street & 100 Avenue",
@@ -20382,7 +20382,7 @@
   },
   {
     "route_no": "912",
-    "dir": "912 Lewis Farms",
+    "dir": "Lewis Farms",
     "stops": [
       "Jasper Place Transit Centre",
       "159 Street & Stony Plain Road",
@@ -20404,7 +20404,7 @@
   },
   {
     "route_no": "913",
-    "dir": "913 Jamieson Pl",
+    "dir": "Jamieson Pl",
     "stops": [
       "West Edmonton Mall Transit Centre",
       "178 Street & 89 Avenue",
@@ -20458,7 +20458,7 @@
   },
   {
     "route_no": "914",
-    "dir": "914 Jasper Place",
+    "dir": "Jasper Place",
     "stops": [
       "West Edmonton Mall Transit Centre",
       "178 Street & 89 Avenue",
@@ -20495,7 +20495,7 @@
   },
   {
     "route_no": "914",
-    "dir": "914 West Edm Mall",
+    "dir": "West Edm Mall",
     "stops": [
       "Jasper Place Transit Centre",
       "159 Street & Stony Plain Road",
@@ -20533,7 +20533,7 @@
   },
   {
     "route_no": "915",
-    "dir": "915 Jasper Place",
+    "dir": "Jasper Place",
     "stops": [
       "West Edmonton Mall Transit Centre",
       "178 Street & 89 Avenue",
@@ -20562,7 +20562,7 @@
   },
   {
     "route_no": "915",
-    "dir": "915 West Edm Mall",
+    "dir": "West Edm Mall",
     "stops": [
       "Jasper Place Transit Centre",
       "159 Street & Stony Plain Road",
@@ -20593,7 +20593,7 @@
   },
   {
     "route_no": "916",
-    "dir": "916 Lewis Farms",
+    "dir": "Lewis Farms",
     "stops": [
       "West Edmonton Mall Transit Centre",
       "178 Street & 89 Avenue",
@@ -20649,7 +20649,7 @@
   },
   {
     "route_no": "916",
-    "dir": "916 West Edm Mall",
+    "dir": "West Edm Mall",
     "stops": [
       "Lewis Farms Transit Centre",
       "West Henday Promenade Access & Webber Greens Drive",
@@ -20705,7 +20705,7 @@
   },
   {
     "route_no": "917",
-    "dir": "917 Lewis Farms",
+    "dir": "Lewis Farms",
     "stops": [
       "West Edmonton Mall Transit Centre",
       "178 Street & 87 Avenue",
@@ -20757,7 +20757,7 @@
   },
   {
     "route_no": "917",
-    "dir": "917 West Edm Mall",
+    "dir": "West Edm Mall",
     "stops": [
       "Lewis Farms Transit Centre",
       "West Henday Promenade Access & Webber Greens Drive",
@@ -20886,7 +20886,7 @@
   },
   {
     "route_no": "919",
-    "dir": "919 Lewis Farms",
+    "dir": "Lewis Farms",
     "stops": [
       "215 Street & 92 Avenue",
       "218 Street & 92 Avenue",
@@ -20915,7 +20915,7 @@
   },
   {
     "route_no": "919",
-    "dir": "919 Secord",
+    "dir": "Secord",
     "stops": [
       "Lewis Farms Transit Centre",
       "West Henday Promenade Access & Webber Greens Drive",
@@ -20931,7 +20931,7 @@
   },
   {
     "route_no": "920X",
-    "dir": "920X Lewis Farms Express",
+    "dir": "Lewis Farms Express",
     "stops": [
       "114 Street & 89 Avenue",
       "University Transit Centre",
@@ -20946,7 +20946,7 @@
   },
   {
     "route_no": "920X",
-    "dir": "920X Lewis Farms Express",
+    "dir": "Lewis Farms Express",
     "stops": [
       "University Transit Centre",
       "112 Street & 86 Avenue",
@@ -20960,7 +20960,7 @@
   },
   {
     "route_no": "920X",
-    "dir": "920X University Express",
+    "dir": "University Express",
     "stops": [
       "Lewis Farms Transit Centre",
       "West Edmonton Mall Transit Centre",
@@ -20974,7 +20974,7 @@
   },
   {
     "route_no": "921",
-    "dir": "921 Jasper Place",
+    "dir": "Jasper Place",
     "stops": [
       "215 Street & Westview Boulevard",
       "Westview Crescent E & Westview Boulevard",
@@ -21004,7 +21004,7 @@
   },
   {
     "route_no": "921",
-    "dir": "921 Westview",
+    "dir": "Westview",
     "stops": [
       "Jasper Place Transit Centre",
       "159 Street & Stony Plain Road",
@@ -21026,7 +21026,7 @@
   },
   {
     "route_no": "922",
-    "dir": "922 Lewis Farms",
+    "dir": "Lewis Farms",
     "stops": [
       "222 Street & Rosenthal Boulevard",
       "224 Street & Rosenthal Boulevard",
@@ -21048,7 +21048,7 @@
   },
   {
     "route_no": "922",
-    "dir": "922 Rosenthal",
+    "dir": "Rosenthal",
     "stops": [
       "Lewis Farms Transit Centre",
       "West Henday Promenade Access & Webber Greens Drive",
@@ -21072,7 +21072,7 @@
   },
   {
     "route_no": "923",
-    "dir": "923 Oleskiw",
+    "dir": "Oleskiw",
     "stops": [
       "West Edmonton Mall Transit Centre",
       "178 Street & 89 Avenue",
@@ -21092,7 +21092,7 @@
   },
   {
     "route_no": "923",
-    "dir": "923 West Edm Mall",
+    "dir": "West Edm Mall",
     "stops": [
       "172 Street & 69 Avenue",
       "170 Street & 69 Avenue",
@@ -21123,7 +21123,7 @@
   },
   {
     "route_no": "924",
-    "dir": "924 Jasper Place",
+    "dir": "Jasper Place",
     "stops": [
       "149 Street & 76 Avenue",
       "151 Street & Rio Terrace Drive",
@@ -21162,7 +21162,7 @@
   },
   {
     "route_no": "924",
-    "dir": "924 Jasper Place",
+    "dir": "Jasper Place",
     "stops": [
       "149 Street & 76 Avenue",
       "151 Street & Rio Terrace Drive",
@@ -21202,7 +21202,7 @@
   },
   {
     "route_no": "924",
-    "dir": "924 Rio Terrace",
+    "dir": "Rio Terrace",
     "stops": [
       "Jasper Place Transit Centre",
       "159 Street & Stony Plain Road",
@@ -21236,7 +21236,7 @@
   },
   {
     "route_no": "924",
-    "dir": "924 Rio Terrace",
+    "dir": "Rio Terrace",
     "stops": [
       "Jasper Place Transit Centre",
       "159 Street & Stony Plain Road",
@@ -21271,7 +21271,7 @@
   },
   {
     "route_no": "925",
-    "dir": "925 Jasper Place",
+    "dir": "Jasper Place",
     "stops": [
       "West Edmonton Mall Transit Centre",
       "178 Street & 89 Avenue",
@@ -21309,7 +21309,7 @@
   },
   {
     "route_no": "925",
-    "dir": "925 West Edm Mall",
+    "dir": "West Edm Mall",
     "stops": [
       "Jasper Place Transit Centre",
       "159 Street & Stony Plain Road",
@@ -21351,7 +21351,7 @@
   },
   {
     "route_no": "926",
-    "dir": "926 Stillwater",
+    "dir": "Stillwater",
     "stops": [
       "Lewis Farms Transit Centre",
       "West Henday Promenade Access & Webber Greens Drive",
@@ -21425,7 +21425,7 @@
   },
   {
     "route_no": "930X",
-    "dir": "930X Hamptons Express",
+    "dir": "Hamptons Express",
     "stops": [
       "South Campus Fort Edmonton Transit Centre",
       "116 Street & 68 Avenue",
@@ -21458,7 +21458,7 @@
   },
   {
     "route_no": "930X",
-    "dir": "930X South Campus Express",
+    "dir": "South Campus Express",
     "stops": [
       "Glastonbury Boulevard & 62 Avenue",
       "205 Street & 62 Avenue",

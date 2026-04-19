@@ -110,6 +110,12 @@ def build_trips(gtfs_stream):
                 route_id = row["route_id"]
                 route_short_name = routes.get(route_id, "Unknown")
                 headsign = row["trip_headsign"]
+                
+                # Strip redundant route number from headsign if it starts with it
+                # Example: route_short_name="4", headsign="4 Capilano" -> "Capilano"
+                if headsign.startswith(route_short_name + " "):
+                    headsign = headsign[len(route_short_name):].strip()
+                
                 trip_info[row["trip_id"]] = (route_short_name, headsign)
 
         # 4. Load stop times and group by trip_id
