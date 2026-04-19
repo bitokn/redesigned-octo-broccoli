@@ -22,6 +22,9 @@ function normalizeStop(name) {
   const stRegex = new RegExp(`\\bst\\b(?!\\s+(${saintsPattern}))`, "g");
   s = s.replace(stRegex, "street");
   
+  // Strip A/B/C suffixes from street/avenue numbers (e.g., 105A St -> 105 St)
+  s = s.replace(/\b(\d+)[a-z]\b/g, "$1");
+  
   // Clean up spacing and &
   s = s.replace(/\s*&\s*/g, " & ");
   return s.replace(/\s+/g, " ").trim();

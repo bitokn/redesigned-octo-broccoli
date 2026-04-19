@@ -41,6 +41,9 @@ def normalize_stop_name(name):
     saints_re = "|".join(saints)
     name = re.sub(r"\bSt\b(?!\s+(" + saints_re + "))", "Street", name, flags=re.IGNORECASE)
     
+    # Strip A/B/C suffixes from street/avenue numbers
+    name = re.sub(r"\b(\d+)[a-z]\b", r"\1", name, flags=re.IGNORECASE)
+    
     # Clean up extra spaces
     name = re.sub(r"\s+", " ", name).strip()
     
