@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bus Trip Visualizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Bus Trip Visualizer</h1>
+    <p class="sub">Drop an Arc card transaction CSV to see your month at a glance.</p>
+    <label class="filebtn">
+      Choose CSV
+      <input type="file" id="file" accept=".csv" hidden>
+    </label>
+  </header>
+
+  <main>
+    <p id="empty">No file loaded yet — pick a CSV above or drop one anywhere on this page.</p>
+
+    <section id="calendar" hidden>
+      <div class="nav">
+        <button id="prev" aria-label="Previous month">&larr;</button>
+        <h2 id="title"></h2>
+        <button id="next" aria-label="Next month">&rarr;</button>
+      </div>
+      <div id="grid" class="grid"></div>
+      <div id="legend" class="legend"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
