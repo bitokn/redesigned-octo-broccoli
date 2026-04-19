@@ -1416,7 +1416,7 @@
     "dir": "107 Belvedere",
     "stops": [
       "West Clareview Transit Centre",
-      "Clareview Station Drive & 143 Avenue",
+      "Clareview Drive & 143 Avenue",
       "Ebbers Boulevard & 144 Avenue",
       "Ebbers Boulevard & Ebbers Way",
       "Ebbers Boulevard & Ebbers Way N",
@@ -1514,8 +1514,8 @@
       "Ebbers Boulevard & 153 Avenue",
       "Ebbers Boulevard & Ebbers Crescent",
       "Ebbers Boulevard & Ebbers Court",
-      "Clareview Station Drive & 144 Avenue",
-      "Clareview Station Drive & 143 Avenue",
+      "Clareview Drive & 144 Avenue",
+      "Clareview Drive & 143 Avenue",
       "West Clareview Transit Centre"
     ]
   },
@@ -2536,8 +2536,8 @@
       "Ebbers Boulevard & 153 Avenue",
       "Ebbers Boulevard & Ebbers Crescent",
       "Ebbers Boulevard & Ebbers Court",
-      "Clareview Station Drive & 144 Avenue",
-      "Clareview Station Drive & 143 Avenue",
+      "Clareview Drive & 144 Avenue",
+      "Clareview Drive & 143 Avenue",
       "West Clareview Transit Centre"
     ]
   },
@@ -2546,7 +2546,7 @@
     "dir": "117 Eaux Claires",
     "stops": [
       "West Clareview Transit Centre",
-      "Clareview Station Drive & 143 Avenue",
+      "Clareview Drive & 143 Avenue",
       "Ebbers Boulevard & 144 Avenue",
       "Ebbers Boulevard & Ebbers Way",
       "Ebbers Boulevard & Ebbers Way N",
@@ -4496,7 +4496,7 @@
       "St Albert Trail & St Anne Street",
       "St Albert Trail & Green Grove Dr",
       "St Albert Trail & Gate Avenue",
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "Mark Messier Trail & 142 Avenue",
       "St Albert Trail & 136 Avenue",
       "St Albert Trail & 134 Avenue",
@@ -4522,7 +4522,7 @@
       "St Albert Trail & St Anne Street",
       "St Albert Trail & Green Grove Dr",
       "St Albert Trail & Gate Avenue",
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "Mark Messier Trail & 142 Avenue",
       "St Albert Trail & 136 Avenue",
       "St Albert Trail & 134 Avenue",
@@ -4574,7 +4574,7 @@
       "St Albert Trail & 134 Avenue",
       "St Albert Trail & 137 Avenue",
       "Mark Messier Trail & 142 Avenue",
-      "Nak\u00ee Transit Station and Park and Ride"
+      "Nak\u00ee Transit and Park and Ride"
     ]
   },
   {
@@ -4603,7 +4603,7 @@
       "St Albert Trail & 134 Avenue",
       "St Albert Trail & 137 Avenue",
       "Mark Messier Trail & 142 Avenue",
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "St Albert Trail & Superstore South",
       "St Albert Trail & Gate Avenue",
       "St Albert Trail & Sterling Street",
@@ -4637,7 +4637,7 @@
       "St Albert Trail & 134 Avenue",
       "St Albert Trail & 137 Avenue",
       "Mark Messier Trail & 142 Avenue",
-      "Nak\u00ee Transit Station and Park and Ride"
+      "Nak\u00ee Transit and Park and Ride"
     ]
   },
   {
@@ -4667,7 +4667,7 @@
       "St Albert Trail & 134 Avenue",
       "St Albert Trail & 137 Avenue",
       "Mark Messier Trail & 142 Avenue",
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "St Albert Trail & Superstore South",
       "St Albert Trail & Gate Avenue",
       "St Albert Trail & Sterling Street",
@@ -4687,7 +4687,7 @@
       "Garden Rd & Grandville Avenue",
       "Grange Dr & Grdin Lk Vill",
       "Gervais Rd & Galarneau Pl",
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "109 Street & Princess Elizabeth Avenue",
       "106 Street & 113 Avenue",
       "Kingsway RAH Transit Centre"
@@ -4706,7 +4706,7 @@
       "Garden Rd & Grandville Avenue",
       "Grange Dr & Grdin Lk Vill",
       "Gervais Rd & Galarneau Pl",
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "Mark Messier Trail & 142 Avenue",
       "St Albert Trail & 136 Avenue",
       "St Albert Trail & 134 Avenue",
@@ -4733,7 +4733,7 @@
       "St Albert Trail & 134 Avenue",
       "St Albert Trail & 137 Avenue",
       "Mark Messier Trail & 142 Avenue",
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "Gervais Rd & Grange Dr",
       "Grange Dr & Village Landing",
       "Garden Rd & Green Lees Pl",
@@ -4757,7 +4757,7 @@
       "114 Street & 87 Avenue",
       "Westmount Transit Centre",
       "Mark Messier Trail & 142 Avenue",
-      "Nak\u00ee Transit Station and Park and Ride"
+      "Nak\u00ee Transit and Park and Ride"
     ]
   },
   {
@@ -4772,7 +4772,7 @@
       "114 Street & 87 Avenue",
       "Westmount Transit Centre",
       "Mark Messier Trail & 142 Avenue",
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "St Albert Trail & Superstore South",
       "St Albert Trail & Gate Avenue",
       "St Albert Trail & Sterling Street",
@@ -4783,7 +4783,7 @@
     "route_no": "203",
     "dir": "U Of A Via Westmount",
     "stops": [
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "Mark Messier Trail & 142 Avenue",
       "135 Street & Coronation Road",
       "116 Street & 87 Avenue",
@@ -4799,7 +4799,7 @@
       "St Albert Trail & St Anne Street",
       "St Albert Trail & Green Grove Dr",
       "St Albert Trail & Gate Avenue",
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "Mark Messier Trail & 142 Avenue",
       "135 Street & Coronation Road",
       "116 Street & 87 Avenue",
@@ -4816,7 +4816,7 @@
       "114 Street & 83 Avenue",
       "114 Street & 85 Avenue",
       "114 Street & 87 Avenue",
-      "Nak\u00ee Transit Station and Park and Ride"
+      "Nak\u00ee Transit and Park and Ride"
     ]
   },
   {
@@ -4829,7 +4829,7 @@
       "114 Street & 83 Avenue",
       "114 Street & 85 Avenue",
       "114 Street & 87 Avenue",
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "St Albert Trail & Gate Avenue",
       "St Albert Trail & Sterling Street",
       "Street. Albert Centre Exchange"
@@ -4839,7 +4839,7 @@
     "route_no": "204",
     "dir": "U Of A Express",
     "stops": [
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "116 Street & 87 Avenue",
       "University Transit Centre"
     ]
@@ -4852,7 +4852,7 @@
       "St Albert Trail & St Anne Street",
       "St Albert Trail & Green Grove Dr",
       "St Albert Trail & Gate Avenue",
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "116 Street & 87 Avenue",
       "University Transit Centre"
     ]
@@ -4881,14 +4881,14 @@
       "156 Street & 128 Avenue",
       "156 Street & 137 Avenue",
       "156 Street & 145 Avenue",
-      "Nak\u00ee Transit Station and Park and Ride"
+      "Nak\u00ee Transit and Park and Ride"
     ]
   },
   {
     "route_no": "205",
     "dir": "West Edmonton",
     "stops": [
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "156 Street & 145 Avenue",
       "156 Street & 137 Avenue",
       "156 Street & 128 Avenue",
@@ -4914,7 +4914,7 @@
     "route_no": "208",
     "dir": "Government Centre Express",
     "stops": [
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "109 Street & 105 Avenue",
       "109 Street & 103 Avenue",
       "109 Street & Jasper Avenue",
@@ -4929,7 +4929,7 @@
     "stops": [
       "Street. Albert Centre Exchange",
       "St Albert Trail & Gate Avenue",
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "109 Street & 105 Avenue",
       "109 Street & 103 Avenue",
       "109 Street & Jasper Avenue",
@@ -4949,7 +4949,7 @@
       "109 Street & 102 Avenue",
       "109 Street & 103 Avenue",
       "109 Street & 104 Avenue",
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "St Albert Trail & Gate Avenue",
       "St Albert Trail & Sterling Street",
       "Street. Albert Centre Exchange"
@@ -4961,7 +4961,7 @@
     "stops": [
       "Street. Albert Centre Exchange",
       "St Albert Trail & Gate Avenue",
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "101 Street & Kingsway",
       "101 Street & 103A Avenue",
       "99 Street & 103A Avenue",
@@ -4986,7 +4986,7 @@
       "101 Street & 101A Avenue",
       "101 Street & 104 Avenue",
       "101 Street & Kingsway",
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "St Albert Trail & Gate Avenue",
       "St Albert Trail & Sterling Street",
       "Street. Albert Centre Exchange"
@@ -5981,7 +5981,7 @@
     "route_no": "432",
     "dir": "Bethel",
     "stops": [
-      "Stop at Sandstone Park",
+      "at Sandstone Park",
       "Still Creek Cres & Sandstone Blvd",
       "Summerland Dr & Suncreek Dr",
       "Summerland Dr & Sunview Gate",
@@ -6011,7 +6011,7 @@
       "Summerland Dr & Sunview Dr",
       "Summerland Dr & Sandstone Blvd",
       "Springdale Pt & Sandstone Blvd",
-      "Stop at Sandstone Park"
+      "at Sandstone Park"
     ]
   },
   {
@@ -6023,14 +6023,14 @@
       "Summerland Dr & Sunview Dr",
       "Summerland Dr & Sandstone Blvd",
       "Springdale Pt & Sandstone Blvd",
-      "Stop at Sandstone Park"
+      "at Sandstone Park"
     ]
   },
   {
     "route_no": "432",
     "dir": "Bethel | Summerwood",
     "stops": [
-      "Stop at Sandstone Park",
+      "at Sandstone Park",
       "Still Creek Cres & Sandstone Blvd",
       "Summerland Dr & Suncreek Dr",
       "Summerland Dr & Sunview Gate",
@@ -6119,7 +6119,7 @@
       "Summerwood Blvd & Summercourt Rd",
       "Summerland Dr & Sandstone Blvd",
       "Springdale Pt & Sandstone Blvd",
-      "Stop at Sandstone Park",
+      "at Sandstone Park",
       "Still Creek Cres & Sandstone Blvd",
       "Summerland Dr & Suncreek Dr",
       "Summerland Dr & Sunview Gate",
@@ -6168,7 +6168,7 @@
       "Summerland Dr & Sunview Dr",
       "Summerland Dr & Sandstone Blvd",
       "Springdale Pt & Sandstone Blvd",
-      "Stop at Sandstone Park",
+      "at Sandstone Park",
       "Still Creek Cres & Sandstone Blvd",
       "Summerland Dr & Suncreek Dr",
       "Summerland Dr & Sunview Gate",
@@ -21496,7 +21496,7 @@
     "route_no": "A12",
     "dir": "Naki Transit Centre Campbell Akinsdale",
     "stops": [
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "Boudreau Road & Carnegie Drive",
       "Boudreau Road & Veness Road",
       "Corriveau Avenue & Veness Road",
@@ -21517,14 +21517,14 @@
       "Arlington Dr & Arcand Dr",
       "Arlington Dr & Attwood Dr",
       "Hebert Rd & Sunset Blvd",
-      "Nak\u00ee Transit Station and Park and Ride"
+      "Nak\u00ee Transit and Park and Ride"
     ]
   },
   {
     "route_no": "A13",
     "dir": "Naki Transit Centre Akinsdale Campbell",
     "stops": [
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "St Albert Trail & Superstore South",
       "Hebert Rd & Sunset Blvd",
       "Arlington Dr & Hebert Rd",
@@ -21546,7 +21546,7 @@
       "Corriveau Avenue & Chevigny Street",
       "Corriveau Avenue & Veness Road",
       "Boudreau Road & Chatelain Drive",
-      "Nak\u00ee Transit Station and Park and Ride"
+      "Nak\u00ee Transit and Park and Ride"
     ]
   },
   {
@@ -21650,7 +21650,7 @@
       "Gervais Rd & Levasseur Rd",
       "Gervais Road & Goodridge Drive",
       "Gervais Rd & Galarneau Pl",
-      "Nak\u00ee Transit Station and Park and Ride"
+      "Nak\u00ee Transit and Park and Ride"
     ]
   },
   {
@@ -21697,7 +21697,7 @@
     "route_no": "A21",
     "dir": "St Albert Centre",
     "stops": [
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "Gervais Rd & Grange Dr",
       "Gervais Rd & Levasseur Rd",
       "Levasseur Road & Garden Road",
@@ -21762,7 +21762,7 @@
     "route_no": "A22",
     "dir": "Enjoy Centre Heritage Lakes Naki Tc",
     "stops": [
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "Gervais Rd & Grange Dr",
       "Gervais Rd & Levasseur Rd",
       "Levasseur Road & Garden Road",
@@ -21790,7 +21790,7 @@
       "Gervais Rd & Levasseur Rd",
       "Gervais Road & Goodridge Drive",
       "Gervais Rd & Galarneau Pl",
-      "Nak\u00ee Transit Station and Park and Ride"
+      "Nak\u00ee Transit and Park and Ride"
     ]
   },
   {
@@ -21817,14 +21817,14 @@
       "Gervais Rd & Levasseur Rd",
       "Gervais Road & Goodridge Drive",
       "Gervais Rd & Galarneau Pl",
-      "Nak\u00ee Transit Station and Park and Ride"
+      "Nak\u00ee Transit and Park and Ride"
     ]
   },
   {
     "route_no": "A23",
     "dir": "Heritage Lakes Enjoy Centre Naki Tc",
     "stops": [
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "Gervais Rd & Grange Dr",
       "Gervais Rd & Levasseur Rd",
       "Levasseur Road & Garden Road",
@@ -21851,7 +21851,7 @@
       "Gervais Rd & Levasseur Rd",
       "Gervais Road & Goodridge Drive",
       "Gervais Rd & Galarneau Pl",
-      "Nak\u00ee Transit Station and Park and Ride"
+      "Nak\u00ee Transit and Park and Ride"
     ]
   },
   {
@@ -21874,14 +21874,14 @@
       "Granite Avenue & Garden Rd",
       "Garden Rd & Grandora Cres",
       "St Albert Trail & Gate Avenue",
-      "Nak\u00ee Transit Station and Park and Ride"
+      "Nak\u00ee Transit and Park and Ride"
     ]
   },
   {
     "route_no": "A24",
     "dir": "Gardens Naki Transit Centre",
     "stops": [
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "Gate Avenue & St Albert Trail",
       "Garden Rd & Green Lees Pl",
       "Garden Rd & Glen Meadow Cres",
@@ -21900,7 +21900,7 @@
       "Granite Avenue & Garden Rd",
       "Garden Rd & Grandora Cres",
       "St Albert Trail & Gate Avenue",
-      "Nak\u00ee Transit Station and Park and Ride"
+      "Nak\u00ee Transit and Park and Ride"
     ]
   },
   {
@@ -21952,7 +21952,7 @@
       "Garden Rd & Grandora Cres",
       "Grange Dr & Grdin Lk Vill",
       "Gervais Rd & Galarneau Pl",
-      "Nak\u00ee Transit Station and Park and Ride"
+      "Nak\u00ee Transit and Park and Ride"
     ]
   },
   {
@@ -21987,14 +21987,14 @@
       "Garden Rd & Grandora Cres",
       "Grange Dr & Grdin Lk Vill",
       "Gervais Rd & Galarneau Pl",
-      "Nak\u00ee Transit Station and Park and Ride"
+      "Nak\u00ee Transit and Park and Ride"
     ]
   },
   {
     "route_no": "A31",
     "dir": "St Albert Centre",
     "stops": [
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "Gervais Rd & Grange Dr",
       "Grange Dr & Village Landing",
       "Garden Rd & Grandora Cres",
@@ -22081,7 +22081,7 @@
       "Arlington Dr & Arcand Dr",
       "Arlington Dr & Attwood Dr",
       "Hebert Rd & Sunset Blvd",
-      "Nak\u00ee Transit Station and Park and Ride"
+      "Nak\u00ee Transit and Park and Ride"
     ]
   },
   {
@@ -22119,14 +22119,14 @@
       "Arlington Dr & Arcand Dr",
       "Arlington Dr & Attwood Dr",
       "Hebert Rd & Sunset Blvd",
-      "Nak\u00ee Transit Station and Park and Ride"
+      "Nak\u00ee Transit and Park and Ride"
     ]
   },
   {
     "route_no": "A32",
     "dir": "St Albert Centre",
     "stops": [
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "St Albert Trail & Superstore South",
       "Hebert Rd & Sunset Blvd",
       "Arlington Dr & Hebert Rd",
@@ -22219,7 +22219,7 @@
       "Sunset Blvd & Sheridan Dr",
       "Sunset Blvd & Salisbury Avenue",
       "Hebert Rd & Sunset Blvd",
-      "Nak\u00ee Transit Station and Park and Ride"
+      "Nak\u00ee Transit and Park and Ride"
     ]
   },
   {
@@ -22272,7 +22272,7 @@
     "route_no": "A33",
     "dir": "St Albert Centre",
     "stops": [
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "St Albert Trail & Superstore South",
       "Sunset Blvd & Hebert Rd",
       "Sunset Blvd & Sunnyside Cres",
@@ -22668,7 +22668,7 @@
     "route_no": "A9",
     "dir": "Kingswood",
     "stops": [
-      "Nak\u00ee Transit Station and Park and Ride",
+      "Nak\u00ee Transit and Park and Ride",
       "St Albert Trail & Superstore South",
       "Sunset Blvd & Hebert Rd",
       "Sunset Blvd & Sunnyside Cres",
@@ -22733,83 +22733,83 @@
       "Sunset Blvd & Sheridan Dr",
       "Sunset Blvd & Salisbury Avenue",
       "Hebert Rd & Sunset Blvd",
-      "Nak\u00ee Transit Station and Park and Ride"
+      "Nak\u00ee Transit and Park and Ride"
     ]
   },
   {
     "route_no": "Capital Line",
     "dir": "Century Park",
     "stops": [
-      "Clareview Station",
+      "Clareview",
       "DL Macdonald Platform",
-      "Belvedere Station",
+      "Belvedere",
       "Andrews Garage Platform",
-      "Coliseum Station",
-      "Stadium Station",
-      "Churchill Station",
-      "Central Station",
-      "Bay Enterprise Square Station",
-      "Corona Station",
-      "Government Station",
-      "University Station",
-      "Health Sciences Jubilee Station",
-      "McKernan Belgravia Station",
-      "South Campus Ft Edmonton Station",
-      "Southgate Station",
-      "Century Park Station"
+      "Coliseum",
+      "Stadium",
+      "Churchill",
+      "Central",
+      "Bay Enterprise Square",
+      "Corona",
+      "Government",
+      "University",
+      "Health Sciences Jubilee",
+      "McKernan Belgravia",
+      "South Campus Ft Edmonton",
+      "Southgate",
+      "Century Park"
     ]
   },
   {
     "route_no": "Capital Line",
     "dir": "Clareview",
     "stops": [
-      "Century Park Station",
-      "Southgate Station",
-      "South Campus Ft Edmonton Station",
-      "McKernan Belgravia Station",
-      "Health Sciences Jubilee Station",
-      "University Station",
-      "Government Station",
-      "Corona Station",
-      "Bay Enterprise Square Station",
-      "Central Station",
-      "Churchill Station",
-      "Stadium Station",
-      "Coliseum Station",
+      "Century Park",
+      "Southgate",
+      "South Campus Ft Edmonton",
+      "McKernan Belgravia",
+      "Health Sciences Jubilee",
+      "University",
+      "Government",
+      "Corona",
+      "Bay Enterprise Square",
+      "Central",
+      "Churchill",
+      "Stadium",
+      "Coliseum",
       "Andrews Garage Platform",
-      "Belvedere Station",
+      "Belvedere",
       "DL Macdonald Platform",
-      "Clareview Station"
+      "Clareview"
     ]
   },
   {
     "route_no": "Metro Line",
     "dir": "Gov'T Centre",
     "stops": [
-      "NAIT - Blatchford Market Station",
-      "Kingsway RAH Station",
-      "MacEwan Station",
-      "Churchill Station",
-      "Central Station",
-      "Bay Enterprise Square Station",
-      "Corona Station",
-      "Government Station"
+      "NAIT - Blatchford Market",
+      "Kingsway RAH",
+      "MacEwan",
+      "Churchill",
+      "Central",
+      "Bay Enterprise Square",
+      "Corona",
+      "Government"
     ]
   },
   {
     "route_no": "Metro Line",
     "dir": "Health Sciences",
     "stops": [
-      "NAIT - Blatchford Market Station",
-      "Kingsway RAH Station",
-      "MacEwan Station",
-      "Churchill Station",
-      "Central Station",
-      "Bay Enterprise Square Station",
-      "Corona Station",
-      "Government Station",
-      "University Station",
-      "Health Sciences Jubilee Station",
+      "NAIT - Blatchford Market",
+      "Kingsway RAH",
+      "MacEwan",
+      "Churchill",
+      "Central",
+      "Bay Enterprise Square",
+      "Corona",
+      "Government",
+      "University",
+      "Health Sciences Jubilee",
       "Health Sciences Tail"
     ]
   },
@@ -22818,66 +22818,66 @@
     "dir": "Nait Blatchford Market",
     "stops": [
       "Health Sciences Tail",
-      "Health Sciences Jubilee Station",
-      "University Station",
-      "Government Station",
-      "Corona Station",
-      "Bay Enterprise Square Station",
-      "Central Station",
-      "Churchill Station",
-      "MacEwan Station",
-      "Kingsway RAH Station",
-      "NAIT - Blatchford Market Station"
+      "Health Sciences Jubilee",
+      "University",
+      "Government",
+      "Corona",
+      "Bay Enterprise Square",
+      "Central",
+      "Churchill",
+      "MacEwan",
+      "Kingsway RAH",
+      "NAIT - Blatchford Market"
     ]
   },
   {
     "route_no": "Metro Line",
     "dir": "Sorry Not In Service",
     "stops": [
-      "Government Station",
-      "Corona Station",
-      "Bay Enterprise Square Station",
-      "Central Station",
-      "Churchill Station",
-      "MacEwan Station",
-      "Kingsway RAH Station",
-      "NAIT - Blatchford Market Station"
+      "Government",
+      "Corona",
+      "Bay Enterprise Square",
+      "Central",
+      "Churchill",
+      "MacEwan",
+      "Kingsway RAH",
+      "NAIT - Blatchford Market"
     ]
   },
   {
     "route_no": "Valley Line",
     "dir": "Downtown",
     "stops": [
-      "Mill Woods Stop",
-      "Grey Nuns Stop",
-      "Millbourne Woodvale Stop",
-      "Davies Station",
-      "Avonmore Stop",
-      "Bonnie Doon Stop",
-      "Holyrood Stop",
-      "Strathearn Stop",
-      "Muttart Stop",
-      "Quarters Stop",
-      "Churchill Stop",
-      "102 Street Stop"
+      "Mill Woods",
+      "Grey Nuns",
+      "Millbourne Woodvale",
+      "Davies",
+      "Avonmore",
+      "Bonnie Doon",
+      "Holyrood",
+      "Strathearn",
+      "Muttart",
+      "Quarters",
+      "Churchill",
+      "102 Street"
     ]
   },
   {
     "route_no": "Valley Line",
     "dir": "Mill Woods",
     "stops": [
-      "102 Street Stop",
-      "Churchill Stop",
-      "Quarters Stop",
-      "Muttart Stop",
-      "Strathearn Stop",
-      "Holyrood Stop",
-      "Bonnie Doon Stop",
-      "Avonmore Stop",
-      "Davies Station",
-      "Millbourne Woodvale Stop",
-      "Grey Nuns Stop",
-      "Mill Woods Stop"
+      "102 Street",
+      "Churchill",
+      "Quarters",
+      "Muttart",
+      "Strathearn",
+      "Holyrood",
+      "Bonnie Doon",
+      "Avonmore",
+      "Davies",
+      "Millbourne Woodvale",
+      "Grey Nuns",
+      "Mill Woods"
     ]
   }
 ]

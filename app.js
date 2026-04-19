@@ -1,5 +1,5 @@
 // ===== Stop normalization =====
-const SAINTS = ["albert", "anne", "vital", "rose", "joachim", "jude", "thomas", "james", "joseph", "charles", "george", "paul", "mary"];
+const SAINTS = ["albert", "anne", "vital", "rose", "joachim", "jude", "thomas", "james", "joseph", "charles", "george", "paul", "mary", "churchill"];
 
 function normalizeStop(name) {
   if (!name) return "";
@@ -7,6 +7,9 @@ function normalizeStop(name) {
   
   // Strip Bay suffix
   s = s.replace(/\s+bay\s+\w+$/i, "");
+  
+  // Normalize Stop/Station (common in LRT)
+  s = s.replace(/\s+(stop|station)\b/g, "");
   
   // Strip NW, SW, NE, SE suffixes
   s = s.replace(/\b(nw|sw|ne|se)\b/g, "");
