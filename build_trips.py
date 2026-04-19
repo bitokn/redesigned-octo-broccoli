@@ -33,13 +33,24 @@ def normalize_stop_name(name):
     # Normalize Stop/Station
     name = re.sub(r"\b(Stop|Station)\b", "", name, flags=re.IGNORECASE)
     
-    # Expand Av/Ave to Avenue
-    name = re.sub(r"\b(Av|Ave)\b", "Avenue", name, flags=re.IGNORECASE)
+    # Expand abbreviations
+    for abbr, full in {
+        r"\b(Av|Ave)\b": "Avenue",
+        r"\bRd\b": "Road",
+        r"\bDr\b": "Drive",
+        r"\bBlvd\b": "Boulevard",
+        r"\bCres\b": "Crescent",
+        r"\bCt\b": "Court",
+        r"\bPl\b": "Place",
+        r"\bWay\b": "Way",
+        r"\bTr\b": "Trail",
+    }.items():
+        name = re.sub(abbr, full, name, flags=re.IGNORECASE)
     
     # Expand St to Street, but try to avoid Saints
-    saints = ["Albert", "Anne", "Vital", "Rose", "Joachim", "Jude", "Thomas", "James", "Joseph", "Charles", "George", "Paul", "Mary", "Churchill"]
+    saints = ["Albert", "Anne", "Vital", "Rose", "Joachim", "Jude", "Thomas", "James", "Joseph", "Charles", "George", "Paul", "Mary", "Churchill", "Gabriel"]
     saints_re = "|".join(saints)
-    name = re.sub(r"\bSt\b(?!\s+(" + saints_re + "))", "Street", name, flags=re.IGNORECASE)
+    name = re.sub(r"\bSt\b(?!\.?\s+(" + saints_re + "))", "Street", name, flags=re.IGNORECASE)
     
     # Strip A/B/C suffixes from street/avenue numbers
     name = re.sub(r"\b(\d+)[a-z]\b", r"\1", name, flags=re.IGNORECASE)
@@ -83,7 +94,7 @@ def build_trips(gtfs_stream):
             reader = csv.DictReader(io.TextIOWrapper(f, encoding="utf-8-sig"))
             for row in reader:
                 route_id = row["route_id"]
-                short_name = row["route_short_name"]
+                short_name = row.get("route_short_name", "")
                 route_type = row.get("route_type", "3") # Default to bus (3)
                 
                 # Strip leading zeros for numeric-ish routes (e.g., "001" -> "1", "001A" -> "1A")
@@ -109,7 +120,7 @@ def build_trips(gtfs_stream):
             for row in reader:
                 route_id = row["route_id"]
                 route_short_name = routes.get(route_id, "Unknown")
-                headsign = row["trip_headsign"]
+                headsign = row.get("trip_headsign", "")
                 
                 # Strip redundant route number from headsign if it starts with it
                 # Example: route_short_name="4", headsign="4 Capilano" -> "Capilano"

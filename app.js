@@ -1,5 +1,5 @@
 // ===== Stop normalization =====
-const SAINTS = ["albert", "anne", "vital", "rose", "joachim", "jude", "thomas", "james", "joseph", "charles", "george", "paul", "mary", "churchill"];
+const SAINTS = ["albert", "anne", "vital", "rose", "joachim", "jude", "thomas", "james", "joseph", "charles", "george", "paul", "mary", "churchill", "gabriel"];
 
 function normalizeStop(name) {
   if (!name) return "";
@@ -14,12 +14,25 @@ function normalizeStop(name) {
   // Strip NW, SW, NE, SE suffixes
   s = s.replace(/\b(nw|sw|ne|se)\b/g, "");
   
-  // Expand Av/Ave to avenue
-  s = s.replace(/\b(av|ave)\b/g, "avenue");
+  // Expand abbreviations
+  const expansions = {
+    "\\b(av|ave)\\b": "avenue",
+    "\\brd\\b": "road",
+    "\\bdr\\b": "drive",
+    "\\bblvd\\b": "boulevard",
+    "\\bcres\\b": "crescent",
+    "\\bct\\b": "court",
+    "\\bpl\\b": "place",
+    "\\bway\\b": "way",
+    "\\btr\\b": "trail",
+  };
+  for (const [abbr, full] of Object.entries(expansions)) {
+    s = s.replace(new RegExp(abbr, "g"), full);
+  }
   
   // Expand St to street, but try to avoid Saints
   const saintsPattern = SAINTS.join("|");
-  const stRegex = new RegExp(`\\bst\\b(?!\\s+(${saintsPattern}))`, "g");
+  const stRegex = new RegExp("\\bst\\b(?!\\.?\\s+(" + saintsPattern + "))", "g");
   s = s.replace(stRegex, "street");
   
   // Strip A/B/C suffixes from street/avenue numbers (e.g., 105A St -> 105 St)
