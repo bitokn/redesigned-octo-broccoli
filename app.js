@@ -115,6 +115,7 @@ function matchTrips(taps, trips) {
       start_time: entryTap.timestamp,
       end_time: exitTap ? exitTap.timestamp : null,
       duration_ms: null,
+      unknown_reason: "missing_tap",
     });
   };
 
@@ -127,6 +128,7 @@ function matchTrips(taps, trips) {
       start_time: exitTap.timestamp,
       end_time: exitTap.timestamp,
       duration_ms: null,
+      unknown_reason: "missing_tap",
     });
   };
 
@@ -181,6 +183,7 @@ function matchTrips(taps, trips) {
         start_time: entryTap.timestamp,
         end_time: exitTap.timestamp,
         duration_ms: exitTap.timestamp - entryTap.timestamp,
+        unknown_reason: "no_matching_trip",
       });
     }
   }
@@ -324,9 +327,17 @@ function renderCalendar(travels, year, month, colorMap, gridEl, legendEl, titleE
         const stripe = document.createElement("div");
         stripe.className = "stripe";
         const known = t.route_no !== "Unknown Route" && colorMap[t.route_no]?.[t.dir];
-        stripe.style.background = known || "#d0d0d0";
+        if (known) {
+          stripe.style.background = known;
+        } else {
+          stripe.classList.add(t.unknown_reason === "missing_tap" ? "missing" : "unmatched");
+        }
         const dur = t.duration_ms != null ? `${Math.round(t.duration_ms / 60000)}m` : "?";
         let title = `${t.route_no} ${t.dir}\n${t.entry_stop} → ${t.exit_stop}\n${fmtTime(t.start_time)}–${fmtTime(t.end_time)} (${dur})`;
+        
+        if (t.unknown_reason === "missing_tap") title += "\n[Missing Tap]";
+        else if (t.unknown_reason === "no_matching_trip") title += "\n[No matching trip in trips.json]";
+        
         if (t.alternatives) {
           stripe.classList.add("ambiguous");
           const altList = t.alternatives.map((a, i) => `${i === t.alt_index ? "● " : "○ "}${a.route_no} ${a.dir}`).join("\n");

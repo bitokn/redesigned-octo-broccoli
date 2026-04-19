@@ -163,6 +163,15 @@ main {
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.7);
 }
 
+.stripe.unmatched {
+  background: #d0d0d0;
+}
+
+.stripe.missing {
+  background: #f0f0f0;
+  border: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
 .legend {
   display: flex;
   flex-wrap: wrap;
